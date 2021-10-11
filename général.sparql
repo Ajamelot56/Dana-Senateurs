@@ -1,18 +1,19 @@
 prefix schema: <http://schema.org/>
 prefix wikidata: <http://www.wikidata.org/entity/>
+prefix custom: <http://localhost/>
 
 CONSTRUCT {
   ?u schema:honorificPrefix ?Qualité ;
     schema:familyName ?Nom_usuel ;
     schema:givenName ?Prénom_usuel ;
-    <actif> ?actif ;
+    custom:actif ?actif ;
     schema:birthDate ?dateN ;
     schema:deathDate ?dateD ;
-    <commissionPermanente> ?Commission_permanente ;
-    <circonscription> ?Circonscription ;
-    <fonctionBureau> ?Fonction_au_bureau_du_Sénat ;
+    custom:commissionPermanente ?Commission_permanente ;
+    custom:circonscription ?Circonscription ;
+    custom:fonctionBureau ?Fonction_au_bureau_du_Sénat ;
     schema:email ?courriel ;
-    <PCS> ?PCS_INSEE ; # Catégorie socio-professionnelle
+    custom:PCS ?PCS_INSEE ; # Catégorie socio-professionnelle
     schema:hasOccupation [
       schema:occupationalCategory ?Catégorie_professionnelle ;
       schema:name ?Description_de_la_profession
@@ -20,7 +21,7 @@ CONSTRUCT {
 }
 FROM <file:ODSEN_GENERAL.csv#encoding=cp1252>
 WHERE {
-  bind (uri(?Matricule) as ?u)
+  bind (uri(concat('http://localhost/', ?Matricule)) as ?u)
   bind (?État = 'ACTIF' as ?actif)
   bind (strbefore(?Date_naissance, ' ') as ?dateN)
   bind (strbefore(?Date_de_décès, ' ') as ?dateD)

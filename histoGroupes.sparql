@@ -10,7 +10,7 @@ construct {
 }
 from <file:ODSEN_HISTOGROUPES.csv#encoding=cp1252>
 where {
-    bind (uri(?Matricule) as ?u)
+    bind (uri(concat('http://localhost/', ?Matricule)) as ?u)
     bind (uri(?Code_du_groupe_politique) as ?groupe)
     bind (strbefore(?Date_de_début_d_appartenance, ' ') as ?dateD)
     bind (strbefore(?Date_de_fin_d_appartenance, ' ') as ?dateF)
