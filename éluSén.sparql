@@ -1,0 +1,16 @@
+prefix wd: <http://www.wikidata.org/entity/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+construct {
+    ?u wd:P39 [ # fonction
+        rdf:value wd:Q14828018 ; # sénateur de la Cinquième République 
+        wd:P580 ?dateD ; # Date de début
+        wd:P582 ?dateF # Date de fin
+    ] .
+}
+from <file:ODSEN_ELUSEN.csv#encoding=cp1252>
+where {
+    bind (uri(?Matricule) as ?u)
+    bind (strbefore(?Date_de_début_de_mandat, ' ') as ?dateD)
+    bind (strbefore(?Date_de_fin_de_mandat, ' ') as ?dateF)
+}

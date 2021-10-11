@@ -1,0 +1,148 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wikidata:  <http://www.wikidata.org/entity/> .
+
+<83008P>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Abadie" ;
+        schema:givenName        "François" ;
+        <actif>                 false ;
+        schema:birthDate        "1930-06-19" ;
+        schema:deathDate        "2001-03-02" ;
+        <groupePolitique>       "RDSE" ;
+        <commissionPermanente>  "commission de la culture" ;
+        <circonscription>       "Hautes-Pyrénées" ;
+        <PCS>                   "Cadres d'entreprise" ;
+        schema:hasOccupation    _:b0 .
+
+_:b0    schema:occupationalCategory  "Salariés (Cadres divers)" ;
+        schema:name                  "Directeur commercial" .
+
+<14263U>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Abate" ;
+        schema:givenName        "Patrick" ;
+        <actif>                 false ;
+        schema:birthDate        "1956-12-28" ;
+        <groupePolitique>       "CRCE" ;
+        <commissionPermanente>  "commission de la culture" ;
+        <circonscription>       "Moselle" ;
+        <PCS>                   "Professeurs, professions scientifiques" ;
+        schema:hasOccupation    _:b1 .
+
+_:b1    schema:occupationalCategory  "Enseignement supérieur (sauf Professeurs de médecine)" ;
+        schema:name                  "Professeur" .
+
+<57316A>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Abdellatif" ;
+        schema:givenName        "Mohamed" ;
+        <actif>                 false ;
+        schema:birthDate        "1918-08-23" ;
+        schema:deathDate        "1998-12-02" ;
+        <groupePolitique>       "RI" ;
+        <commissionPermanente>  "commission de la culture" ;
+        <circonscription>       "Tizi-Ouzou" ;
+        <PCS>                   "Professions intermédiaires administratives de la fonction publique" ;
+        schema:hasOccupation    _:b2 .
+
+_:b2    schema:occupationalCategory  "Fonctionnaires (Cadres moyens)" ;
+        schema:name                  "Propriétaire agriculteur" .
+
+<95004Y>  schema:honorificPrefix  "M." ;
+        schema:familyName       "About" ;
+        schema:givenName        "Nicolas" ;
+        <actif>                 false ;
+        schema:birthDate        "1947-07-14" ;
+        <groupePolitique>       "UC" ;
+        <commissionPermanente>  "commission des affaires sociales" ;
+        <circonscription>       "Yvelines" ;
+        <PCS>                   "Medecins libéraux généralistes" ;
+        schema:hasOccupation    _:b3 .
+
+_:b3    schema:occupationalCategory  "Professions médicales (Médecins)" ;
+        schema:name                  "Médecin" .
+
+<000346>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Achour" ;
+        schema:givenName        "Youssef" ;
+        <actif>                 false ;
+        schema:birthDate        "1914-09-07" ;
+        schema:deathDate        "1992-12-15" ;
+        <groupePolitique>       "G.D." ;
+        <commissionPermanente>  "commission des lois" ;
+        <circonscription>       "Alger" ;
+        <PCS>                   "Personnels de direction de la fonction publique" ;
+        schema:hasOccupation    _:b4 .
+
+_:b4    schema:occupationalCategory  "Fonctionnaires (Hauts Fonctionnaires)" ;
+        schema:name                  "Sous-préfet" .
+
+<08008S>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Ackermann" ;
+        schema:givenName        "Yves" ;
+        <actif>                 false ;
+        schema:birthDate        "1949-06-01" ;
+        <groupePolitique>       "SER" ;
+        <commissionPermanente>  "Aucune (Président du Sénat)" ;
+        <circonscription>       "Territoire de Belfort" ;
+        <PCS>                   "Cadres et Professions intellectuelles supérieures" ;
+        schema:hasOccupation    _:b5 .
+
+_:b5    schema:occupationalCategory  "Salariés (Cadres divers)" ;
+        schema:name                  "Juriste" .
+
+<89017R>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Adnot" ;
+        schema:givenName        "Philippe" ;
+        <actif>                 false ;
+        schema:birthDate        "1945-08-25" ;
+        <groupePolitique>       "NI" ;
+        <commissionPermanente>  "commission des finances" ;
+        <circonscription>       "Aube" ;
+        <PCS>                   "Agriculteurs exploitants" ;
+        schema:hasOccupation    _:b6 .
+
+_:b6    schema:occupationalCategory  "Professions agricoles" ;
+        schema:name                  "Agriculteur" .
+
+<000448>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Agarande" ;
+        schema:givenName        "Henri" ;
+        <actif>                 false ;
+        schema:birthDate        "1920-09-13" ;
+        schema:deathDate        "1983-08-06" ;
+        <groupePolitique>       "SER" ;
+        <commissionPermanente>  "commission de la culture" ;
+        <circonscription>       "Guyane" ;
+        <PCS>                   "Anciens cadres" ;
+        schema:hasOccupation    _:b7 .
+
+_:b7    schema:occupationalCategory  "Enseignement (Retraités)" ;
+        schema:name                  "Ancien directeur de collège" .
+
+<000425>  schema:honorificPrefix  "M." ;
+        schema:familyName       "Ahmed" ;
+        schema:givenName        "Abdallah Abderamane" ;
+        <actif>                 false ;
+        schema:birthDate        "1919-06-12" ;
+        schema:deathDate        "1989-11-26" ;
+        <groupePolitique>       "NI" ;
+        <commissionPermanente>  "commission de la culture" ;
+        <circonscription>       "Comores" ;
+        <PCS>                   "Commercants et assimilés" ;
+        schema:hasOccupation    _:b8 .
+
+_:b8    schema:occupationalCategory  "Commerce et industrie (Commercants)" ;
+        schema:name                  "Commerçant" .
+
+<11076S>  schema:honorificPrefix  "Mme" ;
+        schema:familyName       "Aïchi" ;
+        schema:givenName        "Leila" ;
+        <actif>                 false ;
+        schema:birthDate        "1970-05-14" ;
+        <groupePolitique>       "UC" ;
+        <commissionPermanente>  "commission des affaires étrangères" ;
+        <circonscription>       "Paris" ;
+        <PCS>                   "Autres personnes sans activité professionnelle" ;
+        schema:hasOccupation    _:b9 .
+
+_:b9    schema:occupationalCategory  "Professions judiciaires et libérales (Avocats)" ;
+        schema:name                  "Avocate" .
