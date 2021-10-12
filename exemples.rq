@@ -21,14 +21,14 @@ WHERE {
 LIMIT 25
 
 
-#Sélection groupée (des groupes politiques par exemple
+#Sélection groupée (des groupes politiques par exemple)
 PREFIX custom: <http://localhost/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?GP (count(?s)as ?compteur)
+SELECT ?GP (count(?s) as ?compteur)
 FROM <http://example/histoGroupes>
 WHERE {
-  ?s rdf:value ?GP
+  ?s schema:affiliation [rdf:value ?GP]
 }
 GROUP BY ?GP
 ORDER BY DESC(?compteur)
