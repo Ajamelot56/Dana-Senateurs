@@ -50,9 +50,9 @@ WHERE {
 }
 GROUP BY ?GP
 ORDER BY DESC(?compteur)
-
 #Un peu tordu, cela ne prends pas en compte le custom:actif false donc pas vraiment d'interet, mais cela fonctionne.
-#Si on fait cela ""correctement"":
+
+#Si on fait cela "correctement":
 PREFIX custom: <http://localhost/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -64,11 +64,10 @@ WHERE {
      schema:affiliation ?x .
   ?x rdf:value ?GP .
   FILTER NOT EXISTS {
-    ?s schema:endDate ?y .
+    ?x schema:endDate ?y .
   }
 }
 GROUP BY ?GP
 ORDER BY DESC(?compteur)
 
-##Cela ne fonctionne pas vraiment, doit avoir un probleme logique dans cette requete.
-
+#On est toujours obligé de filtrer bizarrement pour garder les résultats valides, cela est dû à notre structure actuelle.
