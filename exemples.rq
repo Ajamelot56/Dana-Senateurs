@@ -1,0 +1,74 @@
+#Voir à la maison pour compléter cela.
+
+
+#Sélection toute simple
+SELECT ?subject ?predicate ?object
+FROM <http://example/general>
+WHERE {
+  ?subject ?predicate ?object
+}
+LIMIT 25
+
+
+#Sélection avec prédicat
+PREFIX custom: <http://localhost/>
+PREFIX schema: <http://schema.org/>
+SELECT ?subject
+FROM <http://example/general>
+WHERE {
+  ?subject custom:actif false
+}
+LIMIT 25
+
+
+#Sélection groupée (des groupes politiques par exemple
+PREFIX custom: <http://localhost/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?GP (count(?s)as ?compteur)
+FROM <http://example/histoGroupes>
+WHERE {
+  ?s rdf:value ?GP
+}
+GROUP BY ?GP
+ORDER BY DESC(?compteur)
+
+#Donc pour avoir les groupes politiques, de seulement les sénateurs actifs... ça va pas être si simple que ça
+#histoGroupe.ttl liste les appartenances courantes, ET passées des sénateurs, il faut prendre des triples tel que X rdf:endDate Y n'existe pas.
+
+
+PREFIX custom: <http://localhost/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?GP (count(?s)as ?compteur)
+FROM <http://example/histoGroupes>
+WHERE {
+  ?s rdf:value ?GP .
+  FILTER NOT EXISTS {
+    ?s schema:endDate ?y .
+  }
+}
+GROUP BY ?GP
+ORDER BY DESC(?compteur)
+
+#Un peu tordu, cela ne prends pas en compte le custom:actif false donc pas vraiment d'interet, mais cela fonctionne.
+#Si on fait cela ""correctement"":
+PREFIX custom: <http://localhost/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?GP (count(?s)as ?compteur)
+FROM <http://example/general>
+FROM <http://example/histoGroupes>
+WHERE {
+  ?s custom:actif true;# ?s represente l'id matricule
+     schema:affiliation ?x .
+  ?x rdf:value ?GP .
+  FILTER NOT EXISTS {
+    ?s schema:endDate ?y .
+  }
+}
+GROUP BY ?GP
+ORDER BY DESC(?compteur)
+
+##Cela ne fonctionne pas vraiment, doit avoir un probleme logique dans cette requete.
+
