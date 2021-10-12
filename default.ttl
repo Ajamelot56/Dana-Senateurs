@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://example.org/bob> dc:publisher "Bob" .
+<http://example.org/alice> dc:publisher "Alice" .
+
+#Alors.. comment pointer de general.ttl à histogroupes.ttl...
+
+#on a custom:X predicat valeur
+
+#histogroupes:
+#<path/X> predicat Y
+#Y predicat Z
+
+
+#on veut prendre tout les X custom:actif true
+
+#et dans ces machins, prendre le groupe politique ->
+
+#X schema:affiliation Y 
+#Y rdf:value Z
+
+#CEPENDANT, il y a des doublons de Y truc Z car des changements de groupes ont été éffectués par les sénateurs
+#On essaye d'avoir donc SEULEMENT les Y rdf:value Z ASSOCIés à un truc qui ne posséde PAS le predicat startDate.
+
+
