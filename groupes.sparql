@@ -6,7 +6,7 @@ prefix custom: <http://localhost/>
 
 construct {
     ?groupe rdf:type schema:Organization ;
-        schema:name ?Nom_court_du_groupe_politique
+        schema:name rdf:social-liberalism .
 }
 from <ODSEN_HISTOGROUPES.csv#encoding=cp1252>
 where {
