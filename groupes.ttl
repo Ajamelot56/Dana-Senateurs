@@ -1,0 +1,84 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix custom:  <http://localhost/> .
+
+<RDSE>  rdf:type     schema:Organization ;
+        schema:name  "Groupe du RDSE" .
+
+<CRC>   rdf:type     schema:Organization ;
+        schema:name  "Groupe CRCE" .
+
+<RI>    rdf:type     schema:Organization ;
+        schema:name  "Groupe des RI" .
+
+<UMP>   rdf:type     schema:Organization ;
+        schema:name  "Groupe Les Républicains" .
+
+<UC>    rdf:type     schema:Organization ;
+        schema:name  "Groupe Union Centriste" .
+
+<GD>    rdf:type     schema:Organization ;
+        schema:name  "Gauche Démocratique" .
+
+<NI>    rdf:type     schema:Organization ;
+        schema:name  "Réunion administrative des non-inscrits" .
+
+<SOC>   rdf:type     schema:Organization ;
+        schema:name  "Groupe Socialiste, Écologiste et Républicain" .
+
+<ECO>   rdf:type     schema:Organization ;
+        schema:name  "Groupe écologiste" .
+
+<UNR>   rdf:type     schema:Organization ;
+        schema:name  "Union pour la Nouvelle République" .
+
+<AUCUN>  rdf:type    schema:Organization ;
+        schema:name  "Sénateurs n'appartenant à aucun groupe" .
+
+<RPR>   rdf:type     schema:Organization ;
+        schema:name  "Groupe du RPR" .
+
+<LREM>  rdf:type     schema:Organization ;
+        schema:name  "Groupe Rassemblement des démocrates, progressistes et indépendants" .
+
+<RTLI>  rdf:type     schema:Organization ;
+        schema:name  "Groupe Les Indépendants - République et Territoires" .
+
+<C>     rdf:type     schema:Organization ;
+        schema:name  "Communistes" .
+
+<UREI>  rdf:type     schema:Organization ;
+        schema:name  "Union des Républicains et des Indépendants" .
+
+<UDR>   rdf:type     schema:Organization ;
+        schema:name  "Union des Démocrates pour la République" .
+
+<UCDP>  rdf:type     schema:Organization ;
+        schema:name  "Union Centriste des Démocrates de Progrès" .
+
+<RIAS>  rdf:type     schema:Organization ;
+        schema:name  "Républicains Indépendants d'Action Sociale (Devenu C.N.I.P.)" .
+
+<RDE>   rdf:type     schema:Organization ;
+        schema:name  "Rassemblement Démocratique et Européen" .
+
+<GEST>  rdf:type     schema:Organization ;
+        schema:name  "Groupe Écologiste - Solidarité et Territoires" .
+
+<GDSRG>  rdf:type    schema:Organization ;
+        schema:name  "Formation des Sénateurs Radicaux de Gauche" .
+
+<CRARS>  rdf:type    schema:Organization ;
+        schema:name  "Centre Républicain d'Action Rurale et Sociale" .
+
+<RP>    rdf:type     schema:Organization ;
+        schema:name  "Républicains Populaires" .
+
+<CNIP>  rdf:type     schema:Organization ;
+        schema:name  "Centre National des Indépendants et Paysans" .
+
+<RPCD>  rdf:type     schema:Organization ;
+        schema:name  "Républicains Populaires et du Centre Démocratique" .
+
+<MRP>   rdf:type     schema:Organization ;
+        schema:name  "Mouvement Républicain Populaire" .
