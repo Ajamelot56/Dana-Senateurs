@@ -2,31 +2,32 @@
 
 
 #Sélection toute simple
+prefix custom: <http://localhost/>
+
 SELECT ?subject ?predicate ?object
-FROM <http://example/general>
+FROM custom:general
 WHERE {
   ?subject ?predicate ?object
 }
 LIMIT 25
 
-
-#Sélection avec prédicat
+#Sélection avec prédicat : sénateurs en fonction
 PREFIX custom: <http://localhost/>
 PREFIX schema: <http://schema.org/>
+
 SELECT ?subject
-FROM <http://example/general>
+FROM custom:general
 WHERE {
-  ?subject custom:actif false
+  ?subject custom:actif true
 }
-LIMIT 25
+# (Il y a bien 348 résultats.)
 
-
-#Sélection groupée (des groupes politiques par exemple)
+#Sélection groupée : nombre total de sénateurs ayant appartenu à chaque groupe politique
 PREFIX custom: <http://localhost/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?GP (count(?s) as ?compteur)
-FROM <http://example/histoGroupes>
+SELECT ?GP (count(distinct(?s)) as ?compteur)
+FROM custom:histoGroupes
 WHERE {
   ?s schema:affiliation [rdf:value ?GP]
 }
@@ -36,21 +37,22 @@ ORDER BY DESC(?compteur)
 #Donc pour avoir les groupes politiques, de seulement les sénateurs actifs... ça va pas être si simple que ça
 #histoGroupe.ttl liste les appartenances courantes, ET passées des sénateurs, il faut prendre des triples tel que X rdf:endDate Y n'existe pas.
 
-
+# Groupes politiques par nombre
 PREFIX custom: <http://localhost/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?GP (count(?s)as ?compteur)
-FROM <http://example/histoGroupes>
-WHERE {
-  ?s rdf:value ?GP .
-  FILTER NOT EXISTS {
-    ?s schema:endDate ?y .
+
+SELECT ?GP (count(distinct(?s)) as ?nbSénateurs)
+FROM custom:histoGroupes
+where {
+  ?s schema:affiliation ?x .
+  ?x rdf:value ?GP
+  filter not exists {
+    ?x schema:endDate ?ed
   }
 }
-GROUP BY ?GP
-ORDER BY DESC(?compteur)
-#Un peu tordu, cela ne prends pas en compte le custom:actif false donc pas vraiment d'interet, mais cela fonctionne.
+group by ?GP
+order by desc(?nbSénateurs)
 
 #Si on fait cela "correctement":
 PREFIX custom: <http://localhost/>
@@ -69,5 +71,3 @@ WHERE {
 }
 GROUP BY ?GP
 ORDER BY DESC(?compteur)
-
-#On est toujours obligé de filtrer bizarrement pour garder les résultats valides, cela est dû à notre structure actuelle.
