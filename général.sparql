@@ -1,6 +1,7 @@
 prefix schema: <http://schema.org/>
 prefix wikidata: <http://www.wikidata.org/entity/>
 prefix custom: <http://localhost/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
   ?u schema:honorificPrefix ?Qualité ;
@@ -23,8 +24,8 @@ FROM <file:ODSEN_GENERAL.csv#encoding=cp1252>
 WHERE {
   bind (uri(concat('http://localhost/', ?Matricule)) as ?u)
   bind (?État = 'ACTIF' as ?actif)
-  bind (strbefore(?Date_naissance, ' ') as ?dateN)
-  bind (strbefore(?Date_de_décès, ' ') as ?dateD)
+  bind (xsd:date(strbefore(?Date_naissance, ' ')) as ?dateN)
+  bind (xsd:date(strbefore(?Date_de_décès, ' ')) as ?dateD)
   optional { filter (?Courrier_électronique != 'Non public')
     bind(?Courrier_électronique as ?courriel)
   }

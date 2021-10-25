@@ -59,7 +59,7 @@
         dbo:ideology dbr:Democratic_socialism .
 
 <UNR>   rdf:type     schema:Organization ;
-        schema:name  "Union pour la Nouvelle République" .
+        schema:name  "Union pour la Nouvelle République" ;
         dbo:ideology dbr:Gaullism ;
         dbo:ideology dbr:Conservatism ;
         dbo:ideology dbr:Souverainism .
