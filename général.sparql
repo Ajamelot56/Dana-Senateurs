@@ -10,7 +10,7 @@ CONSTRUCT {
     schema:birthDate ?dateN ;
     schema:deathDate ?dateD ;
     custom:commissionPermanente ?Commission_permanente ;
-    custom:circonscription ?Circonscription ;
+    custom:circonscription ?circ ;
     custom:fonctionBureau ?Fonction_au_bureau_du_Sénat ;
     schema:email ?courriel ;
     custom:PCS ?PCS_INSEE ; # Catégorie socio-professionnelle
@@ -28,4 +28,5 @@ WHERE {
   optional { filter (?Courrier_électronique != 'Non public')
     bind(?Courrier_électronique as ?courriel)
   }
+  bind(uri(concat("http://localhost/", ?Code_Circonscription)) as ?circ)
 }
