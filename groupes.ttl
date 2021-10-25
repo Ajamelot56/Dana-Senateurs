@@ -2,12 +2,12 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix dbr: <http://dbpedia.org/resource/>
+@prefix dbr: <http://dbpedia.org/resource/> .
 @prefix custom:  <http://localhost/> .
 
 <RDSE>  rdf:type     schema:Organization ;
         schema:name  "Groupe du RDSE" ;
-        dbo:ideology dbr:Radicalism_(historical) ;
+        dbo:ideology <http://dbpedia.org/resource/Radicalism_(historical)> ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Republicanism ;
         dbo:ideology dbr:Laicism ;
@@ -34,11 +34,11 @@
         schema:name  "Groupe Union Centriste" ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Christian_democracy ;
-        dbo:ideology dbr:Pro-Europeanism .
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .
 
 <GD>    rdf:type     schema:Organization ;
         schema:name  "Gauche Démocratique" ;
-        dbo:ideology dbr:Radicalism_(historical) ;
+        dbo:ideology <http://dbpedia.org/resource/Radicalism_(historical)> ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Republicanism ;
         dbo:ideology dbr:Laicism ;
@@ -86,7 +86,7 @@
         schema:name  "Groupe Les Indépendants - République et Territoires" ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Republicanism ;
-        dbo:ideology dbr:Pro-Europeanism .
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .
 
 <C>     rdf:type     schema:Organization ;
         schema:name  "Communistes" ;
@@ -107,16 +107,16 @@
         schema:name  "Union Centriste des Démocrates de Progrès" ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Christian_democracy ;
-        dbo:ideology dbr:Pro-Europeanism .
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .
 
 <RIAS>  rdf:type     schema:Organization ;
         schema:name  "Républicains Indépendants d'Action Sociale (Devenu C.N.I.P.)" ;
         dbo:ideology dbr:Liberal_conservatism ;
-        dbo:ideology dbr:Agrarisme .
+        dbo:ideology dbr:Agrarianism .
 
 <RDE>   rdf:type     schema:Organization ;
         schema:name  "Rassemblement Démocratique et Européen" ;
-        dbo:ideology dbr:Radicalism_(historical) ;
+        dbo:ideology <http://dbpedia.org/resource/Radicalism_(historical)> ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Republicanism ;
         dbo:ideology dbr:Laicism ;
@@ -130,7 +130,7 @@
 
 <GDSRG>  rdf:type    schema:Organization ;
         schema:name  "Formation des Sénateurs Radicaux de Gauche" ;
-        dbo:ideology dbr:Radicalism_(historical) ;
+        dbo:ideology <http://dbpedia.org/resource/Radicalism_(historical)> ;
         dbo:ideology dbr:Social_liberalism ;
         dbo:ideology dbr:Republicanism ;
         dbo:ideology dbr:Laicism ;
@@ -145,7 +145,7 @@
 <RP>    rdf:type     schema:Organization ;
         schema:name  "Républicains Populaires" ;
         dbo:ideology dbr:Christian_democracy ;
-        dbo:ideology dbr:Pro-Europeanism .
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .
 
 <CNIP>  rdf:type     schema:Organization ;
         schema:name  "Centre National des Indépendants et Paysans" ;
@@ -155,10 +155,9 @@
 <RPCD>  rdf:type     schema:Organization ;
         schema:name  "Républicains Populaires et du Centre Démocratique" ;
         dbo:ideology dbr:Christian_democracy ;
-        dbo:ideology dbr:Pro-Europeanism .
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .
 
 <MRP>   rdf:type     schema:Organization ;
         schema:name  "Mouvement Républicain Populaire" ;
         dbo:ideology dbr:Christian_democracy ;
-        dbo:ideology dbr:Pro-Europeanism .
-
+        dbo:ideology <http://dbpedia.org/resource/Pro-Europeanism> .

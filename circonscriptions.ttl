@@ -1,4 +1,3 @@
-@prefix schema:  <http://schema.org/> .
 @prefix dbo:  <http://dbpedia.org/ontology/> .
 @prefix rdf:  <http://w3c.org/1999/02/22-rdf-syntax-ns#> .
 @prefix custom:  <http://localhost/> .
