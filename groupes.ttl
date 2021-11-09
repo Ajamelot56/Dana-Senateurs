@@ -98,7 +98,7 @@
         dbo:ideology dbr:Liberal_conservatism .
 
 <UDR>   rdf:type     schema:Organization ;
-        schema:name  "Union des Démocrates pour la République" .
+        schema:name  "Union des Démocrates pour la République" ;
         dbo:ideology dbr:Gaullism ;
         dbo:ideology dbr:Conservatism ;
         dbo:ideology dbr:Souverainism .
