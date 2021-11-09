@@ -25,7 +25,7 @@ Les fichiers Turtle ainsi formés permettent de créer une base de connaissances
 Le fichier [`exemples.rq`](./exemples.rq) contient une série de requêtes en SPARQL à exécuter sur la base de connaissances formées par les fichiers Turtle du dépôt, chacun de ces fichiers constituant un graphe nommé. Par exemple, la requête suivante renvoie la liste des sénateurs en fonction.
 
 ```tarql
-PREFIX custom: <http://localhost/>
+PREFIX custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 PREFIX schema: <http://schema.org/>
 
 SELECT ?subject

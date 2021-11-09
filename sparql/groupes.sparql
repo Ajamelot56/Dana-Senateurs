@@ -2,7 +2,7 @@
 
 prefix schema: <http://schema.org/>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-prefix custom: <http://localhost/>
+prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 
 construct {
     ?groupe rdf:type schema:Organization ;

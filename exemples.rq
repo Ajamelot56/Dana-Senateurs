@@ -1,5 +1,5 @@
 #Sélection universelle
-prefix custom: <http://localhost/>
+prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 
 SELECT ?subject ?predicate ?object
 FROM custom:general
@@ -9,7 +9,7 @@ WHERE {
 LIMIT 25
 
 #Sélection avec prédicat : sénateurs en fonction
-PREFIX custom: <http://localhost/>
+PREFIX custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 PREFIX schema: <http://schema.org/>
 
 SELECT ?subject
@@ -20,7 +20,7 @@ WHERE {
 # (Il y a bien 348 résultats.)
 
 #Sélection groupée : nombre total de sénateurs ayant appartenu à chaque groupe politique
-PREFIX custom: <http://localhost/>
+PREFIX custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?GP (count(distinct(?s)) as ?compteur)
@@ -35,7 +35,7 @@ ORDER BY DESC(?compteur)
 #histoGroupe.ttl liste les appartenances courantes, ET passées des sénateurs, il faut prendre des triples tel que X rdf:endDate Y n'existe pas.
 
 # Groupes politiques par nombre
-PREFIX custom: <http://localhost/>
+PREFIX custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 

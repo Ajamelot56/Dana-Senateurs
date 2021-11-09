@@ -1,5 +1,5 @@
 # tarql --dedup 1000 circonscriptions.sparql > circonscriptions.ttl
-prefix custom: <http://localhost/>
+prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 prefix rdf: <http://w3c.org/1999/02/22-rdf-syntax-ns#>
 prefix schema: <http://schema.org/>
 prefix dbo: <http://dbpedia.org/ontology/>
@@ -9,8 +9,8 @@ construct {
     dbo:officialName ?Circonscription ;
     dbo:inseeCode ?code
 }
-from <file:ODSEN_GENERAL.csv#encoding=cp1252>
+from <file:../csv/ODSEN_GENERAL.csv#encoding=cp1252>
 where {
-  bind(uri(concat('http://localhost/', ?Code_Circonscription)) as ?circ)
+  bind(uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Code_Circonscription)) as ?circ)
   bind(str(?Code_Circonscription) as ?code)
 }

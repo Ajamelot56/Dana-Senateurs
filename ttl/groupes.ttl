@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbr: <http://dbpedia.org/resource/> .
-@prefix custom:  <http://localhost/> .
+@prefix custom:  <https://github.com/Ajamelot56/Dana-Senateurs/> .
 
 <RDSE>  rdf:type     schema:Organization ;
         schema:name  "Groupe du RDSE" ;

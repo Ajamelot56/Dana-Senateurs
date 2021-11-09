@@ -8,9 +8,9 @@ construct {
         wd:P582 ?dateF # Date de fin
     ] .
 }
-from <file:ODSEN_ELUSEN.csv#encoding=cp1252>
+from <file:../csv/ODSEN_ELUSEN.csv#encoding=cp1252>
 where {
-    bind (uri(concat('http://localhost/', ?Matricule)) as ?u)
+    bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Matricule)) as ?u)
     bind (strbefore(?Date_de_début_de_mandat, ' ') as ?dateD)
     bind (strbefore(?Date_de_fin_de_mandat, ' ') as ?dateF)
 }

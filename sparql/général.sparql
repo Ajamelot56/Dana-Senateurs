@@ -1,6 +1,6 @@
 prefix schema: <http://schema.org/>
 prefix wikidata: <http://www.wikidata.org/entity/>
-prefix custom: <http://localhost/>
+prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
@@ -20,14 +20,14 @@ CONSTRUCT {
       schema:name ?Description_de_la_profession
     ] .
 }
-FROM <file:ODSEN_GENERAL.csv#encoding=cp1252>
+from <file:../csv/ODSEN_GENERAL.csv#encoding=cp1252>
 WHERE {
-  bind (uri(concat('http://localhost/', ?Matricule)) as ?u)
+  bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Matricule)) as ?u)
   bind (?État = 'ACTIF' as ?actif)
   bind (xsd:date(strbefore(?Date_naissance, ' ')) as ?dateN)
   bind (xsd:date(strbefore(?Date_de_décès, ' ')) as ?dateD)
   optional { filter (?Courrier_électronique != 'Non public')
     bind(?Courrier_électronique as ?courriel)
   }
-  bind(uri(concat("http://localhost/", ?Code_Circonscription)) as ?circ)
+  bind(uri(concat("https://github.com/Ajamelot56/Dana-Senateurs/", ?Code_Circonscription)) as ?circ)
 }
