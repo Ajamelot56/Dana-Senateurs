@@ -1,7 +1,4 @@
-#Voir à la maison pour compléter cela.
-
-
-#Sélection toute simple
+#Sélection universelle
 prefix custom: <http://localhost/>
 
 SELECT ?subject ?predicate ?object
@@ -53,21 +50,3 @@ where {
 }
 group by ?GP
 order by desc(?nbSénateurs)
-
-#Si on fait cela "correctement":
-PREFIX custom: <http://localhost/>
-PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?GP (count(?s)as ?compteur)
-FROM <http://example/general>
-FROM <http://example/histoGroupes>
-WHERE {
-  ?s custom:actif true;# ?s represente l'id matricule
-     schema:affiliation ?x .
-  ?x rdf:value ?GP .
-  FILTER NOT EXISTS {
-    ?x schema:endDate ?y .
-  }
-}
-GROUP BY ?GP
-ORDER BY DESC(?compteur)
