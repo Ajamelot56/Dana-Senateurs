@@ -133,6 +133,7 @@ custom:11076S  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1970-05-14"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b9 .
 
@@ -270,6 +271,7 @@ custom:83010H  schema:honorificPrefix  "M." ;
         schema:birthDate             "1939-10-27"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b19 .
 
@@ -324,6 +326,7 @@ custom:59214D  schema:honorificPrefix  "M." ;
         schema:deathDate             "2012-03-08"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:51 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chirurgiens-dentistes (libéraux ou salariés)" ;
         schema:hasOccupation         _:b23 .
 
@@ -603,6 +606,7 @@ custom:96008H  schema:honorificPrefix  "M." ;
         schema:deathDate             "2018-09-16"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:16 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b44 .
 
@@ -965,6 +969,7 @@ custom:11039M  schema:honorificPrefix  "M." ;
         schema:birthDate             "1960-01-02"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b71 .
 
@@ -1088,6 +1093,7 @@ custom:733  schema:honorificPrefix   "M." ;
         schema:deathDate             "1966-12-22"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:65 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b80 .
 
@@ -1277,6 +1283,7 @@ custom:05008E  schema:honorificPrefix  "M." ;
         schema:birthDate             "1958-07-20"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:50 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b94 .
 
@@ -1426,6 +1433,7 @@ custom:116  schema:honorificPrefix   "M." ;
         schema:deathDate             "1996-12-29"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professions intermédiaires administratives de la fonction publique" ;
         schema:hasOccupation         _:b105 .
 
@@ -1585,6 +1593,7 @@ custom:98006P  schema:honorificPrefix  "M." ;
         schema:birthDate             "1951-12-30"^^xsd:date ;
         custom:commissionPermanente  "Aucune (Président du Sénat)" ;
         custom:circonscription       custom:09 ;
+        custom:fonctionBureau        "Président du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b117 .
 
@@ -1815,6 +1824,7 @@ custom:11033F  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1950-03-27"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b134 .
 
@@ -1912,6 +1922,7 @@ custom:553  schema:honorificPrefix   "M." ;
         schema:deathDate             "1997-01-17"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:78 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b141 .
 
@@ -2076,6 +2087,7 @@ custom:340  schema:honorificPrefix   "M." ;
         schema:deathDate             "1989-04-05"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:971 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b153 .
 
@@ -2322,6 +2334,7 @@ custom:79002D  schema:honorificPrefix  "M." ;
         schema:deathDate             "2013-06-10"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b171 .
 
@@ -2454,6 +2467,7 @@ custom:83  schema:honorificPrefix    "M." ;
         schema:deathDate             "1983-04-25"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:01 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b181 .
 
@@ -2614,6 +2628,7 @@ custom:57426F  schema:honorificPrefix  "M." ;
         schema:deathDate             "2000-07-29"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:42 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chirurgiens-dentistes (libéraux ou salariés)" ;
         schema:hasOccupation         _:b193 .
 
@@ -2706,6 +2721,7 @@ custom:95014B  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1946-04-23"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:76 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b200 .
 
@@ -2800,6 +2816,7 @@ custom:176  schema:honorificPrefix   "M." ;
         schema:deathDate             "1987-05-19"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:52 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b207 .
 
@@ -2867,6 +2884,7 @@ custom:58921V  schema:honorificPrefix  "M." ;
         schema:deathDate             "2017-01-28"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:13 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Anciens cadres et professions liberales" ;
         schema:hasOccupation         _:b212 .
 
@@ -3294,6 +3312,7 @@ custom:11029K  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1964-01-05"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:49 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b244 .
 
@@ -3441,6 +3460,7 @@ custom:59219J  schema:honorificPrefix  "M." ;
         schema:deathDate             "2002-04-26"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:60 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Anciens cadres" ;
         schema:hasOccupation         _:b255 .
 
@@ -3671,6 +3691,7 @@ custom:59568D  schema:honorificPrefix  "M." ;
         schema:deathDate             "2001-10-18"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:74 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b272 .
 
@@ -3792,6 +3813,7 @@ custom:98049B  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1950-11-19"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:29 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b281 .
 
@@ -3820,6 +3842,7 @@ custom:71006X  schema:honorificPrefix  "M." ;
         schema:deathDate             "1999-12-15"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:02 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres administratifs et commerciaux d'entreprise" ;
         schema:hasOccupation         _:b283 .
 
@@ -4334,6 +4357,7 @@ custom:04066L  schema:honorificPrefix  "M." ;
         schema:birthDate             "1951-11-08"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b321 .
 
@@ -4534,6 +4558,7 @@ custom:11053K  schema:honorificPrefix  "M." ;
         schema:birthDate             "1967-05-04"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:93 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b336 .
 
@@ -4696,6 +4721,7 @@ custom:326  schema:honorificPrefix   "M." ;
         schema:deathDate             "1990-01-14"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b348 .
 
@@ -4830,6 +4856,7 @@ custom:350  schema:honorificPrefix   "M." ;
         schema:deathDate             "1996-11-24"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:93 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b358 .
 
@@ -4844,6 +4871,7 @@ custom:327  schema:honorificPrefix   "M." ;
         schema:deathDate             "1991-11-16"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:28 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b359 .
 
@@ -4979,6 +5007,7 @@ custom:58657Y  schema:honorificPrefix  "M." ;
         schema:deathDate             "2004-12-31"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:91 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professions libérales" ;
         schema:hasOccupation         _:b369 .
 
@@ -5007,6 +5036,7 @@ custom:92008Q  schema:honorificPrefix  "Mme" ;
         schema:deathDate             "2021-05-09"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:99 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b371 .
 
@@ -5088,6 +5118,7 @@ custom:59571X  schema:honorificPrefix  "M." ;
         schema:deathDate             "2010-12-22"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:89 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b377 .
 
@@ -5547,6 +5578,7 @@ custom:59527T  schema:honorificPrefix  "M." ;
         schema:birthDate             "1934-09-06"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Cadres de la publicité" ;
         schema:hasOccupation         _:b411 .
 
@@ -5602,6 +5634,7 @@ custom:58923X  schema:honorificPrefix  "M." ;
         schema:deathDate             "2010-05-01"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:13 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b415 .
 
@@ -6201,6 +6234,7 @@ custom:359  schema:honorificPrefix   "M." ;
         schema:deathDate             "1991-10-12"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:88 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b459 .
 
@@ -6376,6 +6410,7 @@ custom:14357A  schema:honorificPrefix  "M." ;
         schema:birthDate             "1944-03-23"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:77 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b472 .
 
@@ -6403,6 +6438,7 @@ custom:58649Y  schema:honorificPrefix  "M." ;
         schema:deathDate             "2007-09-29"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:971 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b474 .
 
@@ -6431,6 +6467,7 @@ custom:397  schema:honorificPrefix   "M." ;
         schema:deathDate             "1996-12-24"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:77 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b476 .
 
@@ -6458,6 +6495,7 @@ custom:59215E  schema:honorificPrefix  "M." ;
         schema:deathDate             "2005-09-22"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:61 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b478 .
 
@@ -6671,6 +6709,7 @@ custom:08052W  schema:honorificPrefix  "M." ;
         schema:birthDate             "1947-02-23"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:02 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b494 .
 
@@ -6712,6 +6751,7 @@ custom:80014Y  schema:honorificPrefix  "M." ;
         schema:deathDate             "2008-04-09"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:35 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b497 .
 
@@ -6957,6 +6997,7 @@ custom:186  schema:honorificPrefix   "M." ;
         schema:deathDate             "1981-10-09"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:62 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b515 .
 
@@ -7420,6 +7461,7 @@ custom:77017C  schema:honorificPrefix  "M." ;
         schema:deathDate             "2015-12-23"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:93 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Anciens cadres" ;
         schema:hasOccupation         _:b549 .
 
@@ -7475,6 +7517,7 @@ custom:04081K  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1957-05-23"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:92 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)" ;
         schema:hasOccupation         _:b553 .
 
@@ -7584,6 +7627,7 @@ custom:11070L  schema:honorificPrefix  "M." ;
         schema:birthDate             "1959-08-23"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:91 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b561 .
 
@@ -7612,6 +7656,7 @@ custom:83026R  schema:honorificPrefix  "M." ;
         schema:deathDate             "2018-10-10"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:37 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b563 .
 
@@ -7651,6 +7696,7 @@ custom:19719D  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1968-12-02"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:33 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b566 .
 
@@ -7877,6 +7923,7 @@ custom:04046G  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1954-05-14"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:69 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b583 .
 
@@ -8127,6 +8174,7 @@ custom:01045S  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1950-09-06"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professions intermédiaires de la santé et du travail social" ;
         schema:hasOccupation         _:b602 .
 
@@ -8299,6 +8347,7 @@ custom:92019T  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1936-07-19"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:44 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Employés administratifs d'entreprise" ;
         schema:hasOccupation         _:b615 .
 
@@ -8313,6 +8362,7 @@ custom:11051H  schema:honorificPrefix  "M." ;
         schema:deathDate             "2015-03-03"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:93 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b616 .
 
@@ -8526,6 +8576,7 @@ custom:271  schema:honorificPrefix   "M." ;
         schema:deathDate             "1971-07-22"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:35 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b632 .
 
@@ -8580,6 +8631,7 @@ custom:04089T  schema:honorificPrefix  "M." ;
         schema:birthDate             "1952-02-05"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:80 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b636 .
 
@@ -8730,6 +8782,7 @@ custom:687  schema:honorificPrefix   "M." ;
         schema:deathDate             "1980-12-22"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:38 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Commercants et assimilés" ;
         schema:hasOccupation         _:b647 .
 
@@ -8970,6 +9023,7 @@ custom:98042T  schema:honorificPrefix  "M." ;
         schema:birthDate             "1955-01-31"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:14 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b665 .
 
@@ -9080,6 +9134,7 @@ custom:58643S  schema:honorificPrefix  "M." ;
         schema:deathDate             "2003-12-24"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:85 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b673 .
 
@@ -9294,6 +9349,7 @@ custom:58630M  schema:honorificPrefix  "M." ;
         schema:deathDate             "2009-07-29"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:76 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ouvriers" ;
         schema:hasOccupation         _:b689 .
 
@@ -9628,6 +9684,7 @@ custom:19673G  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1956-09-05"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:95 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Retraités" ;
         schema:hasOccupation         _:b714 .
 
@@ -9856,6 +9913,7 @@ custom:01025N  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1949-03-05"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:51 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b731 .
 
@@ -10029,6 +10087,7 @@ custom:19599P  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1953-06-06"^^xsd:date ;
         custom:commissionPermanente  "commission de l'aménagement du territoire et du développement durable" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Anciens professions intermédiaires" ;
         schema:hasOccupation         _:b744 .
 
@@ -10203,6 +10262,7 @@ custom:01003G  schema:honorificPrefix  "M." ;
         schema:deathDate             "2017-05-15"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:65 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Retraités" ;
         schema:hasOccupation         _:b757 .
 
@@ -10245,6 +10305,7 @@ custom:59521M  schema:honorificPrefix  "M." ;
         schema:deathDate             "2001-03-27"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:92 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b760 .
 
@@ -10512,6 +10573,7 @@ custom:02001J  schema:honorificPrefix  "M." ;
         schema:birthDate             "1940-10-12"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b780 .
 
@@ -10566,6 +10628,7 @@ custom:14034U  schema:honorificPrefix  "M." ;
         schema:birthDate             "1949-05-17"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:87 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Artisans, commercants et chefs d'entreprise" ;
         schema:hasOccupation         _:b784 .
 
@@ -10580,6 +10643,7 @@ custom:675  schema:honorificPrefix   "M." ;
         schema:deathDate             "1974-04-19"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:58 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b785 .
 
@@ -10745,6 +10809,7 @@ custom:131  schema:honorificPrefix   "M." ;
         schema:deathDate             "1972-12-10"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:80 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b797 .
 
@@ -10877,6 +10942,7 @@ custom:89029V  schema:honorificPrefix  "M." ;
         schema:birthDate             "1939-10-08"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:13 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b807 .
 
@@ -11742,6 +11808,7 @@ custom:97  schema:honorificPrefix    "M." ;
         schema:deathDate             "1978-05-08"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:17 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b871 .
 
@@ -11797,6 +11864,7 @@ custom:370  schema:honorificPrefix   "M." ;
         schema:deathDate             "1991-08-03"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:39 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b875 .
 
@@ -11811,6 +11879,7 @@ custom:57445J  schema:honorificPrefix  "M." ;
         schema:deathDate             "2005-07-15"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:54 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b876 .
 
@@ -11878,6 +11947,7 @@ custom:14033T  schema:honorificPrefix  "M." ;
         schema:birthDate             "1953-07-31"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:88 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b881 .
 
@@ -11931,6 +12001,7 @@ custom:551  schema:honorificPrefix   "Mme" ;
         schema:deathDate             "1985-03-11"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:78 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Journalistes, secrétaires de rédaction" ;
         schema:hasOccupation         _:b885 .
 
@@ -11945,6 +12016,7 @@ custom:67  schema:honorificPrefix    "M." ;
         schema:deathDate             "1984-10-08"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:99 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b886 .
 
@@ -11971,6 +12043,7 @@ custom:14123H  schema:honorificPrefix  "M." ;
         schema:birthDate             "1955-10-17"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:25 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b888 .
 
@@ -11998,6 +12071,7 @@ custom:14026U  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1960-02-18"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:02 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b890 .
 
@@ -12012,6 +12086,7 @@ custom:89032Q  schema:honorificPrefix  "M." ;
         schema:deathDate             "2016-03-03"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:24 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Personnels de direction de la fonction publique" ;
         schema:hasOccupation         _:b891 .
 
@@ -12106,6 +12181,7 @@ custom:11064N  schema:honorificPrefix  "M." ;
         schema:birthDate             "1957-11-09"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:44 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres et Professions intellectuelles supérieures" ;
         schema:hasOccupation         _:b898 .
 
@@ -12159,6 +12235,7 @@ custom:58332E  schema:honorificPrefix  "M." ;
         schema:deathDate             "2008-11-19"^^xsd:date ;
         custom:commissionPermanente  "Aucune (Président du Sénat)" ;
         custom:circonscription       custom:44 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b902 .
 
@@ -12227,6 +12304,7 @@ custom:14081Q  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1956-01-27"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:69 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b907 .
 
@@ -12323,6 +12401,7 @@ custom:69001W  schema:honorificPrefix  "M." ;
         schema:deathDate             "2012-08-06"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:99 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b914 .
 
@@ -12581,6 +12660,7 @@ custom:243  schema:honorificPrefix   "M." ;
         schema:deathDate             "1981-09-29"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:27 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b933 .
 
@@ -12646,6 +12726,7 @@ custom:14179A  schema:honorificPrefix  "M." ;
         schema:birthDate             "1980-06-08"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:74 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b938 .
 
@@ -12737,6 +12818,7 @@ custom:77029G  schema:honorificPrefix  "M." ;
         schema:birthDate             "1929-01-23"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:67 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b945 .
 
@@ -12913,6 +12995,7 @@ custom:98028V  schema:honorificPrefix  "M." ;
         schema:birthDate             "1952-10-17"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:25 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b958 .
 
@@ -12965,6 +13048,7 @@ custom:83036T  schema:honorificPrefix  "M." ;
         schema:birthDate             "1930-05-24"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:54 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Médecins hospitaliers (sans activité libérale)" ;
         schema:hasOccupation         _:b962 .
 
@@ -12992,6 +13076,7 @@ custom:83037U  schema:honorificPrefix  "M." ;
         schema:deathDate             "2000-04-28"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:57 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b964 .
 
@@ -13044,6 +13129,7 @@ custom:14213J  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1958-11-20"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:17 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b968 .
 
@@ -13152,6 +13238,7 @@ custom:207  schema:honorificPrefix   "M." ;
         schema:deathDate             "1983-07-28"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:57 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Journalistes, secrétaires de rédaction" ;
         schema:hasOccupation         _:b976 .
 
@@ -13260,6 +13347,7 @@ custom:19715Y  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1955-12-23"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:971 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professions intermédiaires de la santé et du travail social" ;
         schema:hasOccupation         _:b984 .
 
@@ -13381,6 +13469,7 @@ custom:95040D  schema:honorificPrefix  "M." ;
         schema:deathDate             "2020-01-10"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:70 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chirurgiens-dentistes (libéraux ou salariés)" ;
         schema:hasOccupation         _:b993 .
 
@@ -13567,6 +13656,7 @@ custom:58303Y  schema:honorificPrefix  "M." ;
         schema:deathDate             "2003-07-18"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:50 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Huissiers de justice, officiers ministériels et professions libérales divers" ;
         schema:hasOccupation         _:b1007 .
 
@@ -13622,6 +13712,7 @@ custom:737  schema:honorificPrefix   "M." ;
         schema:deathDate             "1964-08-07"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:68 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b1011 .
 
@@ -13701,6 +13792,7 @@ custom:99004R  schema:honorificPrefix  "M." ;
         schema:birthDate             "1951-08-26"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:92 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b1017 .
 
@@ -13768,6 +13860,7 @@ custom:14061L  schema:honorificPrefix  "M." ;
         schema:birthDate             "1952-04-14"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:67 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Personnels de direction de la fonction publique" ;
         schema:hasOccupation         _:b1022 .
 
@@ -14199,6 +14292,7 @@ custom:57728S  schema:honorificPrefix  "Mme" ;
         schema:deathDate             "2007-03-01"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b1054 .
 
@@ -14320,6 +14414,7 @@ custom:14159V  schema:honorificPrefix  "M." ;
         schema:birthDate             "1954-04-06"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:17 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Huissiers de justice, officiers ministériels et professions libérales divers" ;
         schema:hasOccupation         _:b1063 .
 
@@ -14483,6 +14578,7 @@ custom:86034E  schema:honorificPrefix  "M." ;
         schema:birthDate             "1949-09-14"^^xsd:date ;
         custom:commissionPermanente  "Aucune (Président du Sénat)" ;
         custom:circonscription       custom:78 ;
+        custom:fonctionBureau        "Président du Sénat" ;
         custom:PCS                   "Vétérinaires (libéraux ou salariés)" ;
         schema:hasOccupation         _:b1075 .
 
@@ -14496,6 +14592,7 @@ custom:04094Q  schema:honorificPrefix  "M." ;
         schema:birthDate             "1945-10-17"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:972 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Professeurs, professions scientifiques" ;
         schema:hasOccupation         _:b1076 .
 
@@ -14604,6 +14701,7 @@ custom:59541R  schema:honorificPrefix  "M." ;
         schema:deathDate             "2008-10-14"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:87 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professions libérales" ;
         schema:hasOccupation         _:b1084 .
 
@@ -14684,6 +14782,7 @@ custom:12041X  schema:honorificPrefix  "M." ;
         schema:birthDate             "1957-07-01"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Journalistes, secrétaires de rédaction" ;
         schema:hasOccupation         _:b1090 .
 
@@ -14873,6 +14972,7 @@ custom:98038X  schema:honorificPrefix  "M." ;
         schema:birthDate             "1954-02-24"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:22 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1104 .
 
@@ -15086,6 +15186,7 @@ custom:14  schema:honorificPrefix    "M." ;
         schema:deathDate             "1979-09-29"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:76 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1120 .
 
@@ -15410,6 +15511,7 @@ custom:320  schema:honorificPrefix   "M." ;
         schema:deathDate             "1996-04-24"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:22 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Pharmaciens libéraux" ;
         schema:hasOccupation         _:b1144 .
 
@@ -15580,6 +15682,7 @@ custom:88005H  schema:honorificPrefix  "M." ;
         schema:deathDate             "2006-09-02"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:02 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b1157 .
 
@@ -15593,6 +15696,7 @@ custom:01043Q  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1962-10-13"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1158 .
 
@@ -16158,6 +16262,7 @@ custom:83040P  schema:honorificPrefix  "M." ;
         schema:deathDate             "2015-02-06"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:51 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1200 .
 
@@ -16293,6 +16398,7 @@ custom:58947G  schema:honorificPrefix  "M." ;
         schema:deathDate             "2007-09-05"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:15 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chirurgiens-dentistes (libéraux ou salariés)" ;
         schema:hasOccupation         _:b1210 .
 
@@ -16601,6 +16707,7 @@ custom:57749X  schema:honorificPrefix  "M." ;
         schema:deathDate             "2001-02-21"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:972 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professions intermédiaires administratives de la fonction publique" ;
         schema:hasOccupation         _:b1233 .
 
@@ -16710,6 +16817,7 @@ custom:58633Q  schema:honorificPrefix  "M." ;
         schema:deathDate             "2017-12-01"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:93 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Employés administratifs d'entreprise" ;
         schema:hasOccupation         _:b1241 .
 
@@ -16752,6 +16860,7 @@ custom:58342G  schema:honorificPrefix  "M." ;
         schema:deathDate             "1999-08-16"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:42 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b1244 .
 
@@ -16820,6 +16929,7 @@ custom:136  schema:honorificPrefix   "M." ;
         schema:deathDate             "1994-08-02"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:22 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Personnels de direction de la fonction publique" ;
         schema:hasOccupation         _:b1249 .
 
@@ -16956,6 +17066,7 @@ custom:771  schema:honorificPrefix   "M." ;
         schema:deathDate             "1972-11-27"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:52 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1259 .
 
@@ -16997,6 +17108,7 @@ custom:77047J  schema:honorificPrefix  "M." ;
         schema:birthDate             "1936-02-10"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:69 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1262 .
 
@@ -17224,6 +17336,7 @@ custom:355  schema:honorificPrefix   "M." ;
         schema:deathDate             "1988-11-18"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:79 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Vétérinaires (libéraux ou salariés)" ;
         schema:hasOccupation         _:b1279 .
 
@@ -17305,6 +17418,7 @@ custom:14147R  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1958-06-16"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:71 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Medecins libéraux généralistes" ;
         schema:hasOccupation         _:b1285 .
 
@@ -17563,6 +17677,7 @@ custom:25  schema:honorificPrefix    "M." ;
         schema:deathDate             "1970-10-09"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professions libérales" ;
         schema:hasOccupation         _:b1304 .
 
@@ -17631,6 +17746,7 @@ custom:77001T  schema:honorificPrefix  "M." ;
         schema:deathDate             "2016-06-21"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:987 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chirurgiens-dentistes (libéraux ou salariés)" ;
         schema:hasOccupation         _:b1309 .
 
@@ -17713,6 +17829,7 @@ custom:70  schema:honorificPrefix    "M." ;
         schema:deathDate             "1990-07-26"^^xsd:date ;
         custom:commissionPermanente  "Aucune (Président du Sénat)" ;
         custom:circonscription       custom:40 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Cadres de la fonction publique" ;
         schema:hasOccupation         _:b1315 .
 
@@ -17874,6 +17991,7 @@ custom:58914W  schema:honorificPrefix  "M." ;
         schema:deathDate             "2018-08-04"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:17 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b1327 .
 
@@ -17942,6 +18060,7 @@ custom:677  schema:honorificPrefix   "M." ;
         schema:deathDate             "1991-11-07"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:46 ;
+        custom:fonctionBureau        "Président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b1332 .
 
@@ -17970,6 +18089,7 @@ custom:22  schema:honorificPrefix    "M." ;
         schema:deathDate             "1972-10-26"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:81 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1334 .
 
@@ -18215,6 +18335,7 @@ custom:586  schema:honorificPrefix   "M." ;
         schema:deathDate             "1996-02-03"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:80 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Anciens cadres" ;
         schema:hasOccupation         _:b1352 .
 
@@ -18662,6 +18783,7 @@ custom:96  schema:honorificPrefix    "M." ;
         schema:deathDate             "1983-05-30"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:35 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b1385 .
 
@@ -19003,6 +19125,7 @@ custom:01054T  schema:honorificPrefix  "Mme" ;
         schema:deathDate             "2018-06-04"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:44 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1410 .
 
@@ -19139,6 +19262,7 @@ custom:08073C  schema:honorificPrefix  "M." ;
         schema:birthDate             "1949-04-01"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:973 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1420 .
 
@@ -19248,6 +19372,7 @@ custom:01009N  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1949-08-01"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:974 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1428 .
 
@@ -19343,6 +19468,7 @@ custom:59578F  schema:honorificPrefix  "M." ;
         schema:deathDate             "2019-08-13"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:77 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1435 .
 
@@ -19737,6 +19863,7 @@ custom:23  schema:honorificPrefix    "M." ;
         schema:deathDate             "1974-12-16"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:87 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b1464 .
 
@@ -19982,6 +20109,7 @@ custom:543  schema:honorificPrefix   "M." ;
         schema:deathDate             "1980-09-02"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:89 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Huissiers de justice, officiers ministériels et professions libérales divers" ;
         schema:hasOccupation         _:b1482 .
 
@@ -20671,6 +20799,7 @@ custom:752  schema:honorificPrefix   "M." ;
         schema:deathDate             "1982-12-14"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:91 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Personnels de direction de la fonction publique" ;
         schema:hasOccupation         _:b1533 .
 
@@ -20685,6 +20814,7 @@ custom:59244K  schema:honorificPrefix  "M." ;
         schema:deathDate             "2018-01-17"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Anciens cadres" ;
         schema:hasOccupation         _:b1534 .
 
@@ -20845,6 +20975,7 @@ custom:14135M  schema:honorificPrefix  "M." ;
         schema:birthDate             "1949-11-05"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:70 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1546 .
 
@@ -21698,6 +21829,7 @@ custom:128  schema:honorificPrefix   "M." ;
         schema:deathDate             "1983-07-29"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:23 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ouvriers" ;
         schema:hasOccupation         _:b1610 .
 
@@ -21711,6 +21843,7 @@ custom:59312E  schema:honorificPrefix  "M." ;
         schema:birthDate             "1934-08-25"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires étrangères" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Cadres d'entreprise" ;
         schema:hasOccupation         _:b1611 .
 
@@ -21765,6 +21898,7 @@ custom:11045K  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1957-12-22"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:60 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1615 .
 
@@ -21983,6 +22117,7 @@ custom:58928D  schema:honorificPrefix  "M." ;
         schema:deathDate             "2001-01-26"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:01 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b1631 .
 
@@ -22064,6 +22199,7 @@ custom:564  schema:honorificPrefix   "M." ;
         schema:deathDate             "1989-01-09"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:95 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ingenieurs et cadres techniques d'entreprise" ;
         schema:hasOccupation         _:b1637 .
 
@@ -22132,6 +22268,7 @@ custom:01019Q  schema:honorificPrefix  "M." ;
         schema:birthDate             "1943-03-03"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:38 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1642 .
 
@@ -22293,6 +22430,7 @@ custom:59559C  schema:honorificPrefix  "M." ;
         schema:deathDate             "2011-07-27"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:68 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b1654 .
 
@@ -22320,6 +22458,7 @@ custom:278  schema:honorificPrefix   "M." ;
         schema:deathDate             "1990-09-26"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:55 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b1656 .
 
@@ -22333,6 +22472,7 @@ custom:58662V  schema:honorificPrefix  "M." ;
         schema:birthDate             "1932-07-07"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:92 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ouvriers" ;
         schema:hasOccupation         _:b1657 .
 
@@ -22399,6 +22539,7 @@ custom:74044S  schema:honorificPrefix  "M." ;
         schema:deathDate             "1998-02-09"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Professions libérales" ;
         schema:hasOccupation         _:b1662 .
 
@@ -22805,6 +22946,7 @@ custom:298  schema:honorificPrefix   "M." ;
         schema:deathDate             "1990-01-09"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:78 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Anciens artisans, commercants, chefs d'entreprise" ;
         schema:hasOccupation         _:b1692 .
 
@@ -22956,6 +23098,7 @@ custom:01028R  schema:honorificPrefix  "M." ;
         schema:birthDate             "1947-02-28"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:45 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1703 .
 
@@ -22997,6 +23140,7 @@ custom:692  schema:honorificPrefix   "M." ;
         schema:deathDate             "1968-03-27"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:972 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b1706 .
 
@@ -23051,6 +23195,7 @@ custom:59560U  schema:honorificPrefix  "M." ;
         schema:deathDate             "2009-09-27"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:75 ;
+        custom:fonctionBureau        "Vice-président du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b1710 .
 
@@ -23146,6 +23291,7 @@ custom:04056J  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1941-12-13"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:78 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Cadres et Professions intellectuelles supérieures" ;
         schema:hasOccupation         _:b1717 .
 
@@ -23401,6 +23547,7 @@ custom:19413M  schema:honorificPrefix  "M." ;
         schema:birthDate             "1963-09-22"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires économiques" ;
         custom:circonscription       custom:42 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1736 .
 
@@ -23468,6 +23615,7 @@ custom:301  schema:honorificPrefix   "M." ;
         schema:deathDate             "1990-07-27"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:971 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Instituteurs et assimilés" ;
         schema:hasOccupation         _:b1741 .
 
@@ -23577,6 +23725,7 @@ custom:86047K  schema:honorificPrefix  "M." ;
         schema:birthDate             "1940-10-15"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:69 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Chefs d'entreprise de 10 salaries ou plus" ;
         schema:hasOccupation         _:b1749 .
 
@@ -23645,6 +23794,7 @@ custom:04044E  schema:honorificPrefix  "Mme" ;
         schema:birthDate             "1961-02-20"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:68 ;
+        custom:fonctionBureau        "Vice-présidente du Sénat" ;
         custom:PCS                   "Cadres et Professions intellectuelles supérieures" ;
         schema:hasOccupation         _:b1754 .
 
@@ -23749,6 +23899,7 @@ custom:59250H  schema:honorificPrefix  "M." ;
         schema:deathDate             "2013-09-03"^^xsd:date ;
         custom:commissionPermanente  "commission de la culture" ;
         custom:circonscription       custom:988 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Employés administratifs d'entreprise" ;
         schema:hasOccupation         _:b1762 .
 
@@ -23777,6 +23928,7 @@ custom:190  schema:honorificPrefix   "M." ;
         schema:deathDate             "1995-03-29"^^xsd:date ;
         custom:commissionPermanente  "commission de l'économie" ;
         custom:circonscription       custom:53 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Agriculteurs exploitants" ;
         schema:hasOccupation         _:b1764 .
 
@@ -23817,6 +23969,7 @@ custom:311  schema:honorificPrefix   "M." ;
         schema:deathDate             "1997-09-06"^^xsd:date ;
         custom:commissionPermanente  "Aucune (Président du Sénat)" ;
         custom:circonscription       custom:972 ;
+        custom:fonctionBureau        "Questeur du Sénat" ;
         custom:PCS                   "Avocats" ;
         schema:hasOccupation         _:b1767 .
 
@@ -24449,6 +24602,7 @@ custom:01010F  schema:honorificPrefix  "M." ;
         schema:birthDate             "1944-03-15"^^xsd:date ;
         custom:commissionPermanente  "commission des lois" ;
         custom:circonscription       custom:974 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Autres personnes sans activité professionnelle" ;
         schema:hasOccupation         _:b1814 .
 
@@ -24463,6 +24617,7 @@ custom:59252K  schema:honorificPrefix  "M." ;
         schema:deathDate             "2007-12-25"^^xsd:date ;
         custom:commissionPermanente  "commission des affaires sociales" ;
         custom:circonscription       custom:59 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ouvriers" ;
         schema:hasOccupation         _:b1815 .
 
@@ -24504,6 +24659,7 @@ custom:59562W  schema:honorificPrefix  "M." ;
         schema:deathDate             "2018-08-13"^^xsd:date ;
         custom:commissionPermanente  "commission des finances" ;
         custom:circonscription       custom:91 ;
+        custom:fonctionBureau        "Secrétaire du Sénat" ;
         custom:PCS                   "Ouvriers" ;
         schema:hasOccupation         _:b1818 .
 

@@ -12,7 +12,7 @@ CONSTRUCT {
     schema:deathDate ?dateD ;
     custom:commissionPermanente ?Commission_permanente ;
     custom:circonscription ?circ ;
-    custom:fonctionBureau ?Fonction_au_bureau_du_Sénat ;
+    custom:fonctionBureau ?Fonction_au_Bureau_du_Sénat ;
     schema:email ?courriel ;
     custom:PCS ?PCS_INSEE ; # Catégorie socio-professionnelle
     schema:hasOccupation [
