@@ -1,6 +1,6 @@
 # tarql --dedup 1000 circonscriptions.sparql > circonscriptions.ttl
 prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
-prefix rdf: <http://w3c.org/1999/02/22-rdf-syntax-ns#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix schema: <http://schema.org/>
 prefix dbo: <http://dbpedia.org/ontology/>
 
