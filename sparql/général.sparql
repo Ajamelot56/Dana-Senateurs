@@ -2,9 +2,11 @@ prefix schema: <http://schema.org/>
 prefix wikidata: <http://www.wikidata.org/entity/>
 prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
-  ?u schema:honorificPrefix ?Qualité ;
+  ?u rdf:type custom:Sénateur ;
+    schema:honorificPrefix ?Qualité ;
     schema:familyName ?Nom_usuel ;
     schema:givenName ?Prénom_usuel ;
     custom:actif ?actif ;
@@ -22,7 +24,7 @@ CONSTRUCT {
 }
 from <file:../csv/ODSEN_GENERAL.csv#encoding=cp1252>
 WHERE {
-  bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Matricule)) as ?u)
+  bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/senateur/', ?Matricule)) as ?u)
   bind (?État = 'ACTIF' as ?actif)
   bind (xsd:date(strbefore(?Date_naissance, ' ')) as ?dateN)
   bind (xsd:date(strbefore(?Date_de_décès, ' ')) as ?dateD)
