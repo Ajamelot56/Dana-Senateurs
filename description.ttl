@@ -1,0 +1,33 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+custom:DanaSenateurs a void:Dataset ;
+    foaf:homepage custom: ;
+    dcterms:title "Dana-Sénateurs"@fr ;
+    dcterms:description "Données sur les Sénateurs de la Cinquième République"@fr ;
+    dcterms:contributor
+        [
+            a foaf:Person ;
+            schema:name "Tristan Faine"
+        ],
+        [
+            a foaf:Person ;
+            schema:name "Nabil Oulbaz"
+        ],
+        [
+            a foaf:Person ;
+            schema:name "Antoine Jamelot"
+        ] ;
+    dcterms:source [foaf:homepage <https://data.senat.fr/les-senateurs/>] ;
+    dcterms:modified "2021-11-20"^^xsd:date ;
+    dcterms:subject <https://dbpedia.org/page/Senate_(France)> ;
+    void:feature <http://www.w3.org/ns/formats/Turtle> ;
+    void:dataDump custom:ttl\/circonscriptions.ttl ,
+        custom:ttl\/éluSén.ttl ,
+        custom:ttl\/général.ttl ,
+        custom:ttl\/groupes.ttl ,
+        custom:ttl\/histoGroupes.ttl .
