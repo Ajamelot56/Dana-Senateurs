@@ -149,11 +149,24 @@ custom:actif rdf:type owl:DatatypeProperty .
                                                           owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                        owl:onProperty schema:birthDate ;
+<<<<<<< HEAD
+                                                                                                       owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                            owl:onDatatype xsd:dateTime ;
+                                                                                                                            owl:withRestrictions ( [ xsd:maxExclusive "1950-01-01T00:00:00"^^xsd:dateTime
+                                                                                                                                                   ]
+                                                                                                                                                 )
+                                                                                                                          ]
+=======
                                                                                                        owl:someValuesFrom xsd:dateTime
+>>>>>>> 6a6b47aa0a3798d5b004bfe7a4ef143378eaeb48
                                                                                                      ]
                                                                                                    ) ;
                                                                                 rdf:type owl:Class
                                                                               ] .
+<<<<<<< HEAD
+                                                          
+=======
+>>>>>>> 6a6b47aa0a3798d5b004bfe7a4ef143378eaeb48
 
 
 ###  https://github.com/Ajamelot56/Dana-Senateurs/Sénateur

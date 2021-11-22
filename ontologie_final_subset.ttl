@@ -1,0 +1,1914 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/> .
+@prefix schema: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://schema.org/familyName
+schema:familyName rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/givenName
+schema:givenName rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/hasOccupation
+schema:hasOccupation rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/honorificPrefix
+schema:honorificPrefix rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/name
+schema:name rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/occupationalCategory
+schema:occupationalCategory rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/PCS
+custom:PCS rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/circonscription
+custom:circonscription rdf:type owl:ObjectProperty ;
+                       rdfs:domain custom:Sénateur ;
+                       rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Circonscription> .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commissionPermanente
+custom:commissionPermanente rdf:type owl:ObjectProperty ;
+                            rdfs:domain custom:Sénateur ;
+                            rdfs:range <http://www.co-ode.org/ontologies/ont.owl#CommissionPermanente> .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/fonctionBureau
+custom:fonctionBureau rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://schema.org/birthDate
+schema:birthDate rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/deathDate
+schema:deathDate rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/actif
+custom:actif rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Circonscription
+<http://www.co-ode.org/ontologies/ont.owl#Circonscription> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#CommissionPermanente
+<http://www.co-ode.org/ontologies/ont.owl#CommissionPermanente> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Senateur_actifs
+<http://www.co-ode.org/ontologies/ont.owl#Senateur_actifs> rdf:type owl:Class ;
+                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty custom:actif ;
+                                                                                 owl:hasValue "true"^^xsd:boolean
+                                                                               ] ;
+                                                           rdfs:subClassOf custom:Sénateur ;
+                                                           owl:disjointWith <http://www.co-ode.org/ontologies/ont.owl#Senateurs_Inactifs> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Senateurs_Inactifs
+<http://www.co-ode.org/ontologies/ont.owl#Senateurs_Inactifs> rdf:type owl:Class ;
+                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty custom:actif ;
+                                                                                    owl:hasValue "false"^^xsd:boolean
+                                                                                  ] ;
+                                                              rdfs:subClassOf custom:Sénateur .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_jeune
+<http://www.co-ode.org/ontologies/ont.owl#Sénateur_jeune> rdf:type owl:Class ;
+                                                          owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty schema:birthDate ;
+                                                                                                       owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                            owl:onDatatype xsd:dateTime ;
+                                                                                                                            owl:withRestrictions ( [ xsd:minExclusive "1950-01-01T00:00:00"^^xsd:dateTime
+                                                                                                                                                   ]
+                                                                                                                                                 )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] ;
+                                                          owl:disjointWith <http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_mort
+<http://www.co-ode.org/ontologies/ont.owl#Sénateur_mort> rdf:type owl:Class ;
+                                                         owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty schema:deathDate ;
+                                                                                                      owl:someValuesFrom xsd:dateTime
+                                                                                                    ]
+                                                                                                  ) ;
+                                                                               rdf:type owl:Class
+                                                                             ] .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux
+<http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux> rdf:type owl:Class ;
+                                                          owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty schema:birthDate ;
+                                                                                                       owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                            owl:onDatatype xsd:dateTime ;
+                                                                                                                            owl:withRestrictions ( [ xsd:maxExclusive "1950-01-01T00:00:00"^^xsd:dateTime
+                                                                                                                                                   ]
+                                                                                                                                                 )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/Sénateur
+custom:Sénateur rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_de_la_culture
+custom:commission_de_la_culture rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_des_affaires_sociales
+custom:commission_des_affaires_sociales rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_des_affaires_économiques
+custom:commission_des_affaires_économiques rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_des_affaires_étrangères
+custom:commission_des_affaires_étrangères rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_des_finances
+custom:commission_des_finances rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_des_lois
+custom:commission_des_lois rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/01
+<https://github.com/Ajamelot56/Dana-Senateurs/01> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/02
+<https://github.com/Ajamelot56/Dana-Senateurs/02> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/03
+<https://github.com/Ajamelot56/Dana-Senateurs/03> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/04
+<https://github.com/Ajamelot56/Dana-Senateurs/04> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/05
+<https://github.com/Ajamelot56/Dana-Senateurs/05> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/06
+<https://github.com/Ajamelot56/Dana-Senateurs/06> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/07
+<https://github.com/Ajamelot56/Dana-Senateurs/07> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/08
+<https://github.com/Ajamelot56/Dana-Senateurs/08> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/09
+<https://github.com/Ajamelot56/Dana-Senateurs/09> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/10
+<https://github.com/Ajamelot56/Dana-Senateurs/10> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/11
+<https://github.com/Ajamelot56/Dana-Senateurs/11> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/12
+<https://github.com/Ajamelot56/Dana-Senateurs/12> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/13
+<https://github.com/Ajamelot56/Dana-Senateurs/13> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/14
+<https://github.com/Ajamelot56/Dana-Senateurs/14> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/15
+<https://github.com/Ajamelot56/Dana-Senateurs/15> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/16
+<https://github.com/Ajamelot56/Dana-Senateurs/16> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/17
+<https://github.com/Ajamelot56/Dana-Senateurs/17> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/18
+<https://github.com/Ajamelot56/Dana-Senateurs/18> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/19
+<https://github.com/Ajamelot56/Dana-Senateurs/19> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/2A
+<https://github.com/Ajamelot56/Dana-Senateurs/2A> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/2B
+<https://github.com/Ajamelot56/Dana-Senateurs/2B> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/20
+<https://github.com/Ajamelot56/Dana-Senateurs/20> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/21
+<https://github.com/Ajamelot56/Dana-Senateurs/21> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/22
+<https://github.com/Ajamelot56/Dana-Senateurs/22> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/23
+<https://github.com/Ajamelot56/Dana-Senateurs/23> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/24
+<https://github.com/Ajamelot56/Dana-Senateurs/24> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/25
+<https://github.com/Ajamelot56/Dana-Senateurs/25> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/26
+<https://github.com/Ajamelot56/Dana-Senateurs/26> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/27
+<https://github.com/Ajamelot56/Dana-Senateurs/27> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/28
+<https://github.com/Ajamelot56/Dana-Senateurs/28> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/29
+<https://github.com/Ajamelot56/Dana-Senateurs/29> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/30
+<https://github.com/Ajamelot56/Dana-Senateurs/30> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/31
+<https://github.com/Ajamelot56/Dana-Senateurs/31> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/32
+<https://github.com/Ajamelot56/Dana-Senateurs/32> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/33
+<https://github.com/Ajamelot56/Dana-Senateurs/33> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/34
+<https://github.com/Ajamelot56/Dana-Senateurs/34> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/35
+<https://github.com/Ajamelot56/Dana-Senateurs/35> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/36
+<https://github.com/Ajamelot56/Dana-Senateurs/36> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/37
+<https://github.com/Ajamelot56/Dana-Senateurs/37> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/38
+<https://github.com/Ajamelot56/Dana-Senateurs/38> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/39
+<https://github.com/Ajamelot56/Dana-Senateurs/39> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/40
+<https://github.com/Ajamelot56/Dana-Senateurs/40> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/41
+<https://github.com/Ajamelot56/Dana-Senateurs/41> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/42
+<https://github.com/Ajamelot56/Dana-Senateurs/42> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/43
+<https://github.com/Ajamelot56/Dana-Senateurs/43> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/44
+<https://github.com/Ajamelot56/Dana-Senateurs/44> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/45
+<https://github.com/Ajamelot56/Dana-Senateurs/45> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/46
+<https://github.com/Ajamelot56/Dana-Senateurs/46> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/47
+<https://github.com/Ajamelot56/Dana-Senateurs/47> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/48
+<https://github.com/Ajamelot56/Dana-Senateurs/48> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/49
+<https://github.com/Ajamelot56/Dana-Senateurs/49> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/50
+<https://github.com/Ajamelot56/Dana-Senateurs/50> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/51
+<https://github.com/Ajamelot56/Dana-Senateurs/51> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/52
+<https://github.com/Ajamelot56/Dana-Senateurs/52> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/53
+<https://github.com/Ajamelot56/Dana-Senateurs/53> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/54
+<https://github.com/Ajamelot56/Dana-Senateurs/54> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/55
+<https://github.com/Ajamelot56/Dana-Senateurs/55> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/56
+<https://github.com/Ajamelot56/Dana-Senateurs/56> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/57
+<https://github.com/Ajamelot56/Dana-Senateurs/57> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/58
+<https://github.com/Ajamelot56/Dana-Senateurs/58> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/59
+<https://github.com/Ajamelot56/Dana-Senateurs/59> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/60
+<https://github.com/Ajamelot56/Dana-Senateurs/60> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/61
+<https://github.com/Ajamelot56/Dana-Senateurs/61> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/62
+<https://github.com/Ajamelot56/Dana-Senateurs/62> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/63
+<https://github.com/Ajamelot56/Dana-Senateurs/63> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/64
+<https://github.com/Ajamelot56/Dana-Senateurs/64> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/65
+<https://github.com/Ajamelot56/Dana-Senateurs/65> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/66
+<https://github.com/Ajamelot56/Dana-Senateurs/66> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/67
+<https://github.com/Ajamelot56/Dana-Senateurs/67> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/68
+<https://github.com/Ajamelot56/Dana-Senateurs/68> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/69
+<https://github.com/Ajamelot56/Dana-Senateurs/69> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/70
+<https://github.com/Ajamelot56/Dana-Senateurs/70> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/71
+<https://github.com/Ajamelot56/Dana-Senateurs/71> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/72
+<https://github.com/Ajamelot56/Dana-Senateurs/72> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/73
+<https://github.com/Ajamelot56/Dana-Senateurs/73> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/74
+<https://github.com/Ajamelot56/Dana-Senateurs/74> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/75
+<https://github.com/Ajamelot56/Dana-Senateurs/75> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/76
+<https://github.com/Ajamelot56/Dana-Senateurs/76> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/77
+<https://github.com/Ajamelot56/Dana-Senateurs/77> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/78
+<https://github.com/Ajamelot56/Dana-Senateurs/78> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/79
+<https://github.com/Ajamelot56/Dana-Senateurs/79> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/80
+<https://github.com/Ajamelot56/Dana-Senateurs/80> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/81
+<https://github.com/Ajamelot56/Dana-Senateurs/81> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/82
+<https://github.com/Ajamelot56/Dana-Senateurs/82> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/83
+<https://github.com/Ajamelot56/Dana-Senateurs/83> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/84
+<https://github.com/Ajamelot56/Dana-Senateurs/84> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/85
+<https://github.com/Ajamelot56/Dana-Senateurs/85> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/86
+<https://github.com/Ajamelot56/Dana-Senateurs/86> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/87
+<https://github.com/Ajamelot56/Dana-Senateurs/87> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/88
+<https://github.com/Ajamelot56/Dana-Senateurs/88> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/89
+<https://github.com/Ajamelot56/Dana-Senateurs/89> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/90
+<https://github.com/Ajamelot56/Dana-Senateurs/90> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/91
+<https://github.com/Ajamelot56/Dana-Senateurs/91> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/92
+<https://github.com/Ajamelot56/Dana-Senateurs/92> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/93
+<https://github.com/Ajamelot56/Dana-Senateurs/93> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/94
+<https://github.com/Ajamelot56/Dana-Senateurs/94> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/95
+<https://github.com/Ajamelot56/Dana-Senateurs/95> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/971
+<https://github.com/Ajamelot56/Dana-Senateurs/971> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/972
+<https://github.com/Ajamelot56/Dana-Senateurs/972> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/973
+<https://github.com/Ajamelot56/Dana-Senateurs/973> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/974
+<https://github.com/Ajamelot56/Dana-Senateurs/974> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/975
+<https://github.com/Ajamelot56/Dana-Senateurs/975> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/976
+<https://github.com/Ajamelot56/Dana-Senateurs/976> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/977
+<https://github.com/Ajamelot56/Dana-Senateurs/977> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/978
+<https://github.com/Ajamelot56/Dana-Senateurs/978> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/986
+<https://github.com/Ajamelot56/Dana-Senateurs/986> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/987
+<https://github.com/Ajamelot56/Dana-Senateurs/987> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/988
+<https://github.com/Ajamelot56/Dana-Senateurs/988> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/99
+<https://github.com/Ajamelot56/Dana-Senateurs/99> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/Aucune_(Pr%C3%A9sident_du_S%C3%A9nat)
+<https://github.com/Ajamelot56/Dana-Senateurs/Aucune_(Pr%C3%A9sident_du_S%C3%A9nat)> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie
+<https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable
+<https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00001A
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00001A> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Cadre administratif" ;
+                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/75> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1950-01-05T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Autexier" ;
+                                                               schema:givenName "Jean-Yves" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres administratifs et commerciaux d'entreprise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Technicien" ;
+                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/92> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1951-11-05T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Muzeau" ;
+                                                               schema:givenName "Roland" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Contremaitre et agents de maitrise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00003C
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00003C> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Sans profession déclarée" ;
+                                                                                      schema:occupationalCategory "Sans profession déclarée"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/91> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1951-07-27T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Campion" ;
+                                                               schema:givenName "Claire-Lise" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00004D
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00004D> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Urbaniste" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/57> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1946-04-15T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Hethener" ;
+                                                               schema:givenName "Alain" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Professions libérales" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01001E
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01001E> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Avocat" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Avocats)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/91> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1948-04-19T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Béteille" ;
+                                                               schema:givenName "Laurent" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Avocats" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01002F
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01002F> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Gérant de société" ;
+                                                                                      schema:occupationalCategory "Commerce et industrie (Chefs d'entreprises)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/39> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1948-05-01T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Guichard" ;
+                                                               schema:givenName "Pierre" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres administratifs et commerciaux d'entreprise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01003G
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01003G> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur d'histoire-géographie" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/65> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1939-08-02T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2017-05-15T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Fortassin" ;
+                                                               schema:givenName "François" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Retraités" ;
+                                                               custom:fonctionBureau "Secrétaire du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01004H
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01004H> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Cadre commercial" ;
+                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/75> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> ;
+                                                               schema:birthDate "1947-09-25T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Mano" ;
+                                                               schema:givenName "Jean-Yves" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres administratifs et commerciaux d'entreprise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01005J
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01005J> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Médecin neuro-psychiatre" ;
+                                                                                      schema:occupationalCategory "Professions médicales (Médecins)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/48> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1939-10-21T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Blanc" ;
+                                                               schema:givenName "Jacques" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01006K
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01006K> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur général des ponts et chaussées" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/66> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1942-05-07T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Alduy" ;
+                                                               schema:givenName "Jean-Paul" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01007L
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01007L> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur d'histoire-géographie" ;
+                                                                                      schema:occupationalCategory "Enseignement (Retraités)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/41> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> ;
+                                                               schema:birthDate "1950-11-20T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Gourault" ;
+                                                               schema:givenName "Jacqueline" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01008M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01008M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/39> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_économiques ;
+                                                               schema:birthDate "1940-01-28T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Bailly" ;
+                                                               schema:givenName "Gérard" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01009N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01009N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Directrice d'école" ;
+                                                                                      schema:occupationalCategory "Enseignement primaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/974> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1949-08-01T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Payet" ;
+                                                               schema:givenName "Anne-Marie" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Secrétaire du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01010F
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01010F> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Conseiller en gestion" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/974> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1944-03-15T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Virapoullé" ;
+                                                               schema:givenName "Jean-Paul" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Secrétaire du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01011G
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01011G> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ouvrier chaudronnier" ;
+                                                                                      schema:occupationalCategory "Salariés (Ouvriers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/50> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1944-09-23T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Godefroy" ;
+                                                               schema:givenName "Jean-Pierre" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Ouvriers qualifiés de type industriel" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01012H
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01012H> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Inspecteur général de l'équipement" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/37> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1935-01-26T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Dauge" ;
+                                                               schema:givenName "Yves" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Anciens cadres" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01013J
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01013J> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur des écoles" ;
+                                                                                      schema:occupationalCategory "Enseignement primaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/37> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1946-11-22T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Beaufils" ;
+                                                               schema:givenName "Marie-France" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01014K
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01014K> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur de mathématiques" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/54> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1941-01-17T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Reiner" ;
+                                                               schema:givenName "Daniel" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01015L
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01015L> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur de collège" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/54> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> ;
+                                                               schema:birthDate "1948-03-14T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Didier" ;
+                                                               schema:givenName "Évelyne" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01016M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01016M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Universitaire" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/49> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1941-07-28T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Raoul" ;
+                                                               schema:givenName "Daniel" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01017N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01017N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Enseignant du supérieur" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/49> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1950-01-13T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Gaudin" ;
+                                                               schema:givenName "Christian" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01018P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01018P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur agrégé d'histoire" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/49> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1946-08-22T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Lardeux" ;
+                                                               schema:givenName "André" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01019Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01019Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Administrateur de journaux" ;
+                                                                                      schema:occupationalCategory "Professions libérales (Journalistes)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/38> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1943-03-03T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Saugey" ;
+                                                               schema:givenName "Bernard" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Questeur du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01020H
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01020H> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur agrégé d'histoire" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/38> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1931-08-20T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Mermaz" ;
+                                                               schema:givenName "Louis" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Professeurs, professions scientifiques" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01021J
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01021J> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Maître de conférence en gestion" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/56> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1938-10-02T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Kergueris" ;
+                                                               schema:givenName "Joseph" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01022K
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01022K> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur de lettres et d'histoire" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/56> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> ;
+                                                               schema:birthDate "1948-01-06T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Herviaux" ;
+                                                               schema:givenName "Odette" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01023L
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01023L> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Inspecteur des domaines" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/60> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1948-02-16T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Vantomme" ;
+                                                               schema:givenName "André" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01024M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01024M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Conseiller de Chambre Régionale des Comptes" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires (Magistrats)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/51> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1954-12-21T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Détraigne" ;
+                                                               schema:givenName "Yves" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres de la fonction publique" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01025N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01025N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Sans profession déclarée" ;
+                                                                                      schema:occupationalCategory "Sans profession déclarée"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/51> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_économiques ;
+                                                               schema:birthDate "1949-03-05T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Férat" ;
+                                                               schema:givenName "Françoise" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Secrétaire du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01026P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01026P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur en médecine" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/51> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1941-08-06T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2017-03-11T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Etienne" ;
+                                                               schema:givenName "Jean-Claude" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres de la fonction publique" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01027Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01027Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Chef d'entreprise" ;
+                                                                                      schema:occupationalCategory "Commerce et industrie (Chefs d'entreprises)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/45> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1943-05-25T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Doligé" ;
+                                                               schema:givenName "Éric" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01028R
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01028R> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Maître de conférences à l'université" ;
+                                                                                      schema:occupationalCategory "Enseignement (Retraités)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/45> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1947-02-28T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Sueur" ;
+                                                               schema:givenName "Jean-Pierre" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Questeur du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01029S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01029S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Clerc de notaire" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/45> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1938-04-13T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Rozier" ;
+                                                               schema:givenName "Janine" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Huissiers de justice, officiers ministériels et professions libérales divers" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01030K
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01030K> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Arboriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/63> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1940-02-05T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Juilhard" ;
+                                                               schema:givenName "Jean-Marc" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01031L
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01031L> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Directrice d'établissement médico-social public" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/63> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1947-02-06T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "André" ;
+                                                               schema:givenName "Michèle" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01032M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01032M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agrégé d'université" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/64> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1928-01-12T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2006-05-16T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Labarrère" ;
+                                                               schema:givenName "André" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01033N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01033N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Secrétaire" ;
+                                                                                      schema:occupationalCategory "Salariés (Employés)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/62> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1948-02-03T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Henneron" ;
+                                                               schema:givenName "Françoise" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01034P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01034P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur" ;
+                                                                                      schema:occupationalCategory "Salariés (Ingénieurs)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/62> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1939-03-29T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Vanlerenberghe" ;
+                                                               schema:givenName "Jean-Marie" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01035Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01035Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Carreleur" ;
+                                                                                      schema:occupationalCategory "Salariés (Ouvriers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/62> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> ;
+                                                               schema:birthDate "1939-12-19T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2015-04-07T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Coquelle" ;
+                                                               schema:givenName "Yves" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01036R
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01036R> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Sans profession déclarée" ;
+                                                                                      schema:occupationalCategory "Sans profession déclarée"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/62> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1955-05-19T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "San Vicente-Baudrin" ;
+                                                               schema:givenName "Michèle" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01037S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01037S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Directeur d'école" ;
+                                                                                      schema:occupationalCategory "Enseignement primaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/42> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1944-09-03T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2016-12-10T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Frécon" ;
+                                                               schema:givenName "Jean-Claude" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Instituteurs et assimilés" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01038T
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01038T> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Secrétaire" ;
+                                                                                      schema:occupationalCategory "Salariés (Employés)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/42> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1954-08-23T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Mathon-Poinat" ;
+                                                               schema:givenName "Josiane" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01039U
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01039U> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur d'anglais" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/42> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1955-04-10T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Thiollière" ;
+                                                               schema:givenName "Michel" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01040M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01040M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur" ;
+                                                                                      schema:occupationalCategory "Commerce et industrie (Chefs d'entreprises)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/99> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1932-12-02T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Guerry" ;
+                                                               schema:givenName "Michel" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01041N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01041N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Journaliste" ;
+                                                                                      schema:occupationalCategory "Professions libérales (Journalistes)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/99> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1941-05-17T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Duvernois" ;
+                                                               schema:givenName "Louis" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01042P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01042P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Enseignant du supérieur" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/59> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1951-04-10T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Lecerf" ;
+                                                               schema:givenName "Jean-René" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01043Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01043Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Assistante sociale" ;
+                                                                                      schema:occupationalCategory "Salariés (Permanents politiques)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/59> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_économiques ;
+                                                               schema:birthDate "1962-10-13T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Létard" ;
+                                                               schema:givenName "Valérie" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Vice-présidente du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01044R
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01044R> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur de biologie" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/59> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1952-09-22T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Blandin" ;
+                                                               schema:givenName "Marie-Christine" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01045S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01045S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Assistante sociale" ;
+                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/59> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1950-09-06T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Desmarescaux" ;
+                                                               schema:givenName "Sylvie" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Professions intermédiaires de la santé et du travail social" ;
+                                                               custom:fonctionBureau "Secrétaire du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01046T
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01046T> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Chirurgien" ;
+                                                                                      schema:occupationalCategory "Professions médicales (Chirurgiens)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/39> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1940-03-03T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Barbier" ;
+                                                               schema:givenName "Gilbert" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01047U
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01047U> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Avocat" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Avocats)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/53> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1958-12-14T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Zocchetto" ;
+                                                               schema:givenName "François" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01048V
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01048V> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Administrateur civil" ;
+                                                                                      schema:occupationalCategory "Commerce et industrie (Chefs d'entreprises)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/55> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1946-02-24T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Longuet" ;
+                                                               schema:givenName "Gérard" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01049W
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01049W> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/55> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> ;
+                                                               schema:birthDate "1936-05-15T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Biwer" ;
+                                                               schema:givenName "Claude" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01050P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01050P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/47> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> ;
+                                                               schema:birthDate "1942-02-14T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2020-09-14T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Soulage" ;
+                                                               schema:givenName "Daniel" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01051Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01051Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Instituteur" ;
+                                                                                      schema:occupationalCategory "Enseignement primaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/58> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1950-09-04T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Boulaud" ;
+                                                               schema:givenName "Didier" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01052R
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01052R> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/43> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1937-01-04T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Boyer" ;
+                                                               schema:givenName "Jean" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01053S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01053S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur agronome" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/44> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1945-01-25T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2014-06-11T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Gautier" ;
+                                                               schema:givenName "Charles" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01054T
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01054T> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Professeur d'histoire" ;
+                                                                                      schema:occupationalCategory "Enseignement secondaire"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/44> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1934-10-05T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2018-06-04T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Papon" ;
+                                                               schema:givenName "Monique" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" ;
+                                                               custom:fonctionBureau "Vice-présidente du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01055U
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01055U> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Chef d'entreprise" ;
+                                                                                      schema:occupationalCategory "Commerce et industrie (Chefs d'entreprises)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/44> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1938-12-09T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Gautier" ;
+                                                               schema:givenName "Gisèle" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Chefs d'entreprise de 10 salaries ou plus" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01056V
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01056V> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Docteur vétérinaire" ;
+                                                                                      schema:occupationalCategory "Professions médicales (Vétérinaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/44> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1947-10-24T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Trillard" ;
+                                                               schema:givenName "André" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01057W
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01057W> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Avocat" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Retraités)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/52> ;
+                                                               custom:commissionPermanente custom:commission_des_finances ;
+                                                               schema:birthDate "1952-04-06T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Guené" ;
+                                                               schema:givenName "Charles" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01058X
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01058X> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur agronome" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/52> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1951-02-19T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Sido" ;
+                                                               schema:givenName "Bruno" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Professeurs, professions scientifiques" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01059Y
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01059Y> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Acheteuse en informatique" ;
+                                                                                      schema:occupationalCategory "Salariés (Employés)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/38> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1963-01-17T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "David" ;
+                                                               schema:givenName "Annie" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01060R
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01060R> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur en chef des mines" ;
+                                                                                      schema:occupationalCategory "Salariés (Ingénieurs)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/57> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1947-03-25T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Masson" ;
+                                                               schema:givenName "Jean Louis" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01061S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01061S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur général du Génie rural" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/57> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_économiques ;
+                                                               schema:birthDate "1940-02-03T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2019-08-19T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Leroy" ;
+                                                               schema:givenName "Philippe" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01062T
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01062T> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Inspecteur de l'éducation nationale" ;
+                                                                                      schema:occupationalCategory "Enseignement (Retraités)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/57> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1952-03-12T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "true"^^xsd:boolean ;
+                                                               schema:familyName "Todeschini" ;
+                                                               schema:givenName "Jean-Marc" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres de la fonction publique" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01063U
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01063U> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Directeur général au Parlement européen" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/99> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1943-07-11T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Cointat" ;
+                                                               schema:givenName "Christian" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01064V
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01064V> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Comptable" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/28> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> ;
+                                                               schema:birthDate "1953-03-21T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Billard" ;
+                                                               schema:givenName "Joël" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/01065W
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01065W> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Avocat" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Avocats)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/2A> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1936-04-13T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2020-03-16T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Alfonsi" ;
+                                                               schema:givenName "Nicolas" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Avocats" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02001J
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02001J> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Maître de conférences" ;
+                                                                                      schema:occupationalCategory "Enseignement supérieur (sauf Professeurs de médecine)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/59> ;
+                                                               custom:commissionPermanente custom:commission_des_lois ;
+                                                               schema:birthDate "1940-10-12T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Frimat" ;
+                                                               schema:givenName "Bernard" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Professeurs, professions scientifiques" ;
+                                                               custom:fonctionBureau "Vice-président du Sénat" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02002K
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02002K> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Avocat à la Cour d'Appel" ;
+                                                                                      schema:occupationalCategory "Professions judiciaires et libérales (Retraités)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/86> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'am%C3%A9nagement_du_territoire_et_du_d%C3%A9veloppement_durable> ;
+                                                               schema:birthDate "1942-12-04T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Fouché" ;
+                                                               schema:givenName "Alain" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Avocats" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02003L
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02003L> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Ingénieur" ;
+                                                                                      schema:occupationalCategory "Salariés (Ingénieurs)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/62> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1941-01-26T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Bout" ;
+                                                               schema:givenName "Brigitte" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Ingenieurs et cadres techniques d'entreprise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02004M
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02004M> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agricultrice" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/61> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1954-03-19T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Luypaert" ;
+                                                               schema:givenName "Brigitte" ;
+                                                               schema:honorificPrefix "Mme" ;
+                                                               custom:PCS "Agriculteurs exploitants" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02005N
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02005N> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Agriculteur" ;
+                                                                                      schema:occupationalCategory "Professions agricoles"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/24> ;
+                                                               custom:commissionPermanente <https://github.com/Ajamelot56/Dana-Senateurs/commission_de_l'%C3%A9conomie> ;
+                                                               schema:birthDate "1950-06-02T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Mortemousque" ;
+                                                               schema:givenName "Dominique" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Agriculteurs exploitants" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02006P
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02006P> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Chirurgien gynécologue obstétricien" ;
+                                                                                      schema:occupationalCategory "Professions médicales (Médecins)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/83> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1941-08-27T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2019-07-13T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Geoffroy" ;
+                                                               schema:givenName "André" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Medecins libéraux généralistes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02007Q
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02007Q> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Transporteur" ;
+                                                                                      schema:occupationalCategory "Sans profession déclarée"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/70> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               schema:birthDate "1945-04-15T00:00:00"^^xsd:dateTime ;
+                                                               schema:deathDate "2008-03-26T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Bergelin" ;
+                                                               schema:givenName "Christian" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Autres personnes sans activité professionnelle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02009S
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02009S> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Sans profession déclarée" ;
+                                                                                      schema:occupationalCategory "Sans profession déclarée"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/72> ;
+                                                               custom:commissionPermanente custom:commission_de_la_culture ;
+                                                               schema:birthDate "1954-03-04T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Fillon" ;
+                                                               schema:givenName "François" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Anciens cadres" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/02053W
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02053W> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Conseiller du commerce extérieur" ;
+                                                                                      schema:occupationalCategory "Fonctionnaires (Hauts Fonctionnaires)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/90> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_étrangères ;
+                                                               schema:birthDate "1939-03-09T00:00:00"^^xsd:dateTime ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:familyName "Chevènement" ;
+                                                               schema:givenName "Jean-Pierre" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               custom:PCS "Cadres de la fonction publique" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
