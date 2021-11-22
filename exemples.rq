@@ -50,3 +50,44 @@ where {
 }
 group by ?GP
 order by desc(?nbSénateurs)
+
+
+
+
+# Requête qui génère les sénateurs actifs qui ont été députés.
+
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX custom: <https://fuseki.dolr.es/ontology/>
+PREFIX custom2: <https://github.com/Ajamelot56/Dana-Senateurs/>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX dbo2: <http://dbpedia.org/ontology/>
+
+SELECT Distinct ?depute ?senateur ?Nom ?prenom ?age ?gender ?org ?circ ?cat ?occup
+
+FROM <http://localhost/general>
+FROM <http://localhost/parliamentmember>
+FROM <http://localhost/circonscriptions>
+FROM <http://localhost/organizations>
+
+WHERE {
+ ?depute rdf:type custom:ParliamentMember .
+ ?senateur custom2:PCS ?cat.
+ ?senateur schema:familyName ?Nom.
+ ?depute schema:familyName ?Nom.
+ ?depute schema:gender ?gender.
+ ?senateur schema:givenName ?prenom.
+ ?depute schema:givenName ?prenom.
+ ?depute dbo:age ?age.
+ ?senateur custom2:actif true.
+ ?senateur custom2:circonscription / dbo2:officialName ?circ.
+ ?depute schema:Organization / schema:alternateName ?org.
+ ?senateur schema:hasOccupation / schema:name ?occup
+
+}
+
+LIMIT 100
