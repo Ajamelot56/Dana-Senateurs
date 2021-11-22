@@ -116,31 +116,44 @@ custom:actif rdf:type owl:DatatypeProperty .
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_jeune
 <http://www.co-ode.org/ontologies/ont.owl#Sénateur_jeune> rdf:type owl:Class ;
-                                                          rdfs:subClassOf custom:Sénateur ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty schema:birthDate ;
-                                                                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
-                                                                                                 owl:onDatatype xsd:dateTime ;
-                                                                                                 owl:withRestrictions ( [ xsd:minExclusive "1950-01-01T00:00:00"^^xsd:dateTime
-                                                                                                                        ]
-                                                                                                                      )
-                                                                                               ]
-                                                                          ] ;
+                                                          owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty schema:birthDate ;
+                                                                                                       owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                            owl:onDatatype xsd:dateTime ;
+                                                                                                                            owl:withRestrictions ( [ xsd:minExclusive "1950-01-01T00:00:00"^^xsd:dateTime
+                                                                                                                                                   ]
+                                                                                                                                                 )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] ;
                                                           owl:disjointWith <http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux> .
 
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_mort
 <http://www.co-ode.org/ontologies/ont.owl#Sénateur_mort> rdf:type owl:Class ;
-                                                         rdfs:subClassOf custom:Sénateur ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty schema:deathDate ;
-                                                                           owl:someValuesFrom xsd:dateTime
-                                                                         ] .
+                                                         owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty schema:deathDate ;
+                                                                                                      owl:someValuesFrom xsd:dateTime
+                                                                                                    ]
+                                                                                                  ) ;
+                                                                               rdf:type owl:Class
+                                                                             ] .
 
 
 ###  http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux
 <http://www.co-ode.org/ontologies/ont.owl#Sénateur_vieux> rdf:type owl:Class ;
-                                                          rdfs:subClassOf custom:Sénateur .
+                                                          owl:equivalentClass [ owl:intersectionOf ( custom:Sénateur
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty schema:birthDate ;
+                                                                                                       owl:someValuesFrom xsd:dateTime
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] .
 
 
 ###  https://github.com/Ajamelot56/Dana-Senateurs/Sénateur
