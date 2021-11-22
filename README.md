@@ -35,39 +35,6 @@ WHERE {
 }
 ```
 
+## Liens avec le web des données
 
-
-
-
-Notes temp:
-
-Finaliser étape 4 : ajouter des sameas
-
-++ Ajouter qqes inferences, genre isOld isYoung
-completer les slides présentation
-
-###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B
-<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B> rdf:type owl:NamedIndividual ,
-                                                                        custom:Sénateur ;
-                                                               schema:hasOccupation [ schema:name "Technicien" ;
-                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
-                                                                                    ] ;
-                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/92> ;
-                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
-                                                               custom:actif "false"^^xsd:boolean ;
-                                                               schema:birthDate "1951-11-05"^^xsd:date ;
-                                                               schema:familyName "Muzeau" ;
-                                                               schema:givenName "Roland" ;
-                                                               schema:honorificPrefix "M." ;
-                                                               <http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_9040ee77_f05a_4102_b0c6_93d361ffa36f> "false"^^xsd:boolean ;
-                                                               custom:PCS "Contremaitre et agents de maitrise" .
-                                                               
-                                                               
-On a comme vals: l'occupation, la CSP, l'affiliation commission, la date de naissance, le nom famille
-, le nom, le genre, le côt actif inactif
-
-requete stat depute/senateur => homme/femme autre
-
-
-
-
+En ce qui concerne les propriétés, nos fichiers se servent de plusieurs vocabulaires largement diffusés, tels que ceux de [Schema.org](https://schema.org/) et [DBpedia](https://www.dbpedia.org/). Les idéologies politiques ont été ajoutées à l’aide de DBpedia. Les sénateurs recensés ont été reliés à leurs équivalents sur [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), réunis dans le fichier [`sénateursWD.ttl`](./ttl/sénateursWD.ttl), grâce au fichier [`sameAs.ttl`](./ttl/sameAs.ttl).
