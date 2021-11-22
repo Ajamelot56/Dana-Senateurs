@@ -34,3 +34,40 @@ WHERE {
   ?subject custom:actif true
 }
 ```
+
+
+
+
+
+Notes temp:
+
+Finaliser étape 4 : ajouter des sameas
+
+++ Ajouter qqes inferences, genre isOld isYoung
+completer les slides présentation
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00002B> rdf:type owl:NamedIndividual ,
+                                                                        custom:Sénateur ;
+                                                               schema:hasOccupation [ schema:name "Technicien" ;
+                                                                                      schema:occupationalCategory "Salariés (Cadres divers)"
+                                                                                    ] ;
+                                                               custom:circonscription <https://github.com/Ajamelot56/Dana-Senateurs/92> ;
+                                                               custom:commissionPermanente custom:commission_des_affaires_sociales ;
+                                                               custom:actif "false"^^xsd:boolean ;
+                                                               schema:birthDate "1951-11-05"^^xsd:date ;
+                                                               schema:familyName "Muzeau" ;
+                                                               schema:givenName "Roland" ;
+                                                               schema:honorificPrefix "M." ;
+                                                               <http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_9040ee77_f05a_4102_b0c6_93d361ffa36f> "false"^^xsd:boolean ;
+                                                               custom:PCS "Contremaitre et agents de maitrise" .
+                                                               
+                                                               
+On a comme vals: l'occupation, la CSP, l'affiliation commission, la date de naissance, le nom famille
+, le nom, le genre, le côt actif inactif
+
+requete stat depute/senateur => homme/femme autre
+
+
+
+

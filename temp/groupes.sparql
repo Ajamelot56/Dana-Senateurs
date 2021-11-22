@@ -1,0 +1,14 @@
+# tarql --dedup 1000 groupes.sparql > groupes.ttl
+
+prefix schema: <http://schema.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/>
+
+construct {
+    ?groupe rdf:type schema:Organization ;
+        schema:name rdf:social-liberalism .
+}
+from <ODSEN_HISTOGROUPES.csv#encoding=cp1252>
+where {
+    bind(uri(?Code_du_groupe_politique) as ?groupe)
+}

@@ -1,0 +1,53 @@
+Lors de la création tarql machin.sparql > truc.ttl
+Penser à mettre les rdf:type sinon notre ontologie n'existera pas.. et protégé sera inutile.
+
+Parse pris en compte:
+
+circonscriptions -- X?????????? (pourquoi il ignore tout?)
+éluSén -- V (rdf:value donc ignoré dans l'ontologie.. normalement)
+général -- X (mettre rdf:type schema:member ou un truc du genre pour chq triple)
+groupes -- V
+histoGroupes -- X (unparsed triple... il ignore tout)
+
+Note perso: truc de type BlaBla se refére à une classe, donc interêt à mettre ds Ontologie.
+trucs de type blaBla refére à une propriété, donc pas d'intérêt à mettre ds Ontologie
+
+UsingOWL(BuildingOntologies)
+determine how the world(domain) should work
+–determine the classes and properties in the domain
+–determine domains and ranges for properties
+–determine characteristics of classes
+–add individuals and relationships asnecessary (pas tout hein)
+–iterate until “goodenough” (mdr)
+–package all this into an ontology
+–hope that someone else has done most of the work (aka importer notre tout.ttl)
+
+build the OWL ontology
+–ask whether the ontology is consistent
+–ask whether the classes are coherent
+
+
+tuto/source rapide : https://www.cs.man.ac.uk/~horrocks/ISWC2003/Tutorial/examples.pdf
+
+Quand on import dans protégé on a beaucoup de Annotation properties... c'est bien mais... un peu inutile pour les inferences...
+
+Réfléchissons aux types de classes qu'on pourrait définir en s'inspirant des.. oh je l'ai laissé chez moi le fichier.
+
+ Main categories
+
+    Pizza
+    Pizza_base
+    Pizza_topping 
+
+Lists of each kind of main topic
+
+    Pizza_base ← Thick_crust, Thin_crust,…
+    Pizza_topping ← Tomato_topping, Mozarella_topping, Spicy_beef_toping, Pepperoni_topping, …
+    Pizzas (primitive) ← Margherita, Hot_and_spicy, Seafood, …
+    Pizzas (define) Vegetarian*, Cheesey* 
+
+It is useful for a very fast version to know which are going to be defined classes. -- deal with primitive and defined classes separately.
+A list of the properties and their domain and ranges
+
+    has_topping
+    has_base 

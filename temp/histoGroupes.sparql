@@ -1,0 +1,17 @@
+prefix schema: <http://schema.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+construct {
+    ?u schema:affiliation [
+        rdf:value ?groupe ;
+        schema:startDate ?dateD ;
+        schema:endDate ?dateF
+    ] .
+}
+from <file:../csv/ODSEN_HISTOGROUPES.csv#encoding=cp1252>
+where {
+    bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Matricule)) as ?u)
+    bind (uri(concat('https://github.com/Ajamelot56/Dana-Senateurs/', ?Code_du_groupe_politique)) as ?groupe)
+    bind (strbefore(?Date_de_début_d_appartenance, ' ') as ?dateD)
+    bind (strbefore(?Date_de_fin_d_appartenance, ' ') as ?dateF)
+}

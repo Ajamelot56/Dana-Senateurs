@@ -1,0 +1,817 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix custom: <https://github.com/Ajamelot56/Dana-Senateurs/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://dbpedia.org/ontology/inseeCode
+dbo:inseeCode rdf:type owl:AnnotationProperty .
+
+
+###  http://dbpedia.org/ontology/officialName
+dbo:officialName rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Settlement
+dbo:Settlement rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/01
+<https://github.com/Ajamelot56/Dana-Senateurs/01> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "01" ;
+                                                  dbo:officialName "Ain" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/02
+<https://github.com/Ajamelot56/Dana-Senateurs/02> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "02" ;
+                                                  dbo:officialName "Aisne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/03
+<https://github.com/Ajamelot56/Dana-Senateurs/03> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "03" ;
+                                                  dbo:officialName "Allier" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/04
+<https://github.com/Ajamelot56/Dana-Senateurs/04> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "04" ;
+                                                  dbo:officialName "Alpes de Haute-Provence" ,
+                                                                   "Basses-Alpes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/05
+<https://github.com/Ajamelot56/Dana-Senateurs/05> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "05" ;
+                                                  dbo:officialName "Hautes-Alpes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/06
+<https://github.com/Ajamelot56/Dana-Senateurs/06> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "06" ;
+                                                  dbo:officialName "Alpes-Maritimes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/07
+<https://github.com/Ajamelot56/Dana-Senateurs/07> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "07" ;
+                                                  dbo:officialName "Ardèche" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/08
+<https://github.com/Ajamelot56/Dana-Senateurs/08> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "08" ;
+                                                  dbo:officialName "Ardennes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/09
+<https://github.com/Ajamelot56/Dana-Senateurs/09> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "09" ;
+                                                  dbo:officialName "Ariège" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/10
+<https://github.com/Ajamelot56/Dana-Senateurs/10> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "10" ;
+                                                  dbo:officialName "Aube" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/11
+<https://github.com/Ajamelot56/Dana-Senateurs/11> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "11" ;
+                                                  dbo:officialName "Aude" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/12
+<https://github.com/Ajamelot56/Dana-Senateurs/12> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "12" ;
+                                                  dbo:officialName "Aveyron" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/13
+<https://github.com/Ajamelot56/Dana-Senateurs/13> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "13" ;
+                                                  dbo:officialName "Bouches-du-Rhône" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/14
+<https://github.com/Ajamelot56/Dana-Senateurs/14> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "14" ;
+                                                  dbo:officialName "Calvados" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/15
+<https://github.com/Ajamelot56/Dana-Senateurs/15> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "15" ;
+                                                  dbo:officialName "Cantal" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/16
+<https://github.com/Ajamelot56/Dana-Senateurs/16> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "16" ;
+                                                  dbo:officialName "Charente" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/17
+<https://github.com/Ajamelot56/Dana-Senateurs/17> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "17" ;
+                                                  dbo:officialName "Charente-Maritime" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/18
+<https://github.com/Ajamelot56/Dana-Senateurs/18> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "18" ;
+                                                  dbo:officialName "Cher" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/19
+<https://github.com/Ajamelot56/Dana-Senateurs/19> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "19" ;
+                                                  dbo:officialName "Corrèze" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/2A
+<https://github.com/Ajamelot56/Dana-Senateurs/2A> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "2A" ;
+                                                  dbo:officialName "Corse-du-Sud" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/2B
+<https://github.com/Ajamelot56/Dana-Senateurs/2B> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "2B" ;
+                                                  dbo:officialName "Haute-Corse" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/20
+<https://github.com/Ajamelot56/Dana-Senateurs/20> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "20" ;
+                                                  dbo:officialName "Corse" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/21
+<https://github.com/Ajamelot56/Dana-Senateurs/21> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "21" ;
+                                                  dbo:officialName "Côte-d'Or" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/22
+<https://github.com/Ajamelot56/Dana-Senateurs/22> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "22" ;
+                                                  dbo:officialName "Côtes-d'Armor" ,
+                                                                   "Côtes-du-Nord" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/23
+<https://github.com/Ajamelot56/Dana-Senateurs/23> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "23" ;
+                                                  dbo:officialName "Creuse" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/24
+<https://github.com/Ajamelot56/Dana-Senateurs/24> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "24" ;
+                                                  dbo:officialName "Dordogne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/25
+<https://github.com/Ajamelot56/Dana-Senateurs/25> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "25" ;
+                                                  dbo:officialName "Doubs" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/26
+<https://github.com/Ajamelot56/Dana-Senateurs/26> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "26" ;
+                                                  dbo:officialName "Drôme" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/27
+<https://github.com/Ajamelot56/Dana-Senateurs/27> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "27" ;
+                                                  dbo:officialName "Eure" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/28
+<https://github.com/Ajamelot56/Dana-Senateurs/28> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "28" ;
+                                                  dbo:officialName "Eure-et-Loir" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/29
+<https://github.com/Ajamelot56/Dana-Senateurs/29> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "29" ;
+                                                  dbo:officialName "Finistère" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/30
+<https://github.com/Ajamelot56/Dana-Senateurs/30> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "30" ;
+                                                  dbo:officialName "Gard" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/31
+<https://github.com/Ajamelot56/Dana-Senateurs/31> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "31" ;
+                                                  dbo:officialName "Haute-Garonne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/32
+<https://github.com/Ajamelot56/Dana-Senateurs/32> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "32" ;
+                                                  dbo:officialName "Gers" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/33
+<https://github.com/Ajamelot56/Dana-Senateurs/33> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "33" ;
+                                                  dbo:officialName "Gironde" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/34
+<https://github.com/Ajamelot56/Dana-Senateurs/34> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "34" ;
+                                                  dbo:officialName "Hérault" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/35
+<https://github.com/Ajamelot56/Dana-Senateurs/35> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "35" ;
+                                                  dbo:officialName "Ille-et-Vilaine" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/36
+<https://github.com/Ajamelot56/Dana-Senateurs/36> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "36" ;
+                                                  dbo:officialName "Indre" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/37
+<https://github.com/Ajamelot56/Dana-Senateurs/37> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "37" ;
+                                                  dbo:officialName "Indre-et-Loire" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/38
+<https://github.com/Ajamelot56/Dana-Senateurs/38> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "38" ;
+                                                  dbo:officialName "Isère" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/39
+<https://github.com/Ajamelot56/Dana-Senateurs/39> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "39" ;
+                                                  dbo:officialName "Jura" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/40
+<https://github.com/Ajamelot56/Dana-Senateurs/40> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "40" ;
+                                                  dbo:officialName "Landes" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/41
+<https://github.com/Ajamelot56/Dana-Senateurs/41> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "41" ;
+                                                  dbo:officialName "Loir-et-Cher" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/42
+<https://github.com/Ajamelot56/Dana-Senateurs/42> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "42" ;
+                                                  dbo:officialName "Loire" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/43
+<https://github.com/Ajamelot56/Dana-Senateurs/43> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "43" ;
+                                                  dbo:officialName "Haute-Loire" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/44
+<https://github.com/Ajamelot56/Dana-Senateurs/44> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "44" ;
+                                                  dbo:officialName "Loire-Atlantique" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/45
+<https://github.com/Ajamelot56/Dana-Senateurs/45> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "45" ;
+                                                  dbo:officialName "Loiret" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/46
+<https://github.com/Ajamelot56/Dana-Senateurs/46> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "46" ;
+                                                  dbo:officialName "Lot" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/47
+<https://github.com/Ajamelot56/Dana-Senateurs/47> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "47" ;
+                                                  dbo:officialName "Lot-et-Garonne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/48
+<https://github.com/Ajamelot56/Dana-Senateurs/48> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "48" ;
+                                                  dbo:officialName "Lozère" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/49
+<https://github.com/Ajamelot56/Dana-Senateurs/49> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "49" ;
+                                                  dbo:officialName "Maine-et-Loire" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/50
+<https://github.com/Ajamelot56/Dana-Senateurs/50> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "50" ;
+                                                  dbo:officialName "Manche" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/51
+<https://github.com/Ajamelot56/Dana-Senateurs/51> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "51" ;
+                                                  dbo:officialName "Marne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/52
+<https://github.com/Ajamelot56/Dana-Senateurs/52> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "52" ;
+                                                  dbo:officialName "Haute-Marne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/53
+<https://github.com/Ajamelot56/Dana-Senateurs/53> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "53" ;
+                                                  dbo:officialName "Mayenne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/54
+<https://github.com/Ajamelot56/Dana-Senateurs/54> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "54" ;
+                                                  dbo:officialName "Meurthe-et-Moselle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/55
+<https://github.com/Ajamelot56/Dana-Senateurs/55> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "55" ;
+                                                  dbo:officialName "Meuse" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/56
+<https://github.com/Ajamelot56/Dana-Senateurs/56> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "56" ;
+                                                  dbo:officialName "Morbihan" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/57
+<https://github.com/Ajamelot56/Dana-Senateurs/57> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "57" ;
+                                                  dbo:officialName "Moselle" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/58
+<https://github.com/Ajamelot56/Dana-Senateurs/58> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "58" ;
+                                                  dbo:officialName "Nièvre" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/59
+<https://github.com/Ajamelot56/Dana-Senateurs/59> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "59" ;
+                                                  dbo:officialName "Nord" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/60
+<https://github.com/Ajamelot56/Dana-Senateurs/60> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "60" ;
+                                                  dbo:officialName "Oise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/61
+<https://github.com/Ajamelot56/Dana-Senateurs/61> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "61" ;
+                                                  dbo:officialName "Orne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/62
+<https://github.com/Ajamelot56/Dana-Senateurs/62> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "62" ;
+                                                  dbo:officialName "Pas-de-Calais" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/63
+<https://github.com/Ajamelot56/Dana-Senateurs/63> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "63" ;
+                                                  dbo:officialName "Puy-de-Dôme" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/64
+<https://github.com/Ajamelot56/Dana-Senateurs/64> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "64" ;
+                                                  dbo:officialName "Basses-Pyrénées" ,
+                                                                   "Pyrénées-Atlantiques" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/65
+<https://github.com/Ajamelot56/Dana-Senateurs/65> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "65" ;
+                                                  dbo:officialName "Hautes-Pyrénées" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/66
+<https://github.com/Ajamelot56/Dana-Senateurs/66> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "66" ;
+                                                  dbo:officialName "Pyrénées-Orientales" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/67
+<https://github.com/Ajamelot56/Dana-Senateurs/67> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "67" ;
+                                                  dbo:officialName "Bas-Rhin" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/68
+<https://github.com/Ajamelot56/Dana-Senateurs/68> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "68" ;
+                                                  dbo:officialName "Haut-Rhin" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/69
+<https://github.com/Ajamelot56/Dana-Senateurs/69> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "69" ;
+                                                  dbo:officialName "Rhône" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/70
+<https://github.com/Ajamelot56/Dana-Senateurs/70> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "70" ;
+                                                  dbo:officialName "Haute-Saône" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/71
+<https://github.com/Ajamelot56/Dana-Senateurs/71> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "71" ;
+                                                  dbo:officialName "Saône-et-Loire" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/72
+<https://github.com/Ajamelot56/Dana-Senateurs/72> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "72" ;
+                                                  dbo:officialName "Sarthe" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/73
+<https://github.com/Ajamelot56/Dana-Senateurs/73> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "73" ;
+                                                  dbo:officialName "Savoie" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/74
+<https://github.com/Ajamelot56/Dana-Senateurs/74> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "74" ;
+                                                  dbo:officialName "Haute-Savoie" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/75
+<https://github.com/Ajamelot56/Dana-Senateurs/75> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "75" ;
+                                                  dbo:officialName "Paris" ,
+                                                                   "Seine" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/76
+<https://github.com/Ajamelot56/Dana-Senateurs/76> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "76" ;
+                                                  dbo:officialName "Seine-Maritime" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/77
+<https://github.com/Ajamelot56/Dana-Senateurs/77> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "77" ;
+                                                  dbo:officialName "Seine-et-Marne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/78
+<https://github.com/Ajamelot56/Dana-Senateurs/78> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "78" ;
+                                                  dbo:officialName "Seine-et-Oise" ,
+                                                                   "Yvelines" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/79
+<https://github.com/Ajamelot56/Dana-Senateurs/79> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "79" ;
+                                                  dbo:officialName "Deux-Sèvres" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/80
+<https://github.com/Ajamelot56/Dana-Senateurs/80> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "80" ;
+                                                  dbo:officialName "Somme" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/81
+<https://github.com/Ajamelot56/Dana-Senateurs/81> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "81" ;
+                                                  dbo:officialName "Tarn" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/82
+<https://github.com/Ajamelot56/Dana-Senateurs/82> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "82" ;
+                                                  dbo:officialName "Tarn-et-Garonne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/83
+<https://github.com/Ajamelot56/Dana-Senateurs/83> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "83" ;
+                                                  dbo:officialName "Var" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/84
+<https://github.com/Ajamelot56/Dana-Senateurs/84> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "84" ;
+                                                  dbo:officialName "Vaucluse" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/85
+<https://github.com/Ajamelot56/Dana-Senateurs/85> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "85" ;
+                                                  dbo:officialName "Vendée" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/86
+<https://github.com/Ajamelot56/Dana-Senateurs/86> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "86" ;
+                                                  dbo:officialName "Vienne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/87
+<https://github.com/Ajamelot56/Dana-Senateurs/87> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "87" ;
+                                                  dbo:officialName "Haute-Vienne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/88
+<https://github.com/Ajamelot56/Dana-Senateurs/88> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "88" ;
+                                                  dbo:officialName "Vosges" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/89
+<https://github.com/Ajamelot56/Dana-Senateurs/89> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "89" ;
+                                                  dbo:officialName "Yonne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/90
+<https://github.com/Ajamelot56/Dana-Senateurs/90> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "90" ;
+                                                  dbo:officialName "Territoire de Belfort" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/91
+<https://github.com/Ajamelot56/Dana-Senateurs/91> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "91" ;
+                                                  dbo:officialName "Essonne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/92
+<https://github.com/Ajamelot56/Dana-Senateurs/92> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "92" ;
+                                                  dbo:officialName "Hauts-de-Seine" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/93
+<https://github.com/Ajamelot56/Dana-Senateurs/93> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "93" ;
+                                                  dbo:officialName "Seine-Saint-Denis" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/94
+<https://github.com/Ajamelot56/Dana-Senateurs/94> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "94" ;
+                                                  dbo:officialName "Val-de-Marne" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/95
+<https://github.com/Ajamelot56/Dana-Senateurs/95> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "95" ;
+                                                  dbo:officialName "Val-d'Oise" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/971
+<https://github.com/Ajamelot56/Dana-Senateurs/971> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "971" ;
+                                                   dbo:officialName "Guadeloupe" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/972
+<https://github.com/Ajamelot56/Dana-Senateurs/972> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "972" ;
+                                                   dbo:officialName "Martinique" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/973
+<https://github.com/Ajamelot56/Dana-Senateurs/973> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "973" ;
+                                                   dbo:officialName "Guyane" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/974
+<https://github.com/Ajamelot56/Dana-Senateurs/974> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "974" ;
+                                                   dbo:officialName "La Réunion" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/975
+<https://github.com/Ajamelot56/Dana-Senateurs/975> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "975" ;
+                                                   dbo:officialName "Saint-Pierre-et-Miquelon" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/976
+<https://github.com/Ajamelot56/Dana-Senateurs/976> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "976" ;
+                                                   dbo:officialName "Comores" ,
+                                                                    "Mayotte" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/977
+<https://github.com/Ajamelot56/Dana-Senateurs/977> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "977" ;
+                                                   dbo:officialName "Saint-Barthélemy" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/978
+<https://github.com/Ajamelot56/Dana-Senateurs/978> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "978" ;
+                                                   dbo:officialName "Saint-Martin" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/986
+<https://github.com/Ajamelot56/Dana-Senateurs/986> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "986" ;
+                                                   dbo:officialName "Iles Wallis et Futuna" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/987
+<https://github.com/Ajamelot56/Dana-Senateurs/987> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "987" ;
+                                                   dbo:officialName "Polynésie française" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/988
+<https://github.com/Ajamelot56/Dana-Senateurs/988> rdf:type owl:NamedIndividual ,
+                                                            dbo:Settlement ;
+                                                   dbo:inseeCode "988" ;
+                                                   dbo:officialName "Nouvelle-Calédonie" .
+
+
+###  https://github.com/Ajamelot56/Dana-Senateurs/99
+<https://github.com/Ajamelot56/Dana-Senateurs/99> rdf:type owl:NamedIndividual ,
+                                                           dbo:Settlement ;
+                                                  dbo:inseeCode "99" ;
+                                                  dbo:officialName "Alger" ,
+                                                                   "Bône" ,
+                                                                   "Constantine" ,
+                                                                   "Côte française des Somalis" ,
+                                                                   "Français établis hors de France" ,
+                                                                   "Mostaganem-Tiaret" ,
+                                                                   "Oasis" ,
+                                                                   "Oran-Tlemcen" ,
+                                                                   "Orléansville-Médéa" ,
+                                                                   "Saoura" ,
+                                                                   "Setif-Batna" ,
+                                                                   "Tizi-Ouzou" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
