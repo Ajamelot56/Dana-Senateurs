@@ -1,0 +1,12 @@
+# tarql --dedup 1000 circonscriptions.sparql > circonscriptions.ttl
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix schema: <http://schema.org/>
+
+construct {
+    ?sénateur schema:givenName ?prénom ;
+        schema:familyName ?nom .
+}
+from <file:../csv/Sénateurs_Wikidata.csv>
+where {
+    bind(uri(?senateur) as ?sénateur)
+}

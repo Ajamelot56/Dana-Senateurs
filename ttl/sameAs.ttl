@@ -1,0 +1,3477 @@
+@prefix custom:   <https://github.com/Ajamelot56/Dana-Senateurs/> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:   <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/99001N>
+        owl:sameAs  wikidata:Q3158754 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83004K>
+        owl:sameAs  wikidata:Q2830175 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89024Q>
+        owl:sameAs  wikidata:Q3169101 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98031Q>
+        owl:sameAs  wikidata:Q1470586 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/94004U>
+        owl:sameAs  wikidata:Q3161979 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/81011A>
+        owl:sameAs  wikidata:Q3131435 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/03001N>
+        owl:sameAs  wikidata:Q3573733 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14001X>
+        owl:sameAs  wikidata:Q3027102 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95009E>
+        owl:sameAs  wikidata:Q3309141 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11088W>
+        owl:sameAs  wikidata:Q3081384 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95068R>
+        owl:sameAs  wikidata:Q3169456 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04065K>
+        owl:sameAs  wikidata:Q469010 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/727>
+        owl:sameAs  wikidata:Q3310030 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14109K>
+        owl:sameAs  wikidata:Q18202547 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01005J>
+        owl:sameAs  wikidata:Q3158295 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/275>
+        owl:sameAs  wikidata:Q3085612 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11100Y>
+        owl:sameAs  wikidata:Q3165074 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59509R>
+        owl:sameAs  wikidata:Q3121753 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11062L>
+        owl:sameAs  wikidata:Q3349187 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07002G>
+        owl:sameAs  wikidata:Q3296348 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83037U>
+        owl:sameAs  wikidata:Q3439088 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92044U>
+        owl:sameAs  wikidata:Q2833050 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02005N>
+        owl:sameAs  wikidata:Q3035341 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/12041X>
+        owl:sameAs  wikidata:Q2093665 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08066D>
+        owl:sameAs  wikidata:Q2829799 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19347U>
+        owl:sameAs  wikidata:Q40914766 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/75>
+        owl:sameAs  wikidata:Q19845787 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14069U>
+        owl:sameAs  wikidata:Q18202577 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59583C>
+        owl:sameAs  wikidata:Q3439957 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11059R>
+        owl:sameAs  wikidata:Q2393437 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08028W>
+        owl:sameAs  wikidata:Q927330 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/211>
+        owl:sameAs  wikidata:Q12950 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/639>
+        owl:sameAs  wikidata:Q3174126 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/685>
+        owl:sameAs  wikidata:Q3559578 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58367R>
+        owl:sameAs  wikidata:Q3171715 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/400>
+        owl:sameAs  wikidata:Q1242626 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/71006X>
+        owl:sameAs  wikidata:Q3158385 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/05001W>
+        owl:sameAs  wikidata:Q3122917 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80013X>
+        owl:sameAs  wikidata:Q3440013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11>
+        owl:sameAs  wikidata:Q2847686 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97009N>
+        owl:sameAs  wikidata:Q2897442 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98038X>
+        owl:sameAs  wikidata:Q3124087 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19383Y>
+        owl:sameAs  wikidata:Q3167339 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11095V>
+        owl:sameAs  wikidata:Q980053 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/06006G>
+        owl:sameAs  wikidata:Q2959501 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80048K>
+        owl:sameAs  wikidata:Q3289473 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14251Q>
+        owl:sameAs  wikidata:Q389141 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04072J>
+        owl:sameAs  wikidata:Q3379945 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/621>
+        owl:sameAs  wikidata:Q3265467 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58944D>
+        owl:sameAs  wikidata:Q116092 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83008P>
+        owl:sameAs  wikidata:Q3083773 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19699S>
+        owl:sameAs  wikidata:Q3310109 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92015P>
+        owl:sameAs  wikidata:Q3166690 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/376>
+        owl:sameAs  wikidata:Q2853592 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04069P>
+        owl:sameAs  wikidata:Q3058990 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/597>
+        owl:sameAs  wikidata:Q3371863 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95052H>
+        owl:sameAs  wikidata:Q3167458 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59235J>
+        owl:sameAs  wikidata:Q11775796 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89005M>
+        owl:sameAs  wikidata:Q3160025 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59308J>
+        owl:sameAs  wikidata:Q3289479 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98012M>
+        owl:sameAs  wikidata:Q662153 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83044T>
+        owl:sameAs  wikidata:Q3262684 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/312>
+        owl:sameAs  wikidata:Q3426936 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95049N>
+        owl:sameAs  wikidata:Q12955 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19711U>
+        owl:sameAs  wikidata:Q41055355 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14225N>
+        owl:sameAs  wikidata:Q18202525 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04046G>
+        owl:sameAs  wikidata:Q12945 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11066Q>
+        owl:sameAs  wikidata:Q3571817 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/533>
+        owl:sameAs  wikidata:Q2977424 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08035V>
+        owl:sameAs  wikidata:Q3470800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/708>
+        owl:sameAs  wikidata:Q3262538 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57310T>
+        owl:sameAs  wikidata:Q3159871 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02009S>
+        owl:sameAs  wikidata:Q101410 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01045S>
+        owl:sameAs  wikidata:Q3507309 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59552U>
+        owl:sameAs  wikidata:Q3144821 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/754>
+        owl:sameAs  wikidata:Q3386885 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/501>
+        owl:sameAs  wikidata:Q3084296 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89038W>
+        owl:sameAs  wikidata:Q3439416 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80020W>
+        owl:sameAs  wikidata:Q3123978 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11043H>
+        owl:sameAs  wikidata:Q3310830 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/722>
+        owl:sameAs  wikidata:Q3291866 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88>
+        owl:sameAs  wikidata:Q3093885 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95023C>
+        owl:sameAs  wikidata:Q3069121 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58351H>
+        owl:sameAs  wikidata:Q3420840 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19647E>
+        owl:sameAs  wikidata:Q3456022 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14331P>
+        owl:sameAs  wikidata:Q22252744 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58951C>
+        owl:sameAs  wikidata:Q3059744 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/56>
+        owl:sameAs  wikidata:Q3069140 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/698>
+        owl:sameAs  wikidata:Q2848453 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20132W>
+        owl:sameAs  wikidata:Q63766165 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04017B>
+        owl:sameAs  wikidata:Q3102774 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57135W>
+        owl:sameAs  wikidata:Q2111463 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58348N>
+        owl:sameAs  wikidata:Q3371516 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89012L>
+        owl:sameAs  wikidata:Q3083986 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/70>
+        owl:sameAs  wikidata:Q3124180 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59523P>
+        owl:sameAs  wikidata:Q3261363 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/168>
+        owl:sameAs  wikidata:Q2848637 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74044S>
+        owl:sameAs  wikidata:Q282882 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86049M>
+        owl:sameAs  wikidata:Q3085941 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19399H>
+        owl:sameAs  wikidata:Q40914187 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11014C>
+        owl:sameAs  wikidata:Q3015012 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/136>
+        owl:sameAs  wikidata:Q3386189 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04053F>
+        owl:sameAs  wikidata:Q452131 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89009R>
+        owl:sameAs  wikidata:Q3295275 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/602>
+        owl:sameAs  wikidata:Q3288578 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01052R>
+        owl:sameAs  wikidata:Q3170967 , wikidata:Q3170965 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20068G>
+        owl:sameAs  wikidata:Q63763298 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/104>
+        owl:sameAs  wikidata:Q3185547 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14229S>
+        owl:sameAs  wikidata:Q16945390 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/78010Y>
+        owl:sameAs  wikidata:Q2401155 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/325>
+        owl:sameAs  wikidata:Q3173146 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89045V>
+        owl:sameAs  wikidata:Q574408 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/592>
+        owl:sameAs  wikidata:Q3387064 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19727D>
+        owl:sameAs  wikidata:Q41543886 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/514>
+        owl:sameAs  wikidata:Q3165826 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92029V>
+        owl:sameAs  wikidata:Q429805 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58920U>
+        owl:sameAs  wikidata:Q3501609 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57613G>
+        owl:sameAs  wikidata:Q19845786 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58355M>
+        owl:sameAs  wikidata:Q3185801 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08013P>
+        owl:sameAs  wikidata:Q520004 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/735>
+        owl:sameAs  wikidata:Q3093658 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58036Y>
+        owl:sameAs  wikidata:Q3132077 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59568D>
+        owl:sameAs  wikidata:Q3420699 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86021Y>
+        owl:sameAs  wikidata:Q3438307 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58109Y>
+        owl:sameAs  wikidata:Q3170599 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/237>
+        owl:sameAs  wikidata:Q3385699 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80036F>
+        owl:sameAs  wikidata:Q3426858 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95063L>
+        owl:sameAs  wikidata:Q930418 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14043V>
+        owl:sameAs  wikidata:Q18202512 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04060E>
+        owl:sameAs  wikidata:Q2824213 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89016Q>
+        owl:sameAs  wikidata:Q3174163 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98023Q>
+        owl:sameAs  wikidata:Q3123859 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/37>
+        owl:sameAs  wikidata:Q2847158 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/679>
+        owl:sameAs  wikidata:Q3081540 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19441R>
+        owl:sameAs  wikidata:Q40910532 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83>
+        owl:sameAs  wikidata:Q2871063 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01059Y>
+        owl:sameAs  wikidata:Q2851645 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/12035A>
+        owl:sameAs  wikidata:Q3144806 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59223E>
+        owl:sameAs  wikidata:Q3130859 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58818X>
+        owl:sameAs  wikidata:Q3300775 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/647>
+        owl:sameAs  wikidata:Q3158821 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/96001A>
+        owl:sameAs  wikidata:Q3121967 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/149>
+        owl:sameAs  wikidata:Q2835225 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86030A>
+        owl:sameAs  wikidata:Q1439604 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11054L>
+        owl:sameAs  wikidata:Q3105844 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92036U>
+        owl:sameAs  wikidata:Q3426602 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80007A>
+        owl:sameAs  wikidata:Q3130651 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14014Q>
+        owl:sameAs  wikidata:Q16467660 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01033N>
+        owl:sameAs  wikidata:Q3086513 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08058D>
+        owl:sameAs  wikidata:Q3309092 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58643S>
+        owl:sameAs  wikidata:Q3573631 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/131>
+        owl:sameAs  wikidata:Q3385138 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/55510R>
+        owl:sameAs  wikidata:Q508608 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/306>
+        owl:sameAs  wikidata:Q3385168 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59537V>
+        owl:sameAs  wikidata:Q3371361 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97004H>
+        owl:sameAs  wikidata:Q3479386 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57752S>
+        owl:sameAs  wikidata:Q3159966 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/352>
+        owl:sameAs  wikidata:Q3173681 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80043E>
+        owl:sameAs  wikidata:Q3069346 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/94003T>
+        owl:sameAs  wikidata:Q3571646 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89023P>
+        owl:sameAs  wikidata:Q3372628 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95008D>
+        owl:sameAs  wikidata:Q438465 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/320>
+        owl:sameAs  wikidata:Q2898230 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83003J>
+        owl:sameAs  wikidata:Q3379851 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92010J>
+        owl:sameAs  wikidata:Q3170718 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14111D>
+        owl:sameAs  wikidata:Q2271854 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11101A>
+        owl:sameAs  wikidata:Q3084176 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14097Y>
+        owl:sameAs  wikidata:Q18202624 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/748>
+        owl:sameAs  wikidata:Q3288307 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95067Q>
+        owl:sameAs  wikidata:Q743188 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19521Q>
+        owl:sameAs  wikidata:Q40950154 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04064J>
+        owl:sameAs  wikidata:Q2825180 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58936D>
+        owl:sameAs  wikidata:Q3287883 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92007P>
+        owl:sameAs  wikidata:Q3158204 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/762>
+        owl:sameAs  wikidata:Q3132919 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74032N>
+        owl:sameAs  wikidata:Q3372449 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/218>
+        owl:sameAs  wikidata:Q3573698 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86037H>
+        owl:sameAs  wikidata:Q16011476 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/96008H>
+        owl:sameAs  wikidata:Q3379238 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95044H>
+        owl:sameAs  wikidata:Q2977716 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59227J>
+        owl:sameAs  wikidata:Q3083097 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/439>
+        owl:sameAs  wikidata:Q3069083 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98004M>
+        owl:sameAs  wikidata:Q2886860 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14071N>
+        owl:sameAs  wikidata:Q18202559 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11061K>
+        owl:sameAs  wikidata:Q2941945 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07001F>
+        owl:sameAs  wikidata:Q3164926 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19741B>
+        owl:sameAs  wikidata:Q33186015 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/18>
+        owl:sameAs  wikidata:Q3384212 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92043T>
+        owl:sameAs  wikidata:Q3310857 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02004M>
+        owl:sameAs  wikidata:Q2925448 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14021P>
+        owl:sameAs  wikidata:Q3369559 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14217N>
+        owl:sameAs  wikidata:Q18202534 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19703U>
+        owl:sameAs  wikidata:Q40896414 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04038G>
+        owl:sameAs  wikidata:Q3383554 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08065C>
+        owl:sameAs  wikidata:Q1685137 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14179A>
+        owl:sameAs  wikidata:Q18744821 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04097T>
+        owl:sameAs  wikidata:Q2896549 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08027V>
+        owl:sameAs  wikidata:Q329044 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/453>
+        owl:sameAs  wikidata:Q3386921 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59582B>
+        owl:sameAs  wikidata:Q3387229 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58650R>
+        owl:sameAs  wikidata:Q2848005 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/200>
+        owl:sameAs  wikidata:Q3435768 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88004G>
+        owl:sameAs  wikidata:Q2847371 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01037S>
+        owl:sameAs  wikidata:Q3164977 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97011G>
+        owl:sameAs  wikidata:Q2897913 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/176>
+        owl:sameAs  wikidata:Q3420684 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/85003S>
+        owl:sameAs  wikidata:Q679585 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11035H>
+        owl:sameAs  wikidata:Q129774 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11108H>
+        owl:sameAs  wikidata:Q3172289 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98037W>
+        owl:sameAs  wikidata:Q3310960 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11094U>
+        owl:sameAs  wikidata:Q3132054 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95015C>
+        owl:sameAs  wikidata:Q3164888 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/06005F>
+        owl:sameAs  wikidata:Q1893168 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/144>
+        owl:sameAs  wikidata:Q3289134 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/319>
+        owl:sameAs  wikidata:Q3265521 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/99004R>
+        owl:sameAs  wikidata:Q1059511 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10015M>
+        owl:sameAs  wikidata:Q522471 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58343H>
+        owl:sameAs  wikidata:Q3157664 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/03004R>
+        owl:sameAs  wikidata:Q2898280 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/112>
+        owl:sameAs  wikidata:Q3386533 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58021R>
+        owl:sameAs  wikidata:Q1661456 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86044G>
+        owl:sameAs  wikidata:Q3132361 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/586>
+        owl:sameAs  wikidata:Q3159610 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95051G>
+        owl:sameAs  wikidata:Q272848 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89004L>
+        owl:sameAs  wikidata:Q2848013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83043S>
+        owl:sameAs  wikidata:Q3371800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14151M>
+        owl:sameAs  wikidata:Q18202533 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/301>
+        owl:sameAs  wikidata:Q3426942 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08072B>
+        owl:sameAs  wikidata:Q3170254 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04045F>
+        owl:sameAs  wikidata:Q3369152 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98008R>
+        owl:sameAs  wikidata:Q2424263 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11065P>
+        owl:sameAs  wikidata:Q3441589 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08034U>
+        owl:sameAs  wikidata:Q3035559 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59551T>
+        owl:sameAs  wikidata:Q3310356 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88011F>
+        owl:sameAs  wikidata:Q3085332 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01044R>
+        owl:sameAs  wikidata:Q274196 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/498>
+        owl:sameAs  wikidata:Q3159489 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/9>
+        owl:sameAs  wikidata:Q2833635 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11042G>
+        owl:sameAs  wikidata:Q3158540 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88008L>
+        owl:sameAs  wikidata:Q586264 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89037V>
+        owl:sameAs  wikidata:Q3131899 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/711>
+        owl:sameAs  wikidata:Q1469157 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95022B>
+        owl:sameAs  wikidata:Q256294 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08070Y>
+        owl:sameAs  wikidata:Q383499 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14002L>
+        owl:sameAs  wikidata:Q15729154 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19573D>
+        owl:sameAs  wikidata:Q41230511 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19289C>
+        owl:sameAs  wikidata:Q41073038 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14257W>
+        owl:sameAs  wikidata:Q16027060 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11039M>
+        owl:sameAs  wikidata:Q3034967 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58631N>
+        owl:sameAs  wikidata:Q3009743 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/687>
+        owl:sameAs  wikidata:Q3164041 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19719D>
+        owl:sameAs  wikidata:Q41487488 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/434>
+        owl:sameAs  wikidata:Q3386574 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04016A>
+        owl:sameAs  wikidata:Q3123848 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/91>
+        owl:sameAs  wikidata:Q19845771 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77044F>
+        owl:sameAs  wikidata:Q3144808 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/13>
+        owl:sameAs  wikidata:Q19845772 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95020Y>
+        owl:sameAs  wikidata:Q3168316 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83050R>
+        owl:sameAs  wikidata:Q2441800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80028F>
+        owl:sameAs  wikidata:Q3310273 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95055L>
+        owl:sameAs  wikidata:Q3165170 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14231L>
+        owl:sameAs  wikidata:Q18202579 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04052E>
+        owl:sameAs  wikidata:Q3571732 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89008Q>
+        owl:sameAs  wikidata:Q3434744 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19679N>
+        owl:sameAs  wikidata:Q40919469 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08041T>
+        owl:sameAs  wikidata:Q2396093 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/171>
+        owl:sameAs  wikidata:Q3302589 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/599>
+        owl:sameAs  wikidata:Q919918 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01051Q>
+        owl:sameAs  wikidata:Q3026940 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04049K>
+        owl:sameAs  wikidata:Q12948 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20102Q>
+        owl:sameAs  wikidata:Q63248665 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/314>
+        owl:sameAs  wikidata:Q3164272 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98051U>
+        owl:sameAs  wikidata:Q497610 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/360>
+        owl:sameAs  wikidata:Q3102558 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/91002E>
+        owl:sameAs  wikidata:Q3185435 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14191V>
+        owl:sameAs  wikidata:Q3166376 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11046L>
+        owl:sameAs  wikidata:Q3573942 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92028U>
+        owl:sameAs  wikidata:Q3385733 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01025N>
+        owl:sameAs  wikidata:Q3086489 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77013X>
+        owl:sameAs  wikidata:Q3171317 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59567C>
+        owl:sameAs  wikidata:Q3169018 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58635S>
+        owl:sameAs  wikidata:Q3320883 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/770>
+        owl:sameAs  wikidata:Q3160160 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74050Q>
+        owl:sameAs  wikidata:Q3420773 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/272>
+        owl:sameAs  wikidata:Q2824791 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19762G>
+        owl:sameAs  wikidata:Q55327374 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80035E>
+        owl:sameAs  wikidata:Q3174139 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95062K>
+        owl:sameAs  wikidata:Q2960112 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89015P>
+        owl:sameAs  wikidata:Q8343669 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14042U>
+        owl:sameAs  wikidata:Q18214565 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10003H>
+        owl:sameAs  wikidata:Q3441594 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11020A>
+        owl:sameAs  wikidata:Q3309639 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98022P>
+        owl:sameAs  wikidata:Q3168248 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/09012S>
+        owl:sameAs  wikidata:Q3427166 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14103D>
+        owl:sameAs  wikidata:Q3165082 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/4>
+        owl:sameAs  wikidata:Q3215953 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14089Y>
+        owl:sameAs  wikidata:Q3379387 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95059Q>
+        owl:sameAs  wikidata:Q63263 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04056J>
+        owl:sameAs  wikidata:Q2942078 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14235Q>
+        owl:sameAs  wikidata:Q18202539 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01058X>
+        owl:sameAs  wikidata:Q2926985 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58928D>
+        owl:sameAs  wikidata:Q3440247 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59222D>
+        owl:sameAs  wikidata:Q2871128 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/65017N>
+        owl:sameAs  wikidata:Q2847653 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83031N>
+        owl:sameAs  wikidata:Q3171987 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/138>
+        owl:sameAs  wikidata:Q3122078 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/682>
+        owl:sameAs  wikidata:Q3438700 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/82002D>
+        owl:sameAs  wikidata:Q3165731 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95036H>
+        owl:sameAs  wikidata:Q3081473 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59219J>
+        owl:sameAs  wikidata:Q2844631 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04092N>
+        owl:sameAs  wikidata:Q388399 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14271U>
+        owl:sameAs  wikidata:Q19845565 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/106>
+        owl:sameAs  wikidata:Q3069138 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14063N>
+        owl:sameAs  wikidata:Q18215234 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83028T>
+        owl:sameAs  wikidata:Q2958887 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19733B>
+        owl:sameAs  wikidata:Q41398289 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14013P>
+        owl:sameAs  wikidata:Q16855103 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92035T>
+        owl:sameAs  wikidata:Q3246602 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00003C>
+        owl:sameAs  wikidata:Q2974991 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11003M>
+        owl:sameAs  wikidata:Q2977733 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01032M>
+        owl:sameAs  wikidata:Q520375 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14209N>
+        owl:sameAs  wikidata:Q3084299 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08019V>
+        owl:sameAs  wikidata:Q385483 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04089T>
+        owl:sameAs  wikidata:Q113957 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/373>
+        owl:sameAs  wikidata:Q3174645 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59574B>
+        owl:sameAs  wikidata:Q3372634 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/120>
+        owl:sameAs  wikidata:Q2960268 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58115W>
+        owl:sameAs  wikidata:Q3168520 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01029S>
+        owl:sameAs  wikidata:Q691267 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97003G>
+        owl:sameAs  wikidata:Q3309522 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/516>
+        owl:sameAs  wikidata:Q3371566 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19731Y>
+        owl:sameAs  wikidata:Q41520860 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80004W>
+        owl:sameAs  wikidata:Q3104086 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98029W>
+        owl:sameAs  wikidata:Q2897658 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/737>
+        owl:sameAs  wikidata:Q3370312 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95007C>
+        owl:sameAs  wikidata:Q3022530 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19447X>
+        owl:sameAs  wikidata:Q41227162 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01065W>
+        owl:sameAs  wikidata:Q3340026 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59572Y>
+        owl:sameAs  wikidata:Q3084402 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10007M>
+        owl:sameAs  wikidata:Q3316003 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58335H>
+        owl:sameAs  wikidata:Q3386569 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/285>
+        owl:sameAs  wikidata:Q2828037 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95043G>
+        owl:sameAs  wikidata:Q3035266 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11060J>
+        owl:sameAs  wikidata:Q3336315 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/85>
+        owl:sameAs  wikidata:Q3557522 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83035S>
+        owl:sameAs  wikidata:Q3172567 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/93006S>
+        owl:sameAs  wikidata:Q3187491 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/474>
+        owl:sameAs  wikidata:Q3384179 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92042S>
+        owl:sameAs  wikidata:Q3372071 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02003L>
+        owl:sameAs  wikidata:Q2925414 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11010L>
+        owl:sameAs  wikidata:Q960015 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08064B>
+        owl:sameAs  wikidata:Q2850864 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04037F>
+        owl:sameAs  wikidata:Q3166308 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/53>
+        owl:sameAs  wikidata:Q2847392 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04096S>
+        owl:sameAs  wikidata:Q3014427 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59581A>
+        owl:sameAs  wikidata:Q3086604 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11057P>
+        owl:sameAs  wikidata:Q3301504 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/442>
+        owl:sameAs  wikidata:Q537864 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08026U>
+        owl:sameAs  wikidata:Q3155005 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59543T>
+        owl:sameAs  wikidata:Q1065308 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/197>
+        owl:sameAs  wikidata:Q327013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88003F>
+        owl:sameAs  wikidata:Q3166393 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01036R>
+        owl:sameAs  wikidata:Q3311700 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/21>
+        owl:sameAs  wikidata:Q3469512 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/663>
+        owl:sameAs  wikidata:Q3168987 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/165>
+        owl:sameAs  wikidata:Q3425876 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/85002R>
+        owl:sameAs  wikidata:Q3156174 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80011V>
+        owl:sameAs  wikidata:Q764381 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89029V>
+        owl:sameAs  wikidata:Q670918 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11034G>
+        owl:sameAs  wikidata:Q2965244 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97007L>
+        owl:sameAs  wikidata:Q3028246 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98036V>
+        owl:sameAs  wikidata:Q3383721 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95014B>
+        owl:sameAs  wikidata:Q2851565 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11093T>
+        owl:sameAs  wikidata:Q3124276 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11107G>
+        owl:sameAs  wikidata:Q3166254 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19565D>
+        owl:sameAs  wikidata:Q41099340 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/133>
+        owl:sameAs  wikidata:Q2865192 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/99003Q>
+        owl:sameAs  wikidata:Q3371111 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/308>
+        owl:sameAs  wikidata:Q3288128 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58342G>
+        owl:sameAs  wikidata:Q3262650 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14249W>
+        owl:sameAs  wikidata:Q18202594 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/03003Q>
+        owl:sameAs  wikidata:Q3159613 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/354>
+        owl:sameAs  wikidata:Q3167020 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/529>
+        owl:sameAs  wikidata:Q3170607 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57445J>
+        owl:sameAs  wikidata:Q3435270 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95050F>
+        owl:sameAs  wikidata:Q3265133 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/78003A>
+        owl:sameAs  wikidata:Q422171 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98010K>
+        owl:sameAs  wikidata:Q2396150 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95012Y>
+        owl:sameAs  wikidata:Q3123794 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83042R>
+        owl:sameAs  wikidata:Q3169556 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/543>
+        owl:sameAs  wikidata:Q3159773 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19747H>
+        owl:sameAs  wikidata:Q45936948 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/718>
+        owl:sameAs  wikidata:Q2830978 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95047L>
+        owl:sameAs  wikidata:Q16106339 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/05008E>
+        owl:sameAs  wikidata:Q3379308 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/56812H>
+        owl:sameAs  wikidata:Q3439157 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98007Q>
+        owl:sameAs  wikidata:Q2898366 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08033T>
+        owl:sameAs  wikidata:Q3166355 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/511>
+        owl:sameAs  wikidata:Q19629549 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07004J>
+        owl:sameAs  wikidata:Q3336598 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58656X>
+        owl:sameAs  wikidata:Q2396975 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14147R>
+        owl:sameAs  wikidata:Q20083724 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02007Q>
+        owl:sameAs  wikidata:Q2363445 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01043Q>
+        owl:sameAs  wikidata:Q2321787 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59550S>
+        owl:sameAs  wikidata:Q3310322 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58202U>
+        owl:sameAs  wikidata:Q2385347 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89036U>
+        owl:sameAs  wikidata:Q1871919 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11041F>
+        owl:sameAs  wikidata:Q2848745 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86014A>
+        owl:sameAs  wikidata:Q3434718 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98043U>
+        owl:sameAs  wikidata:Q3369594 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/280>
+        owl:sameAs  wikidata:Q3069234 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11114F>
+        owl:sameAs  wikidata:Q3158569 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/455>
+        owl:sameAs  wikidata:Q345888 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01020H>
+        owl:sameAs  wikidata:Q976492 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19926J>
+        owl:sameAs  wikidata:Q96650109 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/34>
+        owl:sameAs  wikidata:Q19845799 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58630M>
+        owl:sameAs  wikidata:Q3158838 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58911T>
+        owl:sameAs  wikidata:Q3121560 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01017N>
+        owl:sameAs  wikidata:Q2965285 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/178>
+        owl:sameAs  wikidata:Q3069301 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77043E>
+        owl:sameAs  wikidata:Q3440309 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86050E>
+        owl:sameAs  wikidata:Q1432745 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89010J>
+        owl:sameAs  wikidata:Q3438699 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/690>
+        owl:sameAs  wikidata:Q3089655 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19681G>
+        owl:sameAs  wikidata:Q41069984 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74042Q>
+        owl:sameAs  wikidata:Q3167797 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95054K>
+        owl:sameAs  wikidata:Q929334 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/192>
+        owl:sameAs  wikidata:Q3158584 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89007P>
+        owl:sameAs  wikidata:Q2842382 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80027E>
+        owl:sameAs  wikidata:Q3380285 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/05015D>
+        owl:sameAs  wikidata:Q19845797 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/114>
+        owl:sameAs  wikidata:Q3172268 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04051D>
+        owl:sameAs  wikidata:Q12947 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11012A>
+        owl:sameAs  wikidata:Q3165189 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14081Q>
+        owl:sameAs  wikidata:Q2851664 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08040S>
+        owl:sameAs  wikidata:Q3479169 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/160>
+        owl:sameAs  wikidata:Q3102320 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57426F>
+        owl:sameAs  wikidata:Q3169025 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01050P>
+        owl:sameAs  wikidata:Q3014708 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04048J>
+        owl:sameAs  wikidata:Q611837 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14227Q>
+        owl:sameAs  wikidata:Q3167000 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/69001W>
+        owl:sameAs  wikidata:Q3159073 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89043T>
+        owl:sameAs  wikidata:Q2848800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98050T>
+        owl:sameAs  wikidata:Q3215951 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92030N>
+        owl:sameAs  wikidata:Q3035280 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14055N>
+        owl:sameAs  wikidata:Q15989111 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14263U>
+        owl:sameAs  wikidata:Q18578172 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04084N>
+        owl:sameAs  wikidata:Q3169573 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11045K>
+        owl:sameAs  wikidata:Q3218932 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92027T>
+        owl:sameAs  wikidata:Q3440102 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01024M>
+        owl:sameAs  wikidata:Q3573637 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08049C>
+        owl:sameAs  wikidata:Q3421178 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77012W>
+        owl:sameAs  wikidata:Q3158522 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59247N>
+        owl:sameAs  wikidata:Q1634402 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59528U>
+        owl:sameAs  wikidata:Q800007 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77047J>
+        owl:sameAs  wikidata:Q3479437 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83056X>
+        owl:sameAs  wikidata:Q2831621 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19723Y>
+        owl:sameAs  wikidata:Q41545911 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/09011R>
+        owl:sameAs  wikidata:Q2848786 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19685L>
+        owl:sameAs  wikidata:Q41253801 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14199E>
+        owl:sameAs  wikidata:Q18202615 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/15>
+        owl:sameAs  wikidata:Q950719 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19758L>
+        owl:sameAs  wikidata:Q54578290 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/61>
+        owl:sameAs  wikidata:Q3288785 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58816V>
+        owl:sameAs  wikidata:Q3159022 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/671>
+        owl:sameAs  wikidata:Q3371847 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95035G>
+        owl:sameAs  wikidata:Q2829876 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/173>
+        owl:sameAs  wikidata:Q3300605 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14211G>
+        owl:sameAs  wikidata:Q3169366 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/348>
+        owl:sameAs  wikidata:Q3310018 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04091M>
+        owl:sameAs  wikidata:Q3425814 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92034S>
+        owl:sameAs  wikidata:Q2848229 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19621T>
+        owl:sameAs  wikidata:Q38285283 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19413M>
+        owl:sameAs  wikidata:Q41246319 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14135M>
+        owl:sameAs  wikidata:Q3310658 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/141>
+        owl:sameAs  wikidata:Q2835404 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01031L>
+        owl:sameAs  wikidata:Q3311556 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/316>
+        owl:sameAs  wikidata:Q3102342 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08056B>
+        owl:sameAs  wikidata:Q3507333 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58041V>
+        owl:sameAs  wikidata:Q3059739 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11049P>
+        owl:sameAs  wikidata:Q3084783 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14059S>
+        owl:sameAs  wikidata:Q18202588 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04088S>
+        owl:sameAs  wikidata:Q3157403 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59573A>
+        owl:sameAs  wikidata:Q3171860 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58641Q>
+        owl:sameAs  wikidata:Q3288972 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59535T>
+        owl:sameAs  wikidata:Q3084697 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01028R>
+        owl:sameAs  wikidata:Q3169778 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/505>
+        owl:sameAs  wikidata:Q1893177 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19914E>
+        owl:sameAs  wikidata:Q65571317 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80003V>
+        owl:sameAs  wikidata:Q2839694 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11026G>
+        owl:sameAs  wikidata:Q3170172 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/551>
+        owl:sameAs  wikidata:Q2925431 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98028V>
+        owl:sameAs  wikidata:Q3165671 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11085T>
+        owl:sameAs  wikidata:Q3134586 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/726>
+        owl:sameAs  wikidata:Q3171341 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08054Y>
+        owl:sameAs  wikidata:Q3316015 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04100U>
+        owl:sameAs  wikidata:Q3265775 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10006L>
+        owl:sameAs  wikidata:Q2941883 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59571X>
+        owl:sameAs  wikidata:Q3171209 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01064V>
+        owl:sameAs  wikidata:Q3187362 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58934B>
+        owl:sameAs  wikidata:Q3188572 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59717X>
+        owl:sameAs  wikidata:Q3386250 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/740>
+        owl:sameAs  wikidata:Q19845811 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77028F>
+        owl:sameAs  wikidata:Q3289029 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/96006F>
+        owl:sameAs  wikidata:Q2898442 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95042F>
+        owl:sameAs  wikidata:Q3168817 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/417>
+        owl:sameAs  wikidata:Q3426940 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98002K>
+        owl:sameAs  wikidata:Q3269449 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95004Y>
+        owl:sameAs  wikidata:Q3340014 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/93005R>
+        owl:sameAs  wikidata:Q3169756 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19739H>
+        owl:sameAs  wikidata:Q41791083 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92041R>
+        owl:sameAs  wikidata:Q3122082 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02002K>
+        owl:sameAs  wikidata:Q2403333 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95039L>
+        owl:sameAs  wikidata:Q3166300 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08063A>
+        owl:sameAs  wikidata:Q509530 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04036E>
+        owl:sameAs  wikidata:Q644244 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/684>
+        owl:sameAs  wikidata:Q2844715 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04095R>
+        owl:sameAs  wikidata:Q3158995 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08025T>
+        owl:sameAs  wikidata:Q2829515 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01035Q>
+        owl:sameAs  wikidata:Q3573573 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/186>
+        owl:sameAs  wikidata:Q2891992 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88002E>
+        owl:sameAs  wikidata:Q3174104 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59542S>
+        owl:sameAs  wikidata:Q3288176 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10>
+        owl:sameAs  wikidata:Q19845783 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/154>
+        owl:sameAs  wikidata:Q3069363 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/71003U>
+        owl:sameAs  wikidata:Q2398250 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97006K>
+        owl:sameAs  wikidata:Q23057013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11033F>
+        owl:sameAs  wikidata:Q1285501 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08061X>
+        owl:sameAs  wikidata:Q3085525 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86006A>
+        owl:sameAs  wikidata:Q2829903 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95013A>
+        owl:sameAs  wikidata:Q3035023 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/81015E>
+        owl:sameAs  wikidata:Q3309244 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11106F>
+        owl:sameAs  wikidata:Q3176304 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01012H>
+        owl:sameAs  wikidata:Q3573596 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14175V>
+        owl:sameAs  wikidata:Q3309098 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/99002P>
+        owl:sameAs  wikidata:Q12956 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58341F>
+        owl:sameAs  wikidata:Q3372014 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58941A>
+        owl:sameAs  wikidata:Q810647 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/03002P>
+        owl:sameAs  wikidata:Q3571803 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20122U>
+        owl:sameAs  wikidata:Q63766731 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01009N>
+        owl:sameAs  wikidata:Q2850886 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86042E>
+        owl:sameAs  wikidata:Q3122061 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/564>
+        owl:sameAs  wikidata:Q3386922 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58019X>
+        owl:sameAs  wikidata:Q3171583 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/739>
+        owl:sameAs  wikidata:Q3057131 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86039K>
+        owl:sameAs  wikidata:Q5829 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95046K>
+        owl:sameAs  wikidata:Q3159460 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14026U>
+        owl:sameAs  wikidata:Q439732 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98006P>
+        owl:sameAs  wikidata:Q1393994 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/753>
+        owl:sameAs  wikidata:Q3172209 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/209>
+        owl:sameAs  wikidata:Q3265753 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14073Q>
+        owl:sameAs  wikidata:Q18215030 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08032S>
+        owl:sameAs  wikidata:Q3560748 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20266L>
+        owl:sameAs  wikidata:Q108702159 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02006P>
+        owl:sameAs  wikidata:Q2847828 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/255>
+        owl:sameAs  wikidata:Q3141997 , wikidata:Q3141995 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20058E>
+        owl:sameAs  wikidata:Q62887964 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01042P>
+        owl:sameAs  wikidata:Q3169919 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/721>
+        owl:sameAs  wikidata:Q3289012 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/476>
+        owl:sameAs  wikidata:Q3436098 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/79005G>
+        owl:sameAs  wikidata:Q2897487 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14123H>
+        owl:sameAs  wikidata:Q3159042 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11040E>
+        owl:sameAs  wikidata:Q3590999 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88006J>
+        owl:sameAs  wikidata:Q3436030 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89035T>
+        owl:sameAs  wikidata:Q3103289 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92022N>
+        owl:sameAs  wikidata:Q3384966 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98042T>
+        owl:sameAs  wikidata:Q3167301 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/55>
+        owl:sameAs  wikidata:Q3574003 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/697>
+        owl:sameAs  wikidata:Q3166768 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11113E>
+        owl:sameAs  wikidata:Q3092430 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19717B>
+        owl:sameAs  wikidata:Q3501568 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19533U>
+        owl:sameAs  wikidata:Q41246286 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/199>
+        owl:sameAs  wikidata:Q2363780 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/23>
+        owl:sameAs  wikidata:Q3121291 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14255U>
+        owl:sameAs  wikidata:Q18202529 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04076N>
+        owl:sameAs  wikidata:Q3421271 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11037K>
+        owl:sameAs  wikidata:Q2787085 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59242H>
+        owl:sameAs  wikidata:Q3439377 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58948H>
+        owl:sameAs  wikidata:Q3262454 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/412>
+        owl:sameAs  wikidata:Q3099109 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92019T>
+        owl:sameAs  wikidata:Q3292114 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01016M>
+        owl:sameAs  wikidata:Q3014586 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57316A>
+        owl:sameAs  wikidata:Q20027752 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58026W>
+        owl:sameAs  wikidata:Q3131676 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59558B>
+        owl:sameAs  wikidata:Q3174388 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86011W>
+        owl:sameAs  wikidata:Q3158230 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/135>
+        owl:sameAs  wikidata:Q971593 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/103>
+        owl:sameAs  wikidata:Q3371851 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04050C>
+        owl:sameAs  wikidata:Q2898741 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95053J>
+        owl:sameAs  wikidata:Q3310540 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/356>
+        owl:sameAs  wikidata:Q2848306 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14033T>
+        owl:sameAs  wikidata:Q18202569 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19826F>
+        owl:sameAs  wikidata:Q19956565 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19715Y>
+        owl:sameAs  wikidata:Q41013798 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19677L>
+        owl:sameAs  wikidata:Q40954397 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58662V>
+        owl:sameAs  wikidata:Q3122136 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01049W>
+        owl:sameAs  wikidata:Q2977023 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59556Y>
+        owl:sameAs  wikidata:Q3310623 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/370>
+        owl:sameAs  wikidata:Q3172380 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58919C>
+        owl:sameAs  wikidata:Q3372109 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59213C>
+        owl:sameAs  wikidata:Q3370440 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/545>
+        owl:sameAs  wikidata:Q548579 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74015M>
+        owl:sameAs  wikidata:Q3261342 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89042S>
+        owl:sameAs  wikidata:Q2848739 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95027G>
+        owl:sameAs  wikidata:Q3570661 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19651A>
+        owl:sameAs  wikidata:Q40895865 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11044J>
+        owl:sameAs  wikidata:Q2939980 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92026S>
+        owl:sameAs  wikidata:Q3168531 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59530N>
+        owl:sameAs  wikidata:Q3309350 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/236>
+        owl:sameAs  wikidata:Q3386114 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08048B>
+        owl:sameAs  wikidata:Q2926806 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58352J>
+        owl:sameAs  wikidata:Q3436259 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/282>
+        owl:sameAs  wikidata:Q3383859 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58633Q>
+        owl:sameAs  wikidata:Q3161257 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11080N>
+        owl:sameAs  wikidata:Q3384384 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/250>
+        owl:sameAs  wikidata:Q608815 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58349P>
+        owl:sameAs  wikidata:Q3426006 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/678>
+        owl:sameAs  wikidata:Q3188578 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/90004C>
+        owl:sameAs  wikidata:Q3169200 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10001F>
+        owl:sameAs  wikidata:Q3291443 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/82>
+        owl:sameAs  wikidata:Q3084551 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/09010Q>
+        owl:sameAs  wikidata:Q3166383 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11018G>
+        owl:sameAs  wikidata:Q930590 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14087W>
+        owl:sameAs  wikidata:Q18202583 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11077T>
+        owl:sameAs  wikidata:Q461454 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57432D>
+        owl:sameAs  wikidata:Q3434665 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57321W>
+        owl:sameAs  wikidata:Q1284283 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01056V>
+        owl:sameAs  wikidata:Q2410939 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/692>
+        owl:sameAs  wikidata:Q3372243 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/148>
+        owl:sameAs  wikidata:Q3372395 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59563X>
+        owl:sameAs  wikidata:Q2831629 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57716N>
+        owl:sameAs  wikidata:Q2871031 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/369>
+        owl:sameAs  wikidata:Q3386990 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/74022L>
+        owl:sameAs  wikidata:Q3456033 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/116>
+        owl:sameAs  wikidata:Q3300384 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/56819Q>
+        owl:sameAs  wikidata:Q3130836 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/337>
+        owl:sameAs  wikidata:Q3173489 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14061L>
+        owl:sameAs  wikidata:Q761527 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04090L>
+        owl:sameAs  wikidata:Q3524492 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08020N>
+        owl:sameAs  wikidata:Q3292256 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83026R>
+        owl:sameAs  wikidata:Q3171628 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58924Y>
+        owl:sameAs  wikidata:Q3573769 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11001K>
+        owl:sameAs  wikidata:Q3442482 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/00001A>
+        owl:sameAs  wikidata:Q3170096 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/305>
+        owl:sameAs  wikidata:Q19845808 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/351>
+        owl:sameAs  wikidata:Q3262549 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04087R>
+        owl:sameAs  wikidata:Q3157667 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20178M>
+        owl:sameAs  wikidata:Q65602380 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08017T>
+        owl:sameAs  wikidata:Q2978494 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01027Q>
+        owl:sameAs  wikidata:Q3591088 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97001E>
+        owl:sameAs  wikidata:Q3123950 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/572>
+        owl:sameAs  wikidata:Q3300553 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/747>
+        owl:sameAs  wikidata:Q2848437 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80040B>
+        owl:sameAs  wikidata:Q522609 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19691J>
+        owl:sameAs  wikidata:Q41073013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19629C>
+        owl:sameAs  wikidata:Q40871238 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/715>
+        owl:sameAs  wikidata:Q3370860 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11025F>
+        owl:sameAs  wikidata:Q3311058 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11084S>
+        owl:sameAs  wikidata:Q3380089 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98027U>
+        owl:sameAs  wikidata:Q3385575 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07024N>
+        owl:sameAs  wikidata:Q3158984 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95005A>
+        owl:sameAs  wikidata:Q3168336 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08053X>
+        owl:sameAs  wikidata:Q3416111 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/295>
+        owl:sameAs  wikidata:Q3384131 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01004H>
+        owl:sameAs  wikidata:Q3170180 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14167V>
+        owl:sameAs  wikidata:Q3164858 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/761>
+        owl:sameAs  wikidata:Q3158311 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/10005K>
+        owl:sameAs  wikidata:Q2965783 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01063U>
+        owl:sameAs  wikidata:Q2965163 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20152B>
+        owl:sameAs  wikidata:Q62077875 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/12039E>
+        owl:sameAs  wikidata:Q3501943 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58614M>
+        owl:sameAs  wikidata:Q2847171 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20114U>
+        owl:sameAs  wikidata:Q63411837 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/49>
+        owl:sameAs  wikidata:Q3074174 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/438>
+        owl:sameAs  wikidata:Q2847590 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95>
+        owl:sameAs  wikidata:Q665118 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86034E>
+        owl:sameAs  wikidata:Q784021 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/96005E>
+        owl:sameAs  wikidata:Q3135521 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/231>
+        owl:sameAs  wikidata:Q3172928 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95041E>
+        owl:sameAs  wikidata:Q2829945 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/17>
+        owl:sameAs  wikidata:Q3131500 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98001J>
+        owl:sameAs  wikidata:Q2847809 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95003X>
+        owl:sameAs  wikidata:Q3288247 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/63>
+        owl:sameAs  wikidata:Q603660 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83033Q>
+        owl:sameAs  wikidata:Q1394814 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92040Q>
+        owl:sameAs  wikidata:Q3380441 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02001J>
+        owl:sameAs  wikidata:Q2897926 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95038K>
+        owl:sameAs  wikidata:Q3385491 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14018U>
+        owl:sameAs  wikidata:Q3134205 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14065Q>
+        owl:sameAs  wikidata:Q3158284 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04094Q>
+        owl:sameAs  wikidata:Q3479395 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08024S>
+        owl:sameAs  wikidata:Q3086428 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58647W>
+        owl:sameAs  wikidata:Q3090278 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59579G>
+        owl:sameAs  wikidata:Q2831457 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89030N>
+        owl:sameAs  wikidata:Q1922541 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01034P>
+        owl:sameAs  wikidata:Q3167857 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11091R>
+        owl:sameAs  wikidata:Q3291533 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/143>
+        owl:sameAs  wikidata:Q3188848 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/81014D>
+        owl:sameAs  wikidata:Q3130856 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11032E>
+        owl:sameAs  wikidata:Q3264768 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04071H>
+        owl:sameAs  wikidata:Q3379746 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19920C>
+        owl:sameAs  wikidata:Q63765268 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97005J>
+        owl:sameAs  wikidata:Q3349217 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98034T>
+        owl:sameAs  wikidata:Q2636454 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14115H>
+        owl:sameAs  wikidata:Q41068005 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08060W>
+        owl:sameAs  wikidata:Q962910 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11105E>
+        owl:sameAs  wikidata:Q2830133 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01011G>
+        owl:sameAs  wikidata:Q3169352 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14247U>
+        owl:sameAs  wikidata:Q5238859 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04068N>
+        owl:sameAs  wikidata:Q3472000 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11029K>
+        owl:sameAs  wikidata:Q2997298 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58621L>
+        owl:sameAs  wikidata:Q3426606 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58302X>
+        owl:sameAs  wikidata:Q3013711 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/332>
+        owl:sameAs  wikidata:Q3371799 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07028S>
+        owl:sameAs  wikidata:Q2929439 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01008M>
+        owl:sameAs  wikidata:Q3123731 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59307H>
+        owl:sameAs  wikidata:Q1632013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86041D>
+        owl:sameAs  wikidata:Q3159696 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95010W>
+        owl:sameAs  wikidata:Q2977010 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83040P>
+        owl:sameAs  wikidata:Q3159452 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19745F>
+        owl:sameAs  wikidata:Q45956007 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95045J>
+        owl:sameAs  wikidata:Q3166865 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14221J>
+        owl:sameAs  wikidata:Q18202527 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04042C>
+        owl:sameAs  wikidata:Q2965111 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19707Y>
+        owl:sameAs  wikidata:Q3168968 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/742>
+        owl:sameAs  wikidata:Q19845795 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08069G>
+        owl:sameAs  wikidata:Q2829913 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08031R>
+        owl:sameAs  wikidata:Q3086533 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/8>
+        owl:sameAs  wikidata:Q3265669 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58654V>
+        owl:sameAs  wikidata:Q2958585 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59548Y>
+        owl:sameAs  wikidata:Q3386021 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/76>
+        owl:sameAs  wikidata:Q116081 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/465>
+        owl:sameAs  wikidata:Q3276700 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/79004F>
+        owl:sameAs  wikidata:Q3291699 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89034S>
+        owl:sameAs  wikidata:Q3160316 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98041S>
+        owl:sameAs  wikidata:Q3426247 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/44>
+        owl:sameAs  wikidata:Q2833021 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/686>
+        owl:sameAs  wikidata:Q3435624 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11112D>
+        owl:sameAs  wikidata:Q3102984 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11036J>
+        owl:sameAs  wikidata:Q3021806 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/12>
+        owl:sameAs  wikidata:Q3069037 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58420D>
+        owl:sameAs  wikidata:Q3420819 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58947G>
+        owl:sameAs  wikidata:Q3371753 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14327T>
+        owl:sameAs  wikidata:Q20962459 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14119M>
+        owl:sameAs  wikidata:Q662414 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11109J>
+        owl:sameAs  wikidata:Q601481 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59522N>
+        owl:sameAs  wikidata:Q517072 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01015L>
+        owl:sameAs  wikidata:Q3592771 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77003V>
+        owl:sameAs  wikidata:Q3122105 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59557A>
+        owl:sameAs  wikidata:Q3337931 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58625Q>
+        owl:sameAs  wikidata:Q3371396 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/377>
+        owl:sameAs  wikidata:Q3174971 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86010V>
+        owl:sameAs  wikidata:Q3082745 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83047W>
+        owl:sameAs  wikidata:Q3014544 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/170>
+        owl:sameAs  wikidata:Q3262479 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/71018C>
+        owl:sameAs  wikidata:Q1685043 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80025C>
+        owl:sameAs  wikidata:Q3301080 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/391>
+        owl:sameAs  wikidata:Q3434635 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14079W>
+        owl:sameAs  wikidata:Q18202585 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11069T>
+        owl:sameAs  wikidata:Q3170082 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08038Y>
+        owl:sameAs  wikidata:Q3287925 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19749K>
+        owl:sameAs  wikidata:Q45946207 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01048V>
+        owl:sameAs  wikidata:Q1360173 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20026V>
+        owl:sameAs  wikidata:Q63764964 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83021L>
+        owl:sameAs  wikidata:Q2871109 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/755>
+        owl:sameAs  wikidata:Q3351994 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95026F>
+        owl:sameAs  wikidata:Q3158751 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19577H>
+        owl:sameAs  wikidata:Q3336265 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04082L>
+        owl:sameAs  wikidata:Q268669 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14053L>
+        owl:sameAs  wikidata:Q18202568 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/723>
+        owl:sameAs  wikidata:Q3434793 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83018R>
+        owl:sameAs  wikidata:Q3170967 , wikidata:Q3170965 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89>
+        owl:sameAs  wikidata:Q2871133 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92025R>
+        owl:sameAs  wikidata:Q2415868 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58916Y>
+        owl:sameAs  wikidata:Q3421095 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01022K>
+        owl:sameAs  wikidata:Q3349189 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/225>
+        owl:sameAs  wikidata:Q3265569 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08047A>
+        owl:sameAs  wikidata:Q3380506 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04079R>
+        owl:sameAs  wikidata:Q3439235 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57>
+        owl:sameAs  wikidata:Q3158866 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08009T>
+        owl:sameAs  wikidata:Q3134596 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59245L>
+        owl:sameAs  wikidata:Q2831490 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59526S>
+        owl:sameAs  wikidata:Q3370812 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/3>
+        owl:sameAs  wikidata:Q3300529 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/25>
+        owl:sameAs  wikidata:Q871444 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83054V>
+        owl:sameAs  wikidata:Q3310890 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/667>
+        owl:sameAs  wikidata:Q2848713 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/90003B>
+        owl:sameAs  wikidata:Q3123874 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/16685X>
+        owl:sameAs  wikidata:Q3159317 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/71>
+        owl:sameAs  wikidata:Q19845788 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/169>
+        owl:sameAs  wikidata:Q3311122 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14197C>
+        owl:sameAs  wikidata:Q18202625 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/460>
+        owl:sameAs  wikidata:Q2958508 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98019U>
+        owl:sameAs  wikidata:Q2847751 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08045X>
+        owl:sameAs  wikidata:Q3167146 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14159V>
+        owl:sameAs  wikidata:Q18202540 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59562W>
+        owl:sameAs  wikidata:Q3436497 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/681>
+        owl:sameAs  wikidata:Q377790 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/137>
+        owl:sameAs  wikidata:Q2821511 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20144B>
+        owl:sameAs  wikidata:Q65573095 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58925A>
+        owl:sameAs  wikidata:Q1508990 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/105>
+        owl:sameAs  wikidata:Q3438910 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77019E>
+        owl:sameAs  wikidata:Q1685206 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58003P>
+        owl:sameAs  wikidata:Q3122016 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95033E>
+        owl:sameAs  wikidata:Q3479305 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20180F>
+        owl:sameAs  wikidata:Q65583825 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19657G>
+        owl:sameAs  wikidata:Q40884801 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92032Q>
+        owl:sameAs  wikidata:Q3121946 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14133K>
+        owl:sameAs  wikidata:Q18202561 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58923X>
+        owl:sameAs  wikidata:Q1479452 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08016S>
+        owl:sameAs  wikidata:Q3027038 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04086Q>
+        owl:sameAs  wikidata:Q283553 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/340>
+        owl:sameAs  wikidata:Q3265371 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/768>
+        owl:sameAs  wikidata:Q3263059 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89022N>
+        owl:sameAs  wikidata:Q670849 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/561>
+        owl:sameAs  wikidata:Q2848256 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/736>
+        owl:sameAs  wikidata:Q3293837 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59249Q>
+        owl:sameAs  wikidata:Q3426952 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98026T>
+        owl:sameAs  wikidata:Q3122205 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14093U>
+        owl:sameAs  wikidata:Q3190819 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14107H>
+        owl:sameAs  wikidata:Q18202576 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07023M>
+        owl:sameAs  wikidata:Q3157779 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/284>
+        owl:sameAs  wikidata:Q19358783 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01003G>
+        owl:sameAs  wikidata:Q3084631 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/459>
+        owl:sameAs  wikidata:Q3262114 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/206>
+        owl:sameAs  wikidata:Q3302200 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01062T>
+        owl:sameAs  wikidata:Q3167502 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58332E>
+        owl:sameAs  wikidata:Q3371390 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14239U>
+        owl:sameAs  wikidata:Q18202557 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/12038D>
+        owl:sameAs  wikidata:Q2848736 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59226H>
+        owl:sameAs  wikidata:Q2847627 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59715V>
+        owl:sameAs  wikidata:Q1347314 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/84>
+        owl:sameAs  wikidata:Q3130976 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95040D>
+        owl:sameAs  wikidata:Q2898104 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/220>
+        owl:sameAs  wikidata:Q3371104 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19591F>
+        owl:sameAs  wikidata:Q40954423 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/694>
+        owl:sameAs  wikidata:Q3129272 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19553Y>
+        owl:sameAs  wikidata:Q41250027 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/52>
+        owl:sameAs  wikidata:Q2871361 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14275Y>
+        owl:sameAs  wikidata:Q19887794 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/93003P>
+        owl:sameAs  wikidata:Q3301474 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95037J>
+        owl:sameAs  wikidata:Q651393 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92039X>
+        owl:sameAs  wikidata:Q3124185 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14213J>
+        owl:sameAs  wikidata:Q18202541 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/196>
+        owl:sameAs  wikidata:Q3102506 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14017T>
+        owl:sameAs  wikidata:Q3027191 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04034C>
+        owl:sameAs  wikidata:Q3431340 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/13003V>
+        owl:sameAs  wikidata:Q15973778 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59578F>
+        owl:sameAs  wikidata:Q2959965 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14137P>
+        owl:sameAs  wikidata:Q18202560 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/164>
+        owl:sameAs  wikidata:Q3131008 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59540Q>
+        owl:sameAs  wikidata:Q1871784 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/630>
+        owl:sameAs  wikidata:Q3300946 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80046H>
+        owl:sameAs  wikidata:Q3160121 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04070G>
+        owl:sameAs  wikidata:Q2942013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/307>
+        owl:sameAs  wikidata:Q3301260 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11031D>
+        owl:sameAs  wikidata:Q3218873 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98033S>
+        owl:sameAs  wikidata:Q3573932 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11104D>
+        owl:sameAs  wikidata:Q3157890 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92013M>
+        owl:sameAs  wikidata:Q3026943 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11090Q>
+        owl:sameAs  wikidata:Q3491023 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07030L>
+        owl:sameAs  wikidata:Q3420774 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/353>
+        owl:sameAs  wikidata:Q3345768 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01010F>
+        owl:sameAs  wikidata:Q3168709 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/100>
+        owl:sameAs  wikidata:Q3439297 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/528>
+        owl:sameAs  wikidata:Q19845801 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14357A>
+        owl:sameAs  wikidata:Q27949568 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/574>
+        owl:sameAs  wikidata:Q3384203 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58620K>
+        owl:sameAs  wikidata:Q3479214 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58939G>
+        owl:sameAs  wikidata:Q2389333 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59233G>
+        owl:sameAs  wikidata:Q3435290 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07027R>
+        owl:sameAs  wikidata:Q3159623 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01007L>
+        owl:sameAs  wikidata:Q3157735 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/73006G>
+        owl:sameAs  wikidata:Q3310382 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/717>
+        owl:sameAs  wikidata:Q3093970 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59549A>
+        owl:sameAs  wikidata:Q3289176 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/56305S>
+        owl:sameAs  wikidata:Q1371253 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19671E>
+        owl:sameAs  wikidata:Q40973813 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11064N>
+        owl:sameAs  wikidata:Q3187409 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83039W>
+        owl:sameAs  wikidata:Q3380117 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80017C>
+        owl:sameAs  wikidata:Q3309506 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04041B>
+        owl:sameAs  wikidata:Q2965766 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/731>
+        owl:sameAs  wikidata:Q3184581 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11099A>
+        owl:sameAs  wikidata:Q3187426 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08068F>
+        owl:sameAs  wikidata:Q3295242 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/97>
+        owl:sameAs  wikidata:Q3265526 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19349W>
+        owl:sameAs  wikidata:Q38614238 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/233>
+        owl:sameAs  wikidata:Q3439278 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20264J>
+        owl:sameAs  wikidata:Q108701472 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59547X>
+        owl:sameAs  wikidata:Q3085226 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/65>
+        owl:sameAs  wikidata:Q3085365 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/62001R>
+        owl:sameAs  wikidata:Q3084722 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89033R>
+        owl:sameAs  wikidata:Q3092507 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14121F>
+        owl:sameAs  wikidata:Q18202548 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/33>
+        owl:sameAs  wikidata:Q3302238 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92020L>
+        owl:sameAs  wikidata:Q3185933 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11111C>
+        owl:sameAs  wikidata:Q3166328 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11097X>
+        owl:sameAs  wikidata:Q3425715 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20092G>
+        owl:sameAs  wikidata:Q99672266 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19531S>
+        owl:sameAs  wikidata:Q3368960 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04074L>
+        owl:sameAs  wikidata:Q3142662 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/643>
+        owl:sameAs  wikidata:Q3166380 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58946F>
+        owl:sameAs  wikidata:Q3420718 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92017R>
+        owl:sameAs  wikidata:Q3168448 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07034Q>
+        owl:sameAs  wikidata:Q3085576 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01014K>
+        owl:sameAs  wikidata:Q588867 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08039A>
+        owl:sameAs  wikidata:Q3169500 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/191>
+        owl:sameAs  wikidata:Q3300555 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/66002K>
+        owl:sameAs  wikidata:Q3159731 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77002U>
+        owl:sameAs  wikidata:Q3169106 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59237L>
+        owl:sameAs  wikidata:Q2865258 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/113>
+        owl:sameAs  wikidata:Q3288669 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11071M>
+        owl:sameAs  wikidata:Q2821402 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/71017B>
+        owl:sameAs  wikidata:Q3158990 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83046V>
+        owl:sameAs  wikidata:Q3265654 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/05012A>
+        owl:sameAs  wikidata:Q3456174 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80024B>
+        owl:sameAs  wikidata:Q2848149 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/334>
+        owl:sameAs  wikidata:Q3289411 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14031R>
+        owl:sameAs  wikidata:Q18202593 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98049B>
+        owl:sameAs  wikidata:Q3572478 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19713W>
+        owl:sameAs  wikidata:Q41374046 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/09001P>
+        owl:sameAs  wikidata:Q524546 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19467C>
+        owl:sameAs  wikidata:Q41187755 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/380>
+        owl:sameAs  wikidata:Q3384956 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14189C>
+        owl:sameAs  wikidata:Q65563856 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11068S>
+        owl:sameAs  wikidata:Q3309003 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08037X>
+        owl:sameAs  wikidata:Q592313 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/302>
+        owl:sameAs  wikidata:Q3263155 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19599P>
+        owl:sameAs  wikidata:Q41067415 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01047U>
+        owl:sameAs  wikidata:Q3086080 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59554W>
+        owl:sameAs  wikidata:Q3436072 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58917A>
+        owl:sameAs  wikidata:Q3131825 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/278>
+        owl:sameAs  wikidata:Q3085812 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89040Q>
+        owl:sameAs  wikidata:Q2978132 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98047Y>
+        owl:sameAs  wikidata:Q3573650 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86018E>
+        owl:sameAs  wikidata:Q3171348 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14201E>
+        owl:sameAs  wikidata:Q16646189 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/499>
+        owl:sameAs  wikidata:Q2960257 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04081K>
+        owl:sameAs  wikidata:Q523632 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/78>
+        owl:sameAs  wikidata:Q3160141 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20172F>
+        owl:sameAs  wikidata:Q63455902 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19649G>
+        owl:sameAs  wikidata:Q3292221 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08011M>
+        owl:sameAs  wikidata:Q2832067 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83017Q>
+        owl:sameAs  wikidata:Q3288704 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/292>
+        owl:sameAs  wikidata:Q3288624 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92024Q>
+        owl:sameAs  wikidata:Q3014108 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01021J>
+        owl:sameAs  wikidata:Q3185162 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/214>
+        owl:sameAs  wikidata:Q3351344 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57456M>
+        owl:sameAs  wikidata:Q3289206 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/46>
+        owl:sameAs  wikidata:Q3172027 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04078Q>
+        owl:sameAs  wikidata:Q937091 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08008S>
+        owl:sameAs  wikidata:Q3573437 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/688>
+        owl:sameAs  wikidata:Q3131740 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89014N>
+        owl:sameAs  wikidata:Q3309504 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92>
+        owl:sameAs  wikidata:Q3420908 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98021N>
+        owl:sameAs  wikidata:Q3570771 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14>
+        owl:sameAs  wikidata:Q3289118 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/158>
+        owl:sameAs  wikidata:Q3372096 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04055H>
+        owl:sameAs  wikidata:Q981270 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14085U>
+        owl:sameAs  wikidata:Q2420908 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/379>
+        owl:sameAs  wikidata:Q2038 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08044W>
+        owl:sameAs  wikidata:Q3490954 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14269B>
+        owl:sameAs  wikidata:Q19628627 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20070A>
+        owl:sameAs  wikidata:Q65575530 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/126>
+        owl:sameAs  wikidata:Q3173678 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/670>
+        owl:sameAs  wikidata:Q19845792 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59561V>
+        owl:sameAs  wikidata:Q3103560 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01054T>
+        owl:sameAs  wikidata:Q3320908 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57146A>
+        owl:sameAs  wikidata:Q3103436 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/172>
+        owl:sameAs  wikidata:Q19845807 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59218H>
+        owl:sameAs  wikidata:Q3438719 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57714L>
+        owl:sameAs  wikidata:Q691457 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86025D>
+        owl:sameAs  wikidata:Q2977355 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95032D>
+        owl:sameAs  wikidata:Q12949 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14012N>
+        owl:sameAs  wikidata:Q16644046 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19583F>
+        owl:sameAs  wikidata:Q40915163 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14267Y>
+        owl:sameAs  wikidata:Q19607318 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92031P>
+        owl:sameAs  wikidata:Q3159355 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20252E>
+        owl:sameAs  wikidata:Q48338491 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14205J>
+        owl:sameAs  wikidata:Q18155923 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20176K>
+        owl:sameAs  wikidata:Q103067375 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08015R>
+        owl:sameAs  wikidata:Q3014298 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58638V>
+        owl:sameAs  wikidata:Q3289351 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89021M>
+        owl:sameAs  wikidata:Q3383995 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/259>
+        owl:sameAs  wikidata:Q3436490 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83001G>
+        owl:sameAs  wikidata:Q241994 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/725>
+        owl:sameAs  wikidata:Q3131751 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95065N>
+        owl:sameAs  wikidata:Q3426851 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14241N>
+        owl:sameAs  wikidata:Q18202555 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/771>
+        owl:sameAs  wikidata:Q3386195 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11023D>
+        owl:sameAs  wikidata:Q3193276 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98025S>
+        owl:sameAs  wikidata:Q3479423 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92005M>
+        owl:sameAs  wikidata:Q3380642 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/273>
+        owl:sameAs  wikidata:Q3370229 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59>
+        owl:sameAs  wikidata:Q3507063 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01002F>
+        owl:sameAs  wikidata:Q3385359 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19443T>
+        owl:sameAs  wikidata:Q40905122 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01061S>
+        owl:sameAs  wikidata:Q3380226 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/27>
+        owl:sameAs  wikidata:Q2848330 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/416>
+        owl:sameAs  wikidata:Q3102550 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/96003C>
+        owl:sameAs  wikidata:Q935962 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/41>
+        owl:sameAs  wikidata:Q2958971 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11056N>
+        owl:sameAs  wikidata:Q3009722 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04033B>
+        owl:sameAs  wikidata:Q2926942 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/107>
+        owl:sameAs  wikidata:Q3531800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/328>
+        owl:sameAs  wikidata:Q3288712 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59539X>
+        owl:sameAs  wikidata:Q2847989 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80045G>
+        owl:sameAs  wikidata:Q3132080 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11030C>
+        owl:sameAs  wikidata:Q544725 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98032R>
+        owl:sameAs  wikidata:Q2874954 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/595>
+        owl:sameAs  wikidata:Q3160101 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92012L>
+        owl:sameAs  wikidata:Q3160949 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11103C>
+        owl:sameAs  wikidata:Q3168236 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11089X>
+        owl:sameAs  wikidata:Q3035194 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04066L>
+        owl:sameAs  wikidata:Q3169094 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/310>
+        owl:sameAs  wikidata:Q3341143 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59232F>
+        owl:sameAs  wikidata:Q3440090 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/738>
+        owl:sameAs  wikidata:Q1097717 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59721T>
+        owl:sameAs  wikidata:Q1523929 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01006K>
+        owl:sameAs  wikidata:Q2020016 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/531>
+        owl:sameAs  wikidata:Q2898220 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/706>
+        owl:sameAs  wikidata:Q3289098 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59229L>
+        owl:sameAs  wikidata:Q3131154 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/752>
+        owl:sameAs  wikidata:Q3386691 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14281W>
+        owl:sameAs  wikidata:Q20082373 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11063M>
+        owl:sameAs  wikidata:Q3035535 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07003H>
+        owl:sameAs  wikidata:Q3383943 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/254>
+        owl:sameAs  wikidata:Q3349193 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92045V>
+        owl:sameAs  wikidata:Q2830347 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/05004A>
+        owl:sameAs  wikidata:Q736013 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04040A>
+        owl:sameAs  wikidata:Q981661 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08067E>
+        owl:sameAs  wikidata:Q2977597 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19667J>
+        owl:sameAs  wikidata:Q2863048 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04099V>
+        owl:sameAs  wikidata:Q3169128 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08029X>
+        owl:sameAs  wikidata:Q3440221 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59546W>
+        owl:sameAs  wikidata:Q3439213 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01039U>
+        owl:sameAs  wikidata:Q3031932 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57761T>
+        owl:sameAs  wikidata:Q3436038 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/696>
+        owl:sameAs  wikidata:Q3420688 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/443>
+        owl:sameAs  wikidata:Q3188897 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/80014Y>
+        owl:sameAs  wikidata:Q2411493 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83012K>
+        owl:sameAs  wikidata:Q2373234 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11096W>
+        owl:sameAs  wikidata:Q3379805 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98039Y>
+        owl:sameAs  wikidata:Q3132356 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11110B>
+        owl:sameAs  wikidata:Q3090373 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/411>
+        owl:sameAs  wikidata:Q21486115 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95017E>
+        owl:sameAs  wikidata:Q3105647 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04073K>
+        owl:sameAs  wikidata:Q3384085 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/07033P>
+        owl:sameAs  wikidata:Q2941903 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92016Q>
+        owl:sameAs  wikidata:Q3288791 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01013J>
+        owl:sameAs  wikidata:Q3291780 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59520L>
+        owl:sameAs  wikidata:Q3300337 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59312E>
+        owl:sameAs  wikidata:Q3439424 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/134>
+        owl:sameAs  wikidata:Q2824814 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/309>
+        owl:sameAs  wikidata:Q3385237 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/180>
+        owl:sameAs  wikidata:Q3427129 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77001T>
+        owl:sameAs  wikidata:Q3014455 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59236K>
+        owl:sameAs  wikidata:Q2977847 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/78006D>
+        owl:sameAs  wikidata:Q2825184 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59309K>
+        owl:sameAs  wikidata:Q1508800 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11070L>
+        owl:sameAs  wikidata:Q3559572 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14361V>
+        owl:sameAs  wikidata:Q27990079 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14030Q>
+        owl:sameAs  wikidata:Q18202535 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98048A>
+        owl:sameAs  wikidata:Q3263401 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08074D>
+        owl:sameAs  wikidata:Q3173531 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04047H>
+        owl:sameAs  wikidata:Q12944 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11067R>
+        owl:sameAs  wikidata:Q3311436 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08036W>
+        owl:sameAs  wikidata:Q3426976 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/88013H>
+        owl:sameAs  wikidata:Q3265585 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01046T>
+        owl:sameAs  wikidata:Q3105594 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58805S>
+        owl:sameAs  wikidata:Q3171373 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/733>
+        owl:sameAs  wikidata:Q3370558 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98046X>
+        owl:sameAs  wikidata:Q3085285 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/99>
+        owl:sameAs  wikidata:Q3439968 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95024D>
+        owl:sameAs  wikidata:Q2965213 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/488>
+        owl:sameAs  wikidata:Q3035363 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19575F>
+        owl:sameAs  wikidata:Q41072238 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/235>
+        owl:sameAs  wikidata:Q2847545 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/67>
+        owl:sameAs  wikidata:Q3262090 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04080J>
+        owl:sameAs  wikidata:Q3573907 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14259Y>
+        owl:sameAs  wikidata:Q19628703 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08010L>
+        owl:sameAs  wikidata:Q2854148 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83016P>
+        owl:sameAs  wikidata:Q2965060 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14039A>
+        owl:sameAs  wikidata:Q585077 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92023P>
+        owl:sameAs  wikidata:Q2835124 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/456>
+        owl:sameAs  wikidata:Q2898189 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/203>
+        owl:sameAs  wikidata:Q2364562 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58914W>
+        owl:sameAs  wikidata:Q3186125 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58668C>
+        owl:sameAs  wikidata:Q3385132 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/677>
+        owl:sameAs  wikidata:Q443841 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95060H>
+        owl:sameAs  wikidata:Q3157296 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/179>
+        owl:sameAs  wikidata:Q3159534 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89013M>
+        owl:sameAs  wikidata:Q2976977 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59524Q>
+        owl:sameAs  wikidata:Q2934879 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98020M>
+        owl:sameAs  wikidata:Q1606064 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/470>
+        owl:sameAs  wikidata:Q3431135 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/83052T>
+        owl:sameAs  wikidata:Q3310792 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/147>
+        owl:sameAs  wikidata:Q3426883 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95057N>
+        owl:sameAs  wikidata:Q3167778 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14233N>
+        owl:sameAs  wikidata:Q18195740 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14037X>
+        owl:sameAs  wikidata:Q18202528 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04054G>
+        owl:sameAs  wikidata:Q3309021 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11015D>
+        owl:sameAs  wikidata:Q3099918 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98017S>
+        owl:sameAs  wikidata:Q1441506 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11074Q>
+        owl:sameAs  wikidata:Q3559608 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08043V>
+        owl:sameAs  wikidata:Q3296361 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/115>
+        owl:sameAs  wikidata:Q2980569 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01053S>
+        owl:sameAs  wikidata:Q2959183 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19619A>
+        owl:sameAs  wikidata:Q41187776 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/20104S>
+        owl:sameAs  wikidata:Q1404258 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59217G>
+        owl:sameAs  wikidata:Q3105597 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58039C>
+        owl:sameAs  wikidata:Q3385637 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77017C>
+        owl:sameAs  wikidata:Q3288851 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89046W>
+        owl:sameAs  wikidata:Q3140204 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98053W>
+        owl:sameAs  wikidata:Q3524252 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/95031C>
+        owl:sameAs  wikidata:Q2750200 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14193X>
+        owl:sameAs  wikidata:Q18214310 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/02053W>
+        owl:sameAs  wikidata:Q736502 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77053G>
+        owl:sameAs  wikidata:Q725609 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08014Q>
+        owl:sameAs  wikidata:Q3571735 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59531P>
+        owl:sameAs  wikidata:Q3384852 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/248>
+        owl:sameAs  wikidata:Q3080723 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/714>
+        owl:sameAs  wikidata:Q3371977 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/216>
+        owl:sameAs  wikidata:Q2265163 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04061F>
+        owl:sameAs  wikidata:Q440151 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/760>
+        owl:sameAs  wikidata:Q3295239 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/89017R>
+        owl:sameAs  wikidata:Q2155506 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/98024R>
+        owl:sameAs  wikidata:Q3123936 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14105F>
+        owl:sameAs  wikidata:Q18202549 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11081P>
+        owl:sameAs  wikidata:Q2829565 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08050U>
+        owl:sameAs  wikidata:Q2897356 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/48>
+        owl:sameAs  wikidata:Q3371969 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/01001E>
+        owl:sameAs  wikidata:Q3219088 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/58673Y>
+        owl:sameAs  wikidata:Q3292260 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14237S>
+        owl:sameAs  wikidata:Q18202546 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19515S>
+        owl:sameAs  wikidata:Q17485834 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/04058L>
+        owl:sameAs  wikidata:Q2897358 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/16>
+        owl:sameAs  wikidata:Q3175244 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/405>
+        owl:sameAs  wikidata:Q3426945 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/86031B>
+        owl:sameAs  wikidata:Q3052726 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/451>
+        owl:sameAs  wikidata:Q3288951 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/672>
+        owl:sameAs  wikidata:Q3103364 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/30>
+        owl:sameAs  wikidata:Q3372001 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19551W>
+        owl:sameAs  wikidata:Q41250063 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/14273W>
+        owl:sameAs  wikidata:Q19826679 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/11055M>
+        owl:sameAs  wikidata:Q2837020 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92037V>
+        owl:sameAs  wikidata:Q156511 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/174>
+        owl:sameAs  wikidata:Q3426843 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19794Q>
+        owl:sameAs  wikidata:Q60297122 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/77060F>
+        owl:sameAs  wikidata:Q3439417 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08059E>
+        owl:sameAs  wikidata:Q3158263 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19659J>
+        owl:sameAs  wikidata:Q40885959 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/08021P>
+        owl:sameAs  wikidata:Q285345 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/59538W>
+        owl:sameAs  wikidata:Q2898019 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/57826T>
+        owl:sameAs  wikidata:Q116095 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/92011K>
+        owl:sameAs  wikidata:Q3370659 .
+
+<https://github.com/Ajamelot56/Dana-Senateurs/senateur/19695N>
+        owl:sameAs  wikidata:Q41099326 .

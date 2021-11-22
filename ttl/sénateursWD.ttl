@@ -1,0 +1,5313 @@
+@prefix schema:  <http://schema.org/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.wikidata.org/entity/Q2865192>
+        schema:givenName   "Arthur" ;
+        schema:familyName  "Lavy" .
+
+<http://www.wikidata.org/entity/Q2865258>
+        schema:givenName   "Arthur" ;
+        schema:familyName  "Moulin" .
+
+<http://www.wikidata.org/entity/Q2926806>
+        schema:givenName   "Bruno" ;
+        schema:familyName  "Gilles" .
+
+<http://www.wikidata.org/entity/Q2926942>
+        schema:givenName   "Bruno" ;
+        schema:familyName  "Retailleau" .
+
+<http://www.wikidata.org/entity/Q2926985>
+        schema:givenName   "Bruno" ;
+        schema:familyName  "Sido" .
+
+<http://www.wikidata.org/entity/Q2941883>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Deroche" .
+
+<http://www.wikidata.org/entity/Q2941903>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Dumas" .
+
+<http://www.wikidata.org/entity/Q2941945>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Génisson" .
+
+<http://www.wikidata.org/entity/Q2942013>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Morin-Desailly" .
+
+<http://www.wikidata.org/entity/Q2942078>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Tasca" .
+
+<http://www.wikidata.org/entity/Q2942086>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Troendle" .
+
+<http://www.wikidata.org/entity/Q2958377>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Alliès" .
+
+<http://www.wikidata.org/entity/Q2958508>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Beaupetit" .
+
+<http://www.wikidata.org/entity/Q2958585>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Bosson" .
+
+<http://www.wikidata.org/entity/Q2958887>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Descours" .
+
+<http://www.wikidata.org/entity/Q2958971>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Durand" .
+
+<http://www.wikidata.org/entity/Q2959183>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Gautier" .
+
+<http://www.wikidata.org/entity/Q2959501>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Josselin" .
+
+<http://www.wikidata.org/entity/Q2959965>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Pelletier" .
+
+<http://www.wikidata.org/entity/Q2960112>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Revet" .
+
+<http://www.wikidata.org/entity/Q2960257>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Stoessel" .
+
+<http://www.wikidata.org/entity/Q2960268>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Suran" .
+
+<http://www.wikidata.org/entity/Q2897356>
+        schema:givenName   "Bernadette" ;
+        schema:familyName  "Bourzai" .
+
+<http://www.wikidata.org/entity/Q2897358>
+        schema:givenName   "Bernadette" ;
+        schema:familyName  "Dupont" .
+
+<http://www.wikidata.org/entity/Q2929439>
+        schema:givenName   "Béatrice" ;
+        schema:familyName  "Descamps" .
+
+<http://www.wikidata.org/entity/Q2934879>
+        schema:givenName   "Camille" ;
+        schema:familyName  "Cabana" .
+
+<http://www.wikidata.org/entity/Q2870571>
+        schema:givenName   "Aubert" ;
+        schema:familyName  "García" .
+
+<http://www.wikidata.org/entity/Q2861761>
+        schema:givenName   "Armand" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q2897442>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Angels" .
+
+<http://www.wikidata.org/entity/Q2897487>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Barbier" .
+
+<http://www.wikidata.org/entity/Q2897658>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Cazeau" .
+
+<http://www.wikidata.org/entity/Q2897913>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Fournier" .
+
+<http://www.wikidata.org/entity/Q2897926>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Frimat" .
+
+<http://www.wikidata.org/entity/Q2898019>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Guyomard" .
+
+<http://www.wikidata.org/entity/Q2898073>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Hugo" .
+
+<http://www.wikidata.org/entity/Q2898104>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Joly" .
+
+<http://www.wikidata.org/entity/Q2898189>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Laurent" .
+
+<http://www.wikidata.org/entity/Q2898220>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Legrand" .
+
+<http://www.wikidata.org/entity/Q2898230>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Lemarié" .
+
+<http://www.wikidata.org/entity/Q2898280>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Mantienne" .
+
+<http://www.wikidata.org/entity/Q2898366>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Murat" .
+
+<http://www.wikidata.org/entity/Q2898442>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Piras" .
+
+<http://www.wikidata.org/entity/Q2898741>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Vera" .
+
+<http://www.wikidata.org/entity/Q2854148>
+        schema:givenName   "Antoine" ;
+        schema:familyName  "Lefèvre" .
+
+<http://www.wikidata.org/entity/Q2863048>
+        schema:givenName   "Arnaud" ;
+        schema:familyName  "Bazin" .
+
+<http://www.wikidata.org/entity/Q2939980>
+        schema:givenName   "Caroline" ;
+        schema:familyName  "Fournier" ;
+        schema:givenName   "Caroline" ;
+        schema:familyName  "Cayeux" .
+
+<http://www.wikidata.org/entity/Q2965060>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Bonnet" .
+
+<http://www.wikidata.org/entity/Q2965111>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Cambon" .
+
+<http://www.wikidata.org/entity/Q2965163>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Cointat" .
+
+<http://www.wikidata.org/entity/Q2965213>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Demuynck" .
+
+<http://www.wikidata.org/entity/Q2965244>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Favier" .
+
+<http://www.wikidata.org/entity/Q2871031>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Amic" .
+
+<http://www.wikidata.org/entity/Q2871063>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Billiemaz" .
+
+<http://www.wikidata.org/entity/Q2871109>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Cazalet" .
+
+<http://www.wikidata.org/entity/Q2871128>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Chupin" .
+
+<http://www.wikidata.org/entity/Q2871133>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Cousin" .
+
+<http://www.wikidata.org/entity/Q2871361>
+        schema:givenName   "Auguste" ;
+        schema:familyName  "Pinton" .
+
+<http://www.wikidata.org/entity/Q2925414>
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Bout" .
+
+<http://www.wikidata.org/entity/Q2925430>
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Gonthier" ;
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Maurin" .
+
+<http://www.wikidata.org/entity/Q2925431>
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Gros" .
+
+<http://www.wikidata.org/entity/Q2925448>
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Luypaert" .
+
+<http://www.wikidata.org/entity/Q2896549>
+        schema:givenName   "Benoît" ;
+        schema:familyName  "Huré" .
+
+<http://www.wikidata.org/entity/Q2886860>
+        schema:givenName   "Basile" ;
+        schema:familyName  "Tui" .
+
+<http://www.wikidata.org/entity/Q2874954>
+        schema:givenName   "Aymeri" ;
+        schema:familyName  "de Montesquiou" .
+
+<http://www.wikidata.org/entity/Q2891992>
+        schema:givenName   "Baudouin" ;
+        schema:familyName  "de Hauteclocque" .
+
+<http://www.wikidata.org/entity/Q2821511>
+        schema:givenName   "Abel" ;
+        schema:familyName  "Gauthier" .
+
+<http://www.wikidata.org/entity/Q2821531>
+        schema:givenName   "Abel" ;
+        schema:familyName  "Sempé" .
+
+<http://www.wikidata.org/entity/Q2824791>
+        schema:givenName   "Adolphe" ;
+        schema:familyName  "Chauvin" .
+
+<http://www.wikidata.org/entity/Q2824814>
+        schema:givenName   "Adolphe" ;
+        schema:familyName  "Dutoit" .
+
+<http://www.wikidata.org/entity/Q2844631>
+        schema:givenName   "Amédée" ;
+        schema:familyName  "Bouquerel" .
+
+<http://www.wikidata.org/entity/Q2844715>
+        schema:givenName   "Amédée" ;
+        schema:familyName  "Valeau" .
+
+<http://www.wikidata.org/entity/Q2851645>
+        schema:givenName   "Annie" ;
+        schema:familyName  "David" .
+
+<http://www.wikidata.org/entity/Q2851664>
+        schema:givenName   "Annie" ;
+        schema:familyName  "Guillemot" .
+
+<http://www.wikidata.org/entity/Q2830978>
+        schema:givenName   "Albert" ;
+        schema:familyName  "Boucher" ;
+        schema:givenName   "Albert" ;
+        schema:familyName  "Boucher" .
+
+<http://www.wikidata.org/entity/Q2831457>
+        schema:givenName   "Albert" ;
+        schema:familyName  "Pen" .
+
+<http://www.wikidata.org/entity/Q2831490>
+        schema:givenName   "Albert" ;
+        schema:familyName  "Ramassamy" .
+
+<http://www.wikidata.org/entity/Q2831621>
+        schema:givenName   "Albert" ;
+        schema:familyName  "Vecten" .
+
+<http://www.wikidata.org/entity/Q2831629>
+        schema:givenName   "Albert" ;
+        schema:familyName  "Voilquin" .
+
+<http://www.wikidata.org/entity/Q2828037>
+        schema:givenName   "Aimé" ;
+        schema:familyName  "Bergeal" .
+
+<http://www.wikidata.org/entity/Q2787085>
+        schema:givenName   "René" ;
+        schema:familyName  "Vandierendonck" .
+
+<http://www.wikidata.org/entity/Q2829515>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Anziani" .
+
+<http://www.wikidata.org/entity/Q2829565>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Bertrand" .
+
+<http://www.wikidata.org/entity/Q2829799>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Fauconnier" .
+
+<http://www.wikidata.org/entity/Q2829876>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Gournac" .
+
+<http://www.wikidata.org/entity/Q2829903>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Gérard" .
+
+<http://www.wikidata.org/entity/Q2829913>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Houpert" .
+
+<http://www.wikidata.org/entity/Q2829945>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Joyandet" .
+
+<http://www.wikidata.org/entity/Q2830133>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Néri" .
+
+<http://www.wikidata.org/entity/Q2830175>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Pluchet" .
+
+<http://www.wikidata.org/entity/Q2830347>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Vasselle" .
+
+<http://www.wikidata.org/entity/Q2835124>
+        schema:givenName   "Alfred" ;
+        schema:familyName  "Foy" .
+
+<http://www.wikidata.org/entity/Q2835225>
+        schema:givenName   "Alfred" ;
+        schema:familyName  "Kieffer" .
+
+<http://www.wikidata.org/entity/Q2835404>
+        schema:givenName   "Alfred" ;
+        schema:familyName  "Poroi" .
+
+<http://www.wikidata.org/entity/Q2847158>
+        schema:givenName   "André" ;
+        schema:familyName  "Armengaud" ;
+        schema:givenName   "André" ;
+        schema:familyName  "Armengaud" .
+
+<http://www.wikidata.org/entity/Q2847171>
+        schema:givenName   "André" ;
+        schema:familyName  "Aubry" .
+
+<http://www.wikidata.org/entity/Q2847371>
+        schema:givenName   "André" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q2847392>
+        schema:givenName   "André" ;
+        schema:familyName  "Bruneau" .
+
+<http://www.wikidata.org/entity/Q2847545>
+        schema:givenName   "André" ;
+        schema:familyName  "Colin" .
+
+<http://www.wikidata.org/entity/Q2847590>
+        schema:givenName   "André" ;
+        schema:familyName  "Daugnac" .
+
+<http://www.wikidata.org/entity/Q2847627>
+        schema:givenName   "André" ;
+        schema:familyName  "Delelis" .
+
+<http://www.wikidata.org/entity/Q2847653>
+        schema:givenName   "André" ;
+        schema:familyName  "Diligent" .
+
+<http://www.wikidata.org/entity/Q2847686>
+        schema:givenName   "André" ;
+        schema:familyName  "Dulin" .
+
+<http://www.wikidata.org/entity/Q2847751>
+        schema:givenName   "André" ;
+        schema:familyName  "Ferrand" .
+
+<http://www.wikidata.org/entity/Q2847809>
+        schema:givenName   "André" ;
+        schema:familyName  "Gaspard" .
+
+<http://www.wikidata.org/entity/Q2847828>
+        schema:givenName   "André" ;
+        schema:familyName  "Geoffroy" .
+
+<http://www.wikidata.org/entity/Q2847989>
+        schema:givenName   "André" ;
+        schema:familyName  "Jarrot" .
+
+<http://www.wikidata.org/entity/Q2848005>
+        schema:givenName   "André" ;
+        schema:familyName  "Jouany" .
+
+<http://www.wikidata.org/entity/Q2848013>
+        schema:givenName   "André" ;
+        schema:familyName  "Jourdain" .
+
+<http://www.wikidata.org/entity/Q2848149>
+        schema:givenName   "André" ;
+        schema:familyName  "Lejeune" .
+
+<http://www.wikidata.org/entity/Q2848229>
+        schema:givenName   "André" ;
+        schema:familyName  "Maman" .
+
+<http://www.wikidata.org/entity/Q2848256>
+        schema:givenName   "André" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q2848306>
+        schema:givenName   "André" ;
+        schema:familyName  "Mignot" .
+
+<http://www.wikidata.org/entity/Q2848330>
+        schema:givenName   "André" ;
+        schema:familyName  "Morice" .
+
+<http://www.wikidata.org/entity/Q2848437>
+        schema:givenName   "André" ;
+        schema:familyName  "Picard" .
+
+<http://www.wikidata.org/entity/Q2848453>
+        schema:givenName   "André" ;
+        schema:familyName  "Plait" .
+
+<http://www.wikidata.org/entity/Q2848637>
+        schema:givenName   "André" ;
+        schema:familyName  "Servat" .
+
+<http://www.wikidata.org/entity/Q2848713>
+        schema:givenName   "André" ;
+        schema:familyName  "Traband" .
+
+<http://www.wikidata.org/entity/Q2848736>
+        schema:givenName   "André" ;
+        schema:familyName  "Vairetto" .
+
+<http://www.wikidata.org/entity/Q2848739>
+        schema:givenName   "André" ;
+        schema:familyName  "Vallet" .
+
+<http://www.wikidata.org/entity/Q2848745>
+        schema:givenName   "André" ;
+        schema:familyName  "Vallini" .
+
+<http://www.wikidata.org/entity/Q2848786>
+        schema:givenName   "André" ;
+        schema:familyName  "Villiers" .
+
+<http://www.wikidata.org/entity/Q2848800>
+        schema:givenName   "André" ;
+        schema:familyName  "Vézinhet" .
+
+<http://www.wikidata.org/entity/Q2833021>
+        schema:givenName   "Alex" ;
+        schema:familyName  "Roubert" .
+
+<http://www.wikidata.org/entity/Q2833050>
+        schema:givenName   "Alex" ;
+        schema:familyName  "Türk" .
+
+<http://www.wikidata.org/entity/Q2750200>
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Falco" .
+
+<http://www.wikidata.org/entity/Q2839694>
+        schema:givenName   "Alphonse" ;
+        schema:familyName  "Arzel" .
+
+<http://www.wikidata.org/entity/Q2853592>
+        schema:givenName   "Antoine" ;
+        schema:familyName  "Andrieux" .
+
+<http://www.wikidata.org/entity/Q2824213>
+        schema:givenName   "Adeline" ;
+        schema:familyName  "Gousseau" .
+
+<http://www.wikidata.org/entity/Q2833635>
+        schema:givenName   "Alexandre" ;
+        schema:familyName  "Dumas" .
+
+<http://www.wikidata.org/entity/Q2850864>
+        schema:givenName   "Anne-Marie" ;
+        schema:familyName  "Escoffier" .
+
+<http://www.wikidata.org/entity/Q2850886>
+        schema:givenName   "Anne-Marie" ;
+        schema:familyName  "Payet" .
+
+<http://www.wikidata.org/entity/Q2825180>
+        schema:givenName   "Adrien" ;
+        schema:familyName  "Giraud" .
+
+<http://www.wikidata.org/entity/Q2825184>
+        schema:givenName   "Adrien" ;
+        schema:familyName  "Gouteyron" .
+
+<http://www.wikidata.org/entity/Q2837020>
+        schema:givenName   "Aline" ;
+        schema:familyName  "Jodry" ;
+        schema:givenName   "Aline" ;
+        schema:familyName  "Archimbaud" .
+
+<http://www.wikidata.org/entity/Q2832067>
+        schema:givenName   "Albéric" ;
+        schema:familyName  "de Montgolfier" .
+
+<http://www.wikidata.org/entity/Q2821402>
+        schema:givenName   "Abdourahamane" ;
+        schema:familyName  "Soilihi" .
+
+<http://www.wikidata.org/entity/Q2842382>
+        schema:givenName   "Ambroise" ;
+        schema:familyName  "Dupont" .
+
+<http://www.wikidata.org/entity/Q2847047>
+        schema:givenName   "André-Georges" ;
+        schema:familyName  "Voisin" .
+
+<http://www.wikidata.org/entity/Q2851565>
+        schema:givenName   "Annick" ;
+        schema:familyName  "Bocandé" .
+
+<http://www.wikidata.org/entity/Q3034967>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Bailly" .
+
+<http://www.wikidata.org/entity/Q3035023>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Braye" .
+
+<http://www.wikidata.org/entity/Q3035194>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Gillot" ;
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Raviat" .
+
+<http://www.wikidata.org/entity/Q3035266>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Larifla" .
+
+<http://www.wikidata.org/entity/Q3035280>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Leclerc" .
+
+<http://www.wikidata.org/entity/Q3035341>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Mortemousque" .
+
+<http://www.wikidata.org/entity/Q3035363>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Pado" .
+
+<http://www.wikidata.org/entity/Q3035535>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Watrin" .
+
+<http://www.wikidata.org/entity/Q3035559>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "de Legge" .
+
+<http://www.wikidata.org/entity/Q3057131>
+        schema:givenName   "Ernest" ;
+        schema:familyName  "Petit" .
+
+<http://www.wikidata.org/entity/Q3058990>
+        schema:givenName   "Esther" ;
+        schema:familyName  "Sittler" .
+
+<http://www.wikidata.org/entity/Q3074174>
+        schema:givenName   "Florian" ;
+        schema:familyName  "Bruyas" .
+
+<http://www.wikidata.org/entity/Q3083773>
+        schema:givenName   "François" ;
+        schema:familyName  "Abadie" .
+
+<http://www.wikidata.org/entity/Q3083986>
+        schema:givenName   "François" ;
+        schema:familyName  "Blaizot" .
+
+<http://www.wikidata.org/entity/Q3022530>
+        schema:givenName   "Denis" ;
+        schema:familyName  "Badré" .
+
+<http://www.wikidata.org/entity/Q3069037>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Auberger" .
+
+<http://www.wikidata.org/entity/Q3069083>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Chatelain" .
+
+<http://www.wikidata.org/entity/Q3069121>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Demilly" .
+
+<http://www.wikidata.org/entity/Q3069138>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Dussert" .
+
+<http://www.wikidata.org/entity/Q3069140>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Esseul" .
+
+<http://www.wikidata.org/entity/Q3069234>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Lefort" .
+
+<http://www.wikidata.org/entity/Q3069301>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Poignant" .
+
+<http://www.wikidata.org/entity/Q3069346>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Tardy" .
+
+<http://www.wikidata.org/entity/Q3069363>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Verdeille" .
+
+<http://www.wikidata.org/entity/Q3081384>
+        schema:givenName   "Francis" ;
+        schema:familyName  "Delattre" .
+
+<http://www.wikidata.org/entity/Q3081473>
+        schema:givenName   "Francis" ;
+        schema:familyName  "Grignon" .
+
+<http://www.wikidata.org/entity/Q3081540>
+        schema:givenName   "Francis" ;
+        schema:familyName  "Le Basser" .
+
+<http://www.wikidata.org/entity/Q3009722>
+        schema:givenName   "Cécile" ;
+        schema:familyName  "Cukierman" .
+
+<http://www.wikidata.org/entity/Q3009743>
+        schema:givenName   "Cécile" ;
+        schema:familyName  "Goldet" .
+
+<http://www.wikidata.org/entity/Q2965766>
+        schema:givenName   "Christiane" ;
+        schema:familyName  "Hummel" .
+
+<http://www.wikidata.org/entity/Q2965783>
+        schema:givenName   "Christiane" ;
+        schema:familyName  "Longère" .
+
+<http://www.wikidata.org/entity/Q3080723>
+        schema:givenName   "France" ;
+        schema:familyName  "Lechenault" .
+
+<http://www.wikidata.org/entity/Q3082745>
+        schema:givenName   "Jean-Michel" ;
+        schema:familyName  "Baylet" .
+
+<http://www.wikidata.org/entity/Q3083097>
+        schema:givenName   "Franz" ;
+        schema:familyName  "Duboscq" .
+
+<http://www.wikidata.org/entity/Q2978494>
+        schema:givenName   "Claudine" ;
+        schema:familyName  "Lepage" .
+
+<http://www.wikidata.org/entity/Q3028246>
+        schema:givenName   "Dinah" ;
+        schema:familyName  "Derycke" .
+
+<http://www.wikidata.org/entity/Q3013711>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Benoist" .
+
+<http://www.wikidata.org/entity/Q3014108>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Goulet" .
+
+<http://www.wikidata.org/entity/Q3014298>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Laurent" .
+
+<http://www.wikidata.org/entity/Q3014427>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Marsin" .
+
+<http://www.wikidata.org/entity/Q3014455>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Millaud" .
+
+<http://www.wikidata.org/entity/Q3014544>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Percheron" .
+
+<http://www.wikidata.org/entity/Q3014586>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Raoul" .
+
+<http://www.wikidata.org/entity/Q3014708>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Soulage" .
+
+<http://www.wikidata.org/entity/Q3031932>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Thiollière" .
+
+<http://www.wikidata.org/entity/Q2966061>
+        schema:givenName   "Christophe" ;
+        schema:familyName  "Frassa" .
+
+<http://www.wikidata.org/entity/Q2997298>
+        schema:givenName   "Corinne" ;
+        schema:familyName  "Bouchoux" .
+
+<http://www.wikidata.org/entity/Q2976977>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Belot" .
+
+<http://www.wikidata.org/entity/Q2977010>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Billard" .
+
+<http://www.wikidata.org/entity/Q2977023>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Biwer" .
+
+<http://www.wikidata.org/entity/Q2977355>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Estier" .
+
+<http://www.wikidata.org/entity/Q2977424>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Fuzier" .
+
+<http://www.wikidata.org/entity/Q2977597>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Jeannerot" .
+
+<http://www.wikidata.org/entity/Q2977716>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Lise" .
+
+<http://www.wikidata.org/entity/Q2977733>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Léonard" .
+
+<http://www.wikidata.org/entity/Q2977847>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Mont" .
+
+<http://www.wikidata.org/entity/Q2978132>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Saunier" .
+
+<http://www.wikidata.org/entity/Q3026940>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Boulaud" .
+
+<http://www.wikidata.org/entity/Q3026943>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Borotra" .
+
+<http://www.wikidata.org/entity/Q3027038>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Guillaume" ;
+        schema:givenName   "Didier" ;
+        schema:familyName  "Guillaume" .
+
+<http://www.wikidata.org/entity/Q3027102>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Marie" .
+
+<http://www.wikidata.org/entity/Q3027191>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Robert" .
+
+<http://www.wikidata.org/entity/Q2965285>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Gaudin" .
+
+<http://www.wikidata.org/entity/Q2965727>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Lunet de La Malène" .
+
+<http://www.wikidata.org/entity/Q3052726>
+        schema:givenName   "Emmanuel" ;
+        schema:familyName  "Hamel" .
+
+<http://www.wikidata.org/entity/Q3059739>
+        schema:givenName   "Eugène" ;
+        schema:familyName  "Bonnet" .
+
+<http://www.wikidata.org/entity/Q3059744>
+        schema:givenName   "Eugène" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3015012>
+        schema:givenName   "Danielle" ;
+        schema:familyName  "Michel" .
+
+<http://www.wikidata.org/entity/Q2980569>
+        schema:givenName   "Clément" ;
+        schema:familyName  "Balestra" .
+
+<http://www.wikidata.org/entity/Q2974991>
+        schema:givenName   "Claire-Lise" ;
+        schema:familyName  "Campion" .
+
+<http://www.wikidata.org/entity/Q3021806>
+        schema:givenName   "Delphine" ;
+        schema:familyName  "Bataille" .
+
+<http://www.wikidata.org/entity/Q2977355>
+        schema:givenName   "Hasday" ;
+        schema:familyName  "Estier" .
+
+<http://www.wikidata.org/entity/Q2415868>
+        schema:givenName   "Anne" ;
+        schema:familyName  "Heinis" .
+
+<http://www.wikidata.org/entity/Q2689081>
+        schema:givenName   "Annie" ;
+        schema:familyName  "Le Houérou" .
+
+<http://www.wikidata.org/entity/Q1285501>
+        schema:givenName   "Esther" ;
+        schema:familyName  "Benbassa" .
+
+<http://www.wikidata.org/entity/Q1242626>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Baumel" .
+
+<http://www.wikidata.org/entity/Q2363780>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Delalande" .
+
+<http://www.wikidata.org/entity/Q1432745>
+        schema:givenName   "Xavier" ;
+        schema:familyName  "de Villepin" .
+
+<http://www.wikidata.org/entity/Q1470586>
+        schema:givenName   "Xavier" ;
+        schema:familyName  "Darcos" .
+
+<http://www.wikidata.org/entity/Q1922541>
+        schema:givenName   "François" ;
+        schema:familyName  "Gerbaud" .
+
+<http://www.wikidata.org/entity/Q2373234>
+        schema:givenName   "François" ;
+        schema:familyName  "Autain" .
+
+<http://www.wikidata.org/entity/Q1441506>
+        schema:givenName   "Francis" ;
+        schema:familyName  "Giraud" .
+
+<http://www.wikidata.org/entity/Q1661456>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Fontaine" ;
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Fontaine" .
+
+<http://www.wikidata.org/entity/Q2398250>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Blin" .
+
+<http://www.wikidata.org/entity/Q1371253>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Rochereau" .
+
+<http://www.wikidata.org/entity/Q1606064>
+        schema:givenName   "Henri" ;
+        schema:familyName  "d'Attilio" .
+
+<http://www.wikidata.org/entity/Q1523929>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Baumet" .
+
+<http://www.wikidata.org/entity/Q2364562>
+        schema:givenName   "Hector" ;
+        schema:familyName  "Dubois" .
+
+<http://www.wikidata.org/entity/Q786627>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Estève" .
+
+<http://www.wikidata.org/entity/Q820283>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Taittinger" .
+
+<http://www.wikidata.org/entity/Q960015>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Frogier" .
+
+<http://www.wikidata.org/entity/Q980053>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Camani" .
+
+<http://www.wikidata.org/entity/Q2093665>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Laurent" .
+
+<http://www.wikidata.org/entity/Q1347314>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Marcellin" .
+
+<http://www.wikidata.org/entity/Q2676536>
+        schema:givenName   "René" ;
+        schema:familyName  "Billères" .
+
+<http://www.wikidata.org/entity/Q927330>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Chatillon" .
+
+<http://www.wikidata.org/entity/Q929334>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Peyrefitte" .
+
+<http://www.wikidata.org/entity/Q930418>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Richard" .
+
+<http://www.wikidata.org/entity/Q1404258>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Cadec" .
+
+<http://www.wikidata.org/entity/Q2271854>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Marc" .
+
+<http://www.wikidata.org/entity/Q2403333>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Fouché" .
+
+<http://www.wikidata.org/entity/Q2636454>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Journet" .
+
+<http://www.wikidata.org/entity/Q976492>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Mermaz" .
+
+<http://www.wikidata.org/entity/Q1871784>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Jung" .
+
+<http://www.wikidata.org/entity/Q1871919>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Philibert" .
+
+<http://www.wikidata.org/entity/Q2401155>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Minetti" .
+
+<http://www.wikidata.org/entity/Q1065308>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Lederman" .
+
+<http://www.wikidata.org/entity/Q2393437>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Leroy" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Leroy" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Leroy" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Leroy" .
+
+<http://www.wikidata.org/entity/Q950719>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Louvel" .
+
+<http://www.wikidata.org/entity/Q981661>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Bockel" .
+
+<http://www.wikidata.org/entity/Q1685043>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Girault" .
+
+<http://www.wikidata.org/entity/Q2396975>
+        schema:givenName   "Alfred" ;
+        schema:familyName  "Gerin" .
+
+<http://www.wikidata.org/entity/Q1059511>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Karoutchi" .
+
+<http://www.wikidata.org/entity/Q935962>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Vergès" .
+
+<http://www.wikidata.org/entity/Q1634402>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Souffrin" .
+
+<http://www.wikidata.org/entity/Q2424263>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Natali" .
+
+<http://www.wikidata.org/entity/Q1893168>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Rainaud" .
+
+<http://www.wikidata.org/entity/Q1893177>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Rudloff" .
+
+<http://www.wikidata.org/entity/Q2385347>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Cavaillé" .
+
+<http://www.wikidata.org/entity/Q2411493>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Daunay" .
+
+<http://www.wikidata.org/entity/Q937091>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Hue" .
+
+<http://www.wikidata.org/entity/Q1632013>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Schwint" .
+
+<http://www.wikidata.org/entity/Q1393994>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Bel" .
+
+<http://www.wikidata.org/entity/Q1685206>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Fourcade" .
+
+<http://www.wikidata.org/entity/Q2396150>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Plancade" .
+
+<http://www.wikidata.org/entity/Q1394814>
+        schema:givenName   "André" ;
+        schema:familyName  "François-Poncet" .
+
+<http://www.wikidata.org/entity/Q2111463>
+        schema:givenName   "André" ;
+        schema:familyName  "Monteil" .
+
+<http://www.wikidata.org/entity/Q2410939>
+        schema:givenName   "André" ;
+        schema:familyName  "Trillard" .
+
+<http://www.wikidata.org/entity/Q971593>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Filippi" ;
+        schema:givenName   "Jean" ;
+        schema:familyName  "Filippi" ;
+        schema:givenName   "Jean" ;
+        schema:familyName  "Filippi" .
+
+<http://www.wikidata.org/entity/Q1394814>
+        schema:givenName   "Jean" ;
+        schema:familyName  "François-Poncet" .
+
+<http://www.wikidata.org/entity/Q1469157>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Berthoin" .
+
+<http://www.wikidata.org/entity/Q871444>
+        schema:givenName   "Edmond" ;
+        schema:familyName  "Michelet" .
+
+<http://www.wikidata.org/entity/Q2370182>
+        schema:givenName   "Suzanne" ;
+        schema:familyName  "Schreiber" ;
+        schema:givenName   "Suzanne" ;
+        schema:familyName  "Crémieux" .
+
+<http://www.wikidata.org/entity/Q981270>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Bloch" ;
+        schema:givenName   "Serge" ;
+        schema:familyName  "Dassault" .
+
+<http://www.wikidata.org/entity/Q2372650>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Vivier" .
+
+<http://www.wikidata.org/entity/Q1360173>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Longuet" .
+
+<http://www.wikidata.org/entity/Q1439604>
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Haenel" .
+
+<http://www.wikidata.org/entity/Q919918>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Giraud" .
+
+<http://www.wikidata.org/entity/Q1521083>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Caillard d'Aillières" .
+
+<http://www.wikidata.org/entity/Q962910>
+        schema:givenName   "Nicole" ;
+        schema:familyName  "Bonnefoy" .
+
+<http://www.wikidata.org/entity/Q800007>
+        schema:givenName   "Francisque" ;
+        schema:familyName  "Collomb" .
+
+<http://www.wikidata.org/entity/Q2155506>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Adnot" .
+
+<http://www.wikidata.org/entity/Q1097717>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Marrane" .
+
+<http://www.wikidata.org/entity/Q1228890>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Spénale" .
+
+<http://www.wikidata.org/entity/Q1508800>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Benedetti" ;
+        schema:givenName   "Georges" ;
+        schema:familyName  "Benedetti" .
+
+<http://www.wikidata.org/entity/Q1508990>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Lombard" .
+
+<http://www.wikidata.org/entity/Q1509018>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q2265163>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Guille" .
+
+<http://www.wikidata.org/entity/Q2396093>
+        schema:givenName   "Colette" ;
+        schema:familyName  "Guibal" ;
+        schema:givenName   "Colette" ;
+        schema:familyName  "Giudicelli" .
+
+<http://www.wikidata.org/entity/Q1685137>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Fournier" .
+
+<http://www.wikidata.org/entity/Q2020016>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Alduy" .
+
+<http://www.wikidata.org/entity/Q1479452>
+        schema:givenName   "Félix" ;
+        schema:familyName  "Ciccolini" .
+
+<http://www.wikidata.org/entity/Q930590>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Bourquin" .
+
+<http://www.wikidata.org/entity/Q2363445>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Bergelin" .
+
+<http://www.wikidata.org/entity/Q2389333>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Masson" .
+
+<http://www.wikidata.org/entity/Q2420908>
+        schema:givenName   "Thierry" ;
+        schema:familyName  "Carcenac" .
+
+<http://www.wikidata.org/entity/Q2321787>
+        schema:givenName   "Valérie" ;
+        schema:familyName  "Létard" .
+
+<http://www.wikidata.org/entity/Q810647>
+        schema:givenName   "Bastien" ;
+        schema:familyName  "Leccia" .
+
+<http://www.wikidata.org/entity/Q1284283>
+        schema:givenName   "Edgard" ;
+        schema:familyName  "Pisani" .
+
+<http://www.wikidata.org/entity/Q2441800>
+        schema:givenName   "Josselin" ;
+        schema:familyName  "de Rohan" .
+
+<http://www.wikidata.org/entity/Q520004>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Chevé" .
+
+<http://www.wikidata.org/entity/Q268669>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Voynet" .
+
+<http://www.wikidata.org/entity/Q768360>
+        schema:givenName   "Marie" ;
+        schema:familyName  "Vermeersch" .
+
+<http://www.wikidata.org/entity/Q377790>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Duclos" .
+
+<http://www.wikidata.org/entity/Q469010>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Ries" .
+
+<http://www.wikidata.org/entity/Q12949>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Fischer" .
+
+<http://www.wikidata.org/entity/Q2038>
+        schema:givenName   "François" ;
+        schema:familyName  "Mitterrand" .
+
+<http://www.wikidata.org/entity/Q101410>
+        schema:givenName   "François" ;
+        schema:familyName  "Fillon" .
+
+<http://www.wikidata.org/entity/Q383499>
+        schema:givenName   "François" ;
+        schema:familyName  "Rebsamen" .
+
+<http://www.wikidata.org/entity/Q736013>
+        schema:givenName   "François" ;
+        schema:familyName  "Baroin" .
+
+<http://www.wikidata.org/entity/Q509530>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Laurent-Perrigot" .
+
+<http://www.wikidata.org/entity/Q440151>
+        schema:givenName   "Fabienne" ;
+        schema:familyName  "Keller" .
+
+<http://www.wikidata.org/entity/Q282882>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Schumann" .
+
+<http://www.wikidata.org/entity/Q312034>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Couve de Murville" .
+
+<http://www.wikidata.org/entity/Q601481>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Antiste" .
+
+<http://www.wikidata.org/entity/Q603660>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Lafleur" .
+
+<http://www.wikidata.org/entity/Q5829>
+        schema:givenName   "Jean-Luc" ;
+        schema:familyName  "Mélenchon" .
+
+<http://www.wikidata.org/entity/Q768360>
+        schema:givenName   "Jeannette" ;
+        schema:familyName  "Vermeersch" .
+
+<http://www.wikidata.org/entity/Q272848>
+        schema:givenName   "Nelly" ;
+        schema:familyName  "Olin" .
+
+<http://www.wikidata.org/entity/Q342878>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Guéna" .
+
+<http://www.wikidata.org/entity/Q5829>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Mélenchon" .
+
+<http://www.wikidata.org/entity/Q156511>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Mauroy" .
+
+<http://www.wikidata.org/entity/Q679585>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Laffitte" .
+
+<http://www.wikidata.org/entity/Q191974>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Poincaré" .
+
+<http://www.wikidata.org/entity/Q548579>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Bourgine" .
+
+<http://www.wikidata.org/entity/Q670849>
+        schema:givenName   "Joël" ;
+        schema:familyName  "Bourdin" .
+
+<http://www.wikidata.org/entity/Q158768>
+        schema:givenName   "René" ;
+        schema:familyName  "Coty" .
+
+<http://www.wikidata.org/entity/Q327013>
+        schema:givenName   "Edgar" ;
+        schema:familyName  "Faure" .
+
+<http://www.wikidata.org/entity/Q665118>
+        schema:givenName   "Edgar" ;
+        schema:familyName  "Tailhades" .
+
+<http://www.wikidata.org/entity/Q12950>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Poher" .
+
+<http://www.wikidata.org/entity/Q388399>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Milon" .
+
+<http://www.wikidata.org/entity/Q429805>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Lambert" .
+
+<http://www.wikidata.org/entity/Q497610>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Le Pensec" .
+
+<http://www.wikidata.org/entity/Q725609>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Pasqua" .
+
+<http://www.wikidata.org/entity/Q12945>
+        schema:givenName   "Christiane" ;
+        schema:familyName  "Demontès" .
+
+<http://www.wikidata.org/entity/Q644244>
+        schema:givenName   "Christiane" ;
+        schema:familyName  "Boccard" ;
+        schema:givenName   "Christiane" ;
+        schema:familyName  "Kammermann" .
+
+<http://www.wikidata.org/entity/Q670918>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Gaudin" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Gaudin" .
+
+<http://www.wikidata.org/entity/Q662414>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Morisset" .
+
+<http://www.wikidata.org/entity/Q256294>
+        schema:givenName   "Bertrand" ;
+        schema:familyName  "Delanoë" .
+
+<http://www.wikidata.org/entity/Q524546>
+        schema:givenName   "Chantal" ;
+        schema:familyName  "Jouanno" .
+
+<http://www.wikidata.org/entity/Q116081>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Carcassonne" .
+
+<http://www.wikidata.org/entity/Q422171>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Girod" .
+
+<http://www.wikidata.org/entity/Q115615>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Vigouroux" .
+
+<http://www.wikidata.org/entity/Q285345>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Navarro" .
+
+<http://www.wikidata.org/entity/Q345888>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Galley" .
+
+<http://www.wikidata.org/entity/Q508608>
+        schema:givenName   "Camille" ;
+        schema:familyName  "Vallin" ;
+        schema:givenName   "Camille" ;
+        schema:familyName  "Vallin" .
+
+<http://www.wikidata.org/entity/Q523632>
+        schema:givenName   "Isabelle" ;
+        schema:familyName  "Debré" .
+
+<http://www.wikidata.org/entity/Q63263>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Raffarin" .
+
+<http://www.wikidata.org/entity/Q241994>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Tizon" .
+
+<http://www.wikidata.org/entity/Q736502>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Chevènement" .
+
+<http://www.wikidata.org/entity/Q743188>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Vial" .
+
+<http://www.wikidata.org/entity/Q517072>
+        schema:givenName   "André" ;
+        schema:familyName  "Bettencourt" .
+
+<http://www.wikidata.org/entity/Q518421>
+        schema:givenName   "André" ;
+        schema:familyName  "Duroméa" .
+
+<http://www.wikidata.org/entity/Q520375>
+        schema:givenName   "André" ;
+        schema:familyName  "Labarrère" .
+
+<http://www.wikidata.org/entity/Q522471>
+        schema:givenName   "André" ;
+        schema:familyName  "Reichardt" .
+
+<http://www.wikidata.org/entity/Q522609>
+        schema:givenName   "André" ;
+        schema:familyName  "Rouvière" .
+
+<http://www.wikidata.org/entity/Q116092>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Francou" .
+
+<http://www.wikidata.org/entity/Q537864>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Lecanuet" .
+
+<http://www.wikidata.org/entity/Q329044>
+        schema:givenName   "Edmond" ;
+        schema:familyName  "Hervé" .
+
+<http://www.wikidata.org/entity/Q574408>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Vinçon" .
+
+<http://www.wikidata.org/entity/Q286495>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Tricon" .
+
+<http://www.wikidata.org/entity/Q12956>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Collomb" .
+
+<http://www.wikidata.org/entity/Q784021>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Larcher" .
+
+<http://www.wikidata.org/entity/Q113957>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Dubois" .
+
+<http://www.wikidata.org/entity/Q588867>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Reiner" .
+
+<http://www.wikidata.org/entity/Q12955>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Mercier" .
+
+<http://www.wikidata.org/entity/Q129774>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Delebarre" .
+
+<http://www.wikidata.org/entity/Q385483>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Magras" .
+
+<http://www.wikidata.org/entity/Q438465>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Barnier" .
+
+<http://www.wikidata.org/entity/Q611837>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Houel" .
+
+<http://www.wikidata.org/entity/Q691457>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Durafour" .
+
+<http://www.wikidata.org/entity/Q452131>
+        schema:givenName   "Nicole" ;
+        schema:familyName  "Bricq" .
+
+<http://www.wikidata.org/entity/Q5829>
+        schema:givenName   "Antoine" ;
+        schema:familyName  "Mélenchon" .
+
+<http://www.wikidata.org/entity/Q585077>
+        schema:givenName   "Antoine" ;
+        schema:familyName  "Karam" .
+
+<http://www.wikidata.org/entity/Q768360>
+        schema:givenName   "Julie" ;
+        schema:familyName  "Vermeersch" .
+
+<http://www.wikidata.org/entity/Q283553>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Dallier" .
+
+<http://www.wikidata.org/entity/Q544725>
+        schema:givenName   "Christophe" ;
+        schema:familyName  "Béchu" .
+
+<http://www.wikidata.org/entity/Q586264>
+        schema:givenName   "Yvon" ;
+        schema:familyName  "Collin" .
+
+<http://www.wikidata.org/entity/Q764381>
+        schema:givenName   "Yvon" ;
+        schema:familyName  "Bourges" .
+
+<http://www.wikidata.org/entity/Q389141>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Malhuret" .
+
+<http://www.wikidata.org/entity/Q651393>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Haut" .
+
+<http://www.wikidata.org/entity/Q116095>
+        schema:givenName   "Léon" ;
+        schema:familyName  "David" .
+
+<http://www.wikidata.org/entity/Q443841>
+        schema:givenName   "Gaston" ;
+        schema:familyName  "Monnerville" .
+
+<http://www.wikidata.org/entity/Q608815>
+        schema:givenName   "Gaston" ;
+        schema:familyName  "Defferre" .
+
+<http://www.wikidata.org/entity/Q12948>
+        schema:givenName   "Élisabeth" ;
+        schema:familyName  "Lamure" ;
+        schema:givenName   "Élisabeth" ;
+        schema:familyName  "Lamure" .
+
+<http://www.wikidata.org/entity/Q439732>
+        schema:givenName   "Pascale" ;
+        schema:familyName  "Gruny" .
+
+<http://www.wikidata.org/entity/Q691267>
+        schema:givenName   "Janine" ;
+        schema:familyName  "Rozier" .
+
+<http://www.wikidata.org/entity/Q592313>
+        schema:givenName   "Jacky" ;
+        schema:familyName  "Le Menn" .
+
+<http://www.wikidata.org/entity/Q12944>
+        schema:givenName   "François-Noël" ;
+        schema:familyName  "Buffet" .
+
+<http://www.wikidata.org/entity/Q12947>
+        schema:givenName   "Muguette" ;
+        schema:familyName  "Dini" .
+
+<http://www.wikidata.org/entity/Q274196>
+        schema:givenName   "Marie-Christine" ;
+        schema:familyName  "Blandin" .
+
+<http://www.wikidata.org/entity/Q461454>
+        schema:givenName   "Marie-Noëlle" ;
+        schema:familyName  "Lienemann" .
+
+<http://www.wikidata.org/entity/Q761527>
+        schema:givenName   "Guy-Dominique" ;
+        schema:familyName  "Kennel" .
+
+<http://www.wikidata.org/entity/Q352280>
+        schema:givenName   "Pouvanaa" ;
+        schema:familyName  "Oopa" .
+
+<http://www.wikidata.org/entity/Q662153>
+        schema:givenName   "Pierre-Yvon" ;
+        schema:familyName  "Trémel" .
+
+<http://www.wikidata.org/entity/Q3086489>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Férat" .
+
+<http://www.wikidata.org/entity/Q45946207>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Vérien" .
+
+<http://www.wikidata.org/entity/Q63764964>
+        schema:givenName   "Anne" ;
+        schema:familyName  "Ventalon" .
+
+<http://www.wikidata.org/entity/Q96650109>
+        schema:givenName   "Muriel" ;
+        schema:familyName  "Cabaret" .
+
+<http://www.wikidata.org/entity/Q41545911>
+        schema:givenName   "Florence" ;
+        schema:familyName  "Lassarade" .
+
+<http://www.wikidata.org/entity/Q60297122>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Ramond" .
+
+<http://www.wikidata.org/entity/Q45936948>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Bouloux" .
+
+<http://www.wikidata.org/entity/Q65602380>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Sévêque" .
+
+<http://www.wikidata.org/entity/Q65563856>
+        schema:givenName   "Jean-Michel" ;
+        schema:familyName  "Arnaud" .
+
+<http://www.wikidata.org/entity/Q108702159>
+        schema:givenName   "Mélanie" ;
+        schema:familyName  "Vogel" .
+
+<http://www.wikidata.org/entity/Q65571317>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Cardenes" .
+
+<http://www.wikidata.org/entity/Q55327374>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Segouin" .
+
+<http://www.wikidata.org/entity/Q65583825>
+        schema:givenName   "Béatrice" ;
+        schema:familyName  "Gosselin" .
+
+<http://www.wikidata.org/entity/Q63766849>
+        schema:givenName   "Marie-Agnès" ;
+        schema:familyName  "Évrard" .
+
+<http://www.wikidata.org/entity/Q63248665>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Lahellec" .
+
+<http://www.wikidata.org/entity/Q63763298>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Gueret" ;
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Guéret" .
+
+<http://www.wikidata.org/entity/Q99672266>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Salmon" .
+
+<http://www.wikidata.org/entity/Q63766165>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Fialaire" .
+
+<http://www.wikidata.org/entity/Q41543886>
+        schema:givenName   "Nadine" ;
+        schema:familyName  "Grelet-Certenais" .
+
+<http://www.wikidata.org/entity/Q62077875>
+        schema:givenName   "Toine" ;
+        schema:familyName  "Bourrat" .
+
+<http://www.wikidata.org/entity/Q63765268>
+        schema:givenName   "Christophe" ;
+        schema:familyName  "Chaudun" .
+
+<http://www.wikidata.org/entity/Q41791083>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Prince" .
+
+<http://www.wikidata.org/entity/Q48338491>
+        schema:givenName   "Thierry" ;
+        schema:familyName  "Meignen" .
+
+<http://www.wikidata.org/entity/Q65575530>
+        schema:givenName   "Thierry" ;
+        schema:familyName  "Cozic" .
+
+<http://www.wikidata.org/entity/Q65573095>
+        schema:givenName   "Patrick" ;
+        schema:familyName  "Chauvet" .
+
+<http://www.wikidata.org/entity/Q103067375>
+        schema:givenName   "Valérie" ;
+        schema:familyName  "Blandin" .
+
+<http://www.wikidata.org/entity/Q62887964>
+        schema:givenName   "Cédric" ;
+        schema:familyName  "Vial" .
+
+<http://www.wikidata.org/entity/Q54578290>
+        schema:givenName   "Céline" ;
+        schema:familyName  "Brulin" .
+
+<http://www.wikidata.org/entity/Q63765386>
+        schema:givenName   "Brigitte" ;
+        schema:familyName  "Devesa" .
+
+<http://www.wikidata.org/entity/Q63455902>
+        schema:givenName   "Laurence" ;
+        schema:familyName  "Garnier" .
+
+<http://www.wikidata.org/entity/Q108701472>
+        schema:givenName   "Yan" ;
+        schema:familyName  "Chantrel" .
+
+<http://www.wikidata.org/entity/Q45956007>
+        schema:givenName   "Évelyne" ;
+        schema:familyName  "Perrot" .
+
+<http://www.wikidata.org/entity/Q63766731>
+        schema:givenName   "Pierre-Jean" ;
+        schema:familyName  "Verzelen" .
+
+<http://www.wikidata.org/entity/Q63411837>
+        schema:givenName   "Hussein" ;
+        schema:familyName  "Bourgi" .
+
+<http://www.wikidata.org/entity/Q19607318>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Cigolotti" .
+
+<http://www.wikidata.org/entity/Q41073038>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Léonhardt" .
+
+<http://www.wikidata.org/entity/Q19845792>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Lakhdari" .
+
+<http://www.wikidata.org/entity/Q3158718>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Desacres" .
+
+<http://www.wikidata.org/entity/Q3132061>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Terré" .
+
+<http://www.wikidata.org/entity/Q3132077>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Tournan" .
+
+<http://www.wikidata.org/entity/Q3132080>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Torre" .
+
+<http://www.wikidata.org/entity/Q3132356>
+        schema:givenName   "Henri" ;
+        schema:familyName  "de Richemont" .
+
+<http://www.wikidata.org/entity/Q3131500>
+        schema:givenName   "Marie" ;
+        schema:familyName  "Longchambon" .
+
+<http://www.wikidata.org/entity/Q3121560>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Besse" .
+
+<http://www.wikidata.org/entity/Q3121753>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Durbec" .
+
+<http://www.wikidata.org/entity/Q3121946>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Lemaire" .
+
+<http://www.wikidata.org/entity/Q3121967>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Lèguevaques" .
+
+<http://www.wikidata.org/entity/Q3122016>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Millot" .
+
+<http://www.wikidata.org/entity/Q3122061>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Penne" .
+
+<http://www.wikidata.org/entity/Q3122078>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Petit" .
+
+<http://www.wikidata.org/entity/Q3122082>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Poirieux" .
+
+<http://www.wikidata.org/entity/Q3122105>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Robert" .
+
+<http://www.wikidata.org/entity/Q3122136>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Schmaus" .
+
+<http://www.wikidata.org/entity/Q3122205>
+        schema:givenName   "Guy" ;
+        schema:familyName  "Vissac" .
+
+<http://www.wikidata.org/entity/Q3122257>
+        schema:givenName   "Guy" ;
+        schema:familyName  "de La Verpillière" .
+
+<http://www.wikidata.org/entity/Q3084176>
+        schema:givenName   "François" ;
+        schema:familyName  "Calvet" .
+
+<http://www.wikidata.org/entity/Q3084296>
+        schema:givenName   "François" ;
+        schema:familyName  "Collet" .
+
+<http://www.wikidata.org/entity/Q3084299>
+        schema:givenName   "François" ;
+        schema:familyName  "Commeinhes" .
+
+<http://www.wikidata.org/entity/Q3084402>
+        schema:givenName   "François" ;
+        schema:familyName  "Delga" .
+
+<http://www.wikidata.org/entity/Q3084551>
+        schema:givenName   "François" ;
+        schema:familyName  "Duval" .
+
+<http://www.wikidata.org/entity/Q3084631>
+        schema:givenName   "François" ;
+        schema:familyName  "Fortassin" .
+
+<http://www.wikidata.org/entity/Q3084697>
+        schema:givenName   "François" ;
+        schema:familyName  "Gautier" .
+
+<http://www.wikidata.org/entity/Q3084722>
+        schema:givenName   "François" ;
+        schema:familyName  "Giacobbi" .
+
+<http://www.wikidata.org/entity/Q3084783>
+        schema:givenName   "François" ;
+        schema:familyName  "Grosdidier" .
+
+<http://www.wikidata.org/entity/Q3085226>
+        schema:givenName   "François" ;
+        schema:familyName  "Louisy" .
+
+<http://www.wikidata.org/entity/Q3085285>
+        schema:givenName   "François" ;
+        schema:familyName  "Marc" .
+
+<http://www.wikidata.org/entity/Q3085332>
+        schema:givenName   "François" ;
+        schema:familyName  "Mathieu" .
+
+<http://www.wikidata.org/entity/Q3085365>
+        schema:givenName   "François" ;
+        schema:familyName  "Minard" .
+
+<http://www.wikidata.org/entity/Q3085525>
+        schema:givenName   "François" ;
+        schema:familyName  "Patriat" .
+
+<http://www.wikidata.org/entity/Q3085576>
+        schema:givenName   "François" ;
+        schema:familyName  "Pillet" .
+
+<http://www.wikidata.org/entity/Q3085612>
+        schema:givenName   "François" ;
+        schema:familyName  "Prigent" .
+
+<http://www.wikidata.org/entity/Q3085812>
+        schema:givenName   "François" ;
+        schema:familyName  "Schleiter" .
+
+<http://www.wikidata.org/entity/Q3085941>
+        schema:givenName   "François" ;
+        schema:familyName  "Trucy" .
+
+<http://www.wikidata.org/entity/Q3086080>
+        schema:givenName   "François" ;
+        schema:familyName  "Zocchetto" .
+
+<http://www.wikidata.org/entity/Q3121291>
+        schema:givenName   "François" ;
+        schema:familyName  "Philippon" .
+
+<http://www.wikidata.org/entity/Q3131500>
+        schema:givenName   "François" ;
+        schema:familyName  "Longchambon" .
+
+<http://www.wikidata.org/entity/Q3086428>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Cartron" .
+
+<http://www.wikidata.org/entity/Q3086513>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Henneron" .
+
+<http://www.wikidata.org/entity/Q3086533>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Laborde" .
+
+<http://www.wikidata.org/entity/Q3086604>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Seligmann" .
+
+<http://www.wikidata.org/entity/Q3104086>
+        schema:givenName   "Germain" ;
+        schema:familyName  "Authié" .
+
+<http://www.wikidata.org/entity/Q3130651>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Belcour" .
+
+<http://www.wikidata.org/entity/Q3130836>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Claireaux" .
+
+<http://www.wikidata.org/entity/Q3130856>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Collard" .
+
+<http://www.wikidata.org/entity/Q3130859>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Collette" .
+
+<http://www.wikidata.org/entity/Q3130976>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Desseigne" .
+
+<http://www.wikidata.org/entity/Q3131008>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Duffaut" .
+
+<http://www.wikidata.org/entity/Q3131134>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Fréville" .
+
+<http://www.wikidata.org/entity/Q3131154>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Gallet" .
+
+<http://www.wikidata.org/entity/Q3131435>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Le Breton" .
+
+<http://www.wikidata.org/entity/Q3131500>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Longchambon" .
+
+<http://www.wikidata.org/entity/Q3131676>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Moreau" .
+
+<http://www.wikidata.org/entity/Q3131740>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Parisot" .
+
+<http://www.wikidata.org/entity/Q3131751>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Paumelle" .
+
+<http://www.wikidata.org/entity/Q3131825>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Portier" .
+
+<http://www.wikidata.org/entity/Q3131841>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Prêtre" .
+
+<http://www.wikidata.org/entity/Q3131899>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Revol" .
+
+<http://www.wikidata.org/entity/Q3132054>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Tandonnet" .
+
+<http://www.wikidata.org/entity/Q3105594>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Barbier" .
+
+<http://www.wikidata.org/entity/Q3105597>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Belin" .
+
+<http://www.wikidata.org/entity/Q3105647>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Chabroux" .
+
+<http://www.wikidata.org/entity/Q3105685>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Devèze" .
+
+<http://www.wikidata.org/entity/Q3105844>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Roger" .
+
+<http://www.wikidata.org/entity/Q3129272>
+        schema:givenName   "Hector" ;
+        schema:familyName  "Peschaud" .
+
+<http://www.wikidata.org/entity/Q3121291>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Philippon" .
+
+<http://www.wikidata.org/entity/Q3093658>
+        schema:givenName   "Gabriel" ;
+        schema:familyName  "Calmels" .
+
+<http://www.wikidata.org/entity/Q3093885>
+        schema:givenName   "Gabriel" ;
+        schema:familyName  "Montpied" .
+
+<http://www.wikidata.org/entity/Q3093970>
+        schema:givenName   "Gabriel" ;
+        schema:familyName  "Tellier" .
+
+<http://www.wikidata.org/entity/Q3123731>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Bailly" .
+
+<http://www.wikidata.org/entity/Q3123794>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Braun" .
+
+<http://www.wikidata.org/entity/Q3123848>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Claudel" .
+
+<http://www.wikidata.org/entity/Q3123859>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Cornu" .
+
+<http://www.wikidata.org/entity/Q3123874>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "César" .
+
+<http://www.wikidata.org/entity/Q3123936>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Dériot" .
+
+<http://www.wikidata.org/entity/Q3123950>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Fayolle" .
+
+<http://www.wikidata.org/entity/Q3123978>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Gaud" .
+
+<http://www.wikidata.org/entity/Q3124087>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Le Cam" .
+
+<http://www.wikidata.org/entity/Q3124180>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Minvielle" .
+
+<http://www.wikidata.org/entity/Q3124185>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Miquel" .
+
+<http://www.wikidata.org/entity/Q3124276>
+        schema:givenName   "Gérard" ;
+        schema:familyName  "Roche" .
+
+<http://www.wikidata.org/entity/Q3102320>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Bonnet" .
+
+<http://www.wikidata.org/entity/Q3102342>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Boulanger" .
+
+<http://www.wikidata.org/entity/Q3102506>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Constant" ;
+        schema:givenName   "Georges" ;
+        schema:familyName  "Constant" .
+
+<http://www.wikidata.org/entity/Q3102550>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Dardel" .
+
+<http://www.wikidata.org/entity/Q3102558>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Dayan" .
+
+<http://www.wikidata.org/entity/Q3102774>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Ginoux" .
+
+<http://www.wikidata.org/entity/Q3102984>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Labazée" .
+
+<http://www.wikidata.org/entity/Q3103289>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Othily" .
+
+<http://www.wikidata.org/entity/Q3103364>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Portmann" .
+
+<http://www.wikidata.org/entity/Q3103436>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Rougeron" .
+
+<http://www.wikidata.org/entity/Q3103560>
+        schema:givenName   "Georges" ;
+        schema:familyName  "Treille" .
+
+<http://www.wikidata.org/entity/Q3092430>
+        schema:givenName   "Félix" ;
+        schema:familyName  "Desplan" .
+
+<http://www.wikidata.org/entity/Q3092507>
+        schema:givenName   "Félix" ;
+        schema:familyName  "Leyzour" .
+
+<http://www.wikidata.org/entity/Q3089655>
+        schema:givenName   "Frédéric" ;
+        schema:familyName  "Bourguet" .
+
+<http://www.wikidata.org/entity/Q3090278>
+        schema:givenName   "Frédéric" ;
+        schema:familyName  "Wirth" .
+
+<http://www.wikidata.org/entity/Q3121291>
+        schema:givenName   "Gustave" ;
+        schema:familyName  "Philippon" .
+
+<http://www.wikidata.org/entity/Q3099918>
+        schema:givenName   "Gaëtan" ;
+        schema:familyName  "Gorce" .
+
+<http://www.wikidata.org/entity/Q3099109>
+        schema:givenName   "Gaston" ;
+        schema:familyName  "Pams" .
+
+<http://www.wikidata.org/entity/Q3100668>
+        schema:givenName   "Geneviève" ;
+        schema:familyName  "Le Bellegou-Béguin" .
+
+<http://www.wikidata.org/entity/Q3090373>
+        schema:givenName   "Frédérique" ;
+        schema:familyName  "Espagnac" .
+
+<http://www.wikidata.org/entity/Q3122917>
+        schema:givenName   "Gélita" ;
+        schema:familyName  "Hoarau" .
+
+<http://www.wikidata.org/entity/Q41520860>
+        schema:givenName   "Claudine" ;
+        schema:familyName  "Kauffmann" .
+
+<http://www.wikidata.org/entity/Q3166355>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Mirassou" .
+
+<http://www.wikidata.org/entity/Q3157664>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Alduy" .
+
+<http://www.wikidata.org/entity/Q3157667>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Alquier" .
+
+<http://www.wikidata.org/entity/Q3157725>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Fraysse" .
+
+<http://www.wikidata.org/entity/Q3157735>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Gourault" .
+
+<http://www.wikidata.org/entity/Q3157779>
+        schema:givenName   "Jacqueline" ;
+        schema:familyName  "Panis" .
+
+<http://www.wikidata.org/entity/Q3160949>
+        schema:givenName   "James" ;
+        schema:familyName  "Bordas" .
+
+<http://www.wikidata.org/entity/Q3161257>
+        schema:givenName   "James" ;
+        schema:familyName  "Marson" .
+
+<http://www.wikidata.org/entity/Q3166254>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Filleul" .
+
+<http://www.wikidata.org/entity/Q3166300>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Hyest" .
+
+<http://www.wikidata.org/entity/Q3166308>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Jégou" .
+
+<http://www.wikidata.org/entity/Q3166328>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Lasserre" .
+
+<http://www.wikidata.org/entity/Q3166338>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Lozac'h" .
+
+<http://www.wikidata.org/entity/Q3156174>
+        schema:givenName   "Ivan" ;
+        schema:familyName  "Renar" .
+
+<http://www.wikidata.org/entity/Q3158204>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Baudot" .
+
+<http://www.wikidata.org/entity/Q3158230>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Bellanger" .
+
+<http://www.wikidata.org/entity/Q3158263>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Berthou" .
+
+<http://www.wikidata.org/entity/Q3158284>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Bigot" .
+
+<http://www.wikidata.org/entity/Q3158295>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Blanc" .
+
+<http://www.wikidata.org/entity/Q3158311>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Boisrond" .
+
+<http://www.wikidata.org/entity/Q3158385>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Braconnier" .
+
+<http://www.wikidata.org/entity/Q3158444>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Bérard" .
+
+<http://www.wikidata.org/entity/Q3158522>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Chaumont" .
+
+<http://www.wikidata.org/entity/Q3158540>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Chiron" .
+
+<http://www.wikidata.org/entity/Q3158569>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Cornano" .
+
+<http://www.wikidata.org/entity/Q3158584>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Coudert" .
+
+<http://www.wikidata.org/entity/Q3158718>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Descours" .
+
+<http://www.wikidata.org/entity/Q3158751>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Dominati" .
+
+<http://www.wikidata.org/entity/Q3158754>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Donnay" .
+
+<http://www.wikidata.org/entity/Q3158821>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Durand" .
+
+<http://www.wikidata.org/entity/Q3158838>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Eberhard" .
+
+<http://www.wikidata.org/entity/Q3158866>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Faggianelli" .
+
+<http://www.wikidata.org/entity/Q3158984>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Gautier" .
+
+<http://www.wikidata.org/entity/Q3158990>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Genton" .
+
+<http://www.wikidata.org/entity/Q3158995>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Gillot" .
+
+<http://www.wikidata.org/entity/Q3159022>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Grandon" .
+
+<http://www.wikidata.org/entity/Q3159042>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Grosperrin" .
+
+<http://www.wikidata.org/entity/Q3159073>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Habert" .
+
+<http://www.wikidata.org/entity/Q3159317>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Le Nay" .
+
+<http://www.wikidata.org/entity/Q3159355>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Legendre" .
+
+<http://www.wikidata.org/entity/Q3159452>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Machet" .
+
+<http://www.wikidata.org/entity/Q3159460>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Mahéas" .
+
+<http://www.wikidata.org/entity/Q3159489>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Marette" .
+
+<http://www.wikidata.org/entity/Q3159534>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Maury" .
+
+<http://www.wikidata.org/entity/Q3159610>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Mossion" .
+
+<http://www.wikidata.org/entity/Q3159613>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Moulinier" .
+
+<http://www.wikidata.org/entity/Q3159623>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Muller" .
+
+<http://www.wikidata.org/entity/Q3159633>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Ménard" .
+
+<http://www.wikidata.org/entity/Q3159696>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Oudin" .
+
+<http://www.wikidata.org/entity/Q3159731>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Pelletier" .
+
+<http://www.wikidata.org/entity/Q3159773>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Piot" .
+
+<http://www.wikidata.org/entity/Q3159871>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Richard" .
+
+<http://www.wikidata.org/entity/Q3159893>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Rocca" ;
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Serra" .
+
+<http://www.wikidata.org/entity/Q3159966>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Sanglier" .
+
+<http://www.wikidata.org/entity/Q3160025>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Sourdille" .
+
+<http://www.wikidata.org/entity/Q3160101>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Toutain" .
+
+<http://www.wikidata.org/entity/Q3160121>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Valade" .
+
+<http://www.wikidata.org/entity/Q3160141>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Vassor" .
+
+<http://www.wikidata.org/entity/Q3160160>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Verneuil" .
+
+<http://www.wikidata.org/entity/Q3160316>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "de Menou" .
+
+<http://www.wikidata.org/entity/Q3132919>
+        schema:givenName   "Henry" ;
+        schema:familyName  "Loste" .
+
+<http://www.wikidata.org/entity/Q3157296>
+        schema:givenName   "Jack" ;
+        schema:familyName  "Ralite" .
+
+<http://www.wikidata.org/entity/Q3164041>
+        schema:givenName   "Jean-Baptiste" ;
+        schema:familyName  "Dufeu" .
+
+<http://www.wikidata.org/entity/Q3164272>
+        schema:givenName   "Jean-Baptiste" ;
+        schema:familyName  "Mathias" .
+
+<http://www.wikidata.org/entity/Q3132361>
+        schema:givenName   "Henri" ;
+        schema:familyName  "de Raincourt" .
+
+<http://www.wikidata.org/entity/Q3132919>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Loste" .
+
+<http://www.wikidata.org/entity/Q3164858>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Boulard" .
+
+<http://www.wikidata.org/entity/Q3164888>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Carle" .
+
+<http://www.wikidata.org/entity/Q3164926>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Danglot" .
+
+<http://www.wikidata.org/entity/Q3164977>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Frécon" .
+
+<http://www.wikidata.org/entity/Q3165074>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Lenoir" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Lenoir" .
+
+<http://www.wikidata.org/entity/Q3165082>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Luche" .
+
+<http://www.wikidata.org/entity/Q3165170>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Peyronnet" .
+
+<http://www.wikidata.org/entity/Q3165189>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Requier" .
+
+<http://www.wikidata.org/entity/Q3165278>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Étienne" .
+
+<http://www.wikidata.org/entity/Q3164858>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Boulard" .
+
+<http://www.wikidata.org/entity/Q3164888>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Carle" .
+
+<http://www.wikidata.org/entity/Q3164926>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Danglot" .
+
+<http://www.wikidata.org/entity/Q3164977>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Fr��con" .
+
+<http://www.wikidata.org/entity/Q3165074>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Lenoir" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Lenoir" .
+
+<http://www.wikidata.org/entity/Q3165082>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Luche" .
+
+<http://www.wikidata.org/entity/Q3165170>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Peyronnet" .
+
+<http://www.wikidata.org/entity/Q3165189>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Requier" .
+
+<http://www.wikidata.org/entity/Q3165278>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Étienne" .
+
+<http://www.wikidata.org/entity/Q3165671>
+        schema:givenName   "Jean-François" ;
+        schema:familyName  "Humbert" .
+
+<http://www.wikidata.org/entity/Q3165731>
+        schema:givenName   "Jean-François" ;
+        schema:familyName  "Le Grand" .
+
+<http://www.wikidata.org/entity/Q3165826>
+        schema:givenName   "Jean-François" ;
+        schema:familyName  "Pintat" .
+
+<http://www.wikidata.org/entity/Q3155005>
+        schema:givenName   "Isabelle" ;
+        schema:familyName  "Pasquet" .
+
+<http://www.wikidata.org/entity/Q3144735>
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Conway" ;
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Mouret" .
+
+<http://www.wikidata.org/entity/Q3144759>
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Édeline" .
+
+<http://www.wikidata.org/entity/Q3144806>
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Lipietz" .
+
+<http://www.wikidata.org/entity/Q3144808>
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Luc" .
+
+<http://www.wikidata.org/entity/Q3144821>
+        schema:givenName   "Hélène" ;
+        schema:familyName  "Missoffe" .
+
+<http://www.wikidata.org/entity/Q3141995>
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Durand" .
+
+<http://www.wikidata.org/entity/Q3141997>
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Durand" ;
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Chastel" .
+
+<http://www.wikidata.org/entity/Q3135560>
+        schema:givenName   "Hilarion" ;
+        schema:familyName  "Vendégou" .
+
+<http://www.wikidata.org/entity/Q3142662>
+        schema:givenName   "Hugues" ;
+        schema:familyName  "Portelli" .
+
+<http://www.wikidata.org/entity/Q3157403>
+        schema:givenName   "Jackie" ;
+        schema:familyName  "Pierre" .
+
+<http://www.wikidata.org/entity/Q3134586>
+        schema:givenName   "Hervé" ;
+        schema:familyName  "Marseille" .
+
+<http://www.wikidata.org/entity/Q3134596>
+        schema:givenName   "Hervé" ;
+        schema:familyName  "Maurey" .
+
+<http://www.wikidata.org/entity/Q3161979>
+        schema:givenName   "Janine" ;
+        schema:familyName  "Bardou" .
+
+<http://www.wikidata.org/entity/Q3135521>
+        schema:givenName   "Hilaire" ;
+        schema:familyName  "Flandre" .
+
+<http://www.wikidata.org/entity/Q3140204>
+        schema:givenName   "Honoré" ;
+        schema:familyName  "Bailet" .
+
+<http://www.wikidata.org/entity/Q3134205>
+        schema:givenName   "Hermeline" ;
+        schema:familyName  "Malherbe" .
+
+<http://www.wikidata.org/entity/Q3157890>
+        schema:givenName   "Jacques-Bernard" ;
+        schema:familyName  "Magner" .
+
+<http://www.wikidata.org/entity/Q19845808>
+        schema:givenName   "Abdelkrim" ;
+        schema:familyName  "Sadi" .
+
+<http://www.wikidata.org/entity/Q40954397>
+        schema:givenName   "Nadège" ;
+        schema:familyName  "Lefebvre" .
+
+<http://www.wikidata.org/entity/Q19956565>
+        schema:givenName   "Pascal" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q18744821>
+        schema:givenName   "Loïc" ;
+        schema:familyName  "Hervé" .
+
+<http://www.wikidata.org/entity/Q20083724>
+        schema:givenName   "Marie" ;
+        schema:familyName  "Mercier" .
+
+<http://www.wikidata.org/entity/Q41227162>
+        schema:givenName   "Muriel" ;
+        schema:familyName  "Jourda" .
+
+<http://www.wikidata.org/entity/Q18202615>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Genest" .
+
+<http://www.wikidata.org/entity/Q19845801>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Moutet" .
+
+<http://www.wikidata.org/entity/Q19845807>
+        schema:givenName   "Jacques" ;
+        schema:familyName  "Rosselli" .
+
+<http://www.wikidata.org/entity/Q40954423>
+        schema:givenName   "Xavier" ;
+        schema:familyName  "Iacovelli" .
+
+<http://www.wikidata.org/entity/Q18202577>
+        schema:givenName   "François" ;
+        schema:familyName  "Bonhomme" .
+
+<http://www.wikidata.org/entity/Q41187776>
+        schema:givenName   "Denise" ;
+        schema:familyName  "Saint-Pé" .
+
+<http://www.wikidata.org/entity/Q18681585>
+        schema:givenName   "Patricia" ;
+        schema:familyName  "Richaud" ;
+        schema:givenName   "Patricia" ;
+        schema:familyName  "Morhet" .
+
+<http://www.wikidata.org/entity/Q18202579>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Gatel" .
+
+<http://www.wikidata.org/entity/Q40973813>
+        schema:givenName   "Sébastien" ;
+        schema:familyName  "Meurant" .
+
+<http://www.wikidata.org/entity/Q19845795>
+        schema:givenName   "Fernand" ;
+        schema:familyName  "Male" .
+
+<http://www.wikidata.org/entity/Q19845811>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Walker" .
+
+<http://www.wikidata.org/entity/Q19956565>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q21486115>
+        schema:givenName   "Henri" ;
+        schema:familyName  "Elby" .
+
+<http://www.wikidata.org/entity/Q19887794>
+        schema:givenName   "Lana" ;
+        schema:familyName  "Tetuanui" .
+
+<http://www.wikidata.org/entity/Q40871238>
+        schema:givenName   "Maryse" ;
+        schema:familyName  "Carrère" .
+
+<http://www.wikidata.org/entity/Q41055355>
+        schema:givenName   "Christine" ;
+        schema:familyName  "Lavarde" .
+
+<http://www.wikidata.org/entity/Q41253801>
+        schema:givenName   "Christine" ;
+        schema:familyName  "Herzog" ;
+        schema:givenName   "Christine" ;
+        schema:familyName  "Herzog" .
+
+<http://www.wikidata.org/entity/Q23057013>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Lefebvre" .
+
+<http://www.wikidata.org/entity/Q27949568>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Cuypers" .
+
+<http://www.wikidata.org/entity/Q40910532>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Louault" .
+
+<http://www.wikidata.org/entity/Q40950154>
+        schema:givenName   "Catherine" ;
+        schema:familyName  "Fournier" .
+
+<http://www.wikidata.org/entity/Q18202585>
+        schema:givenName   "René" ;
+        schema:familyName  "Danesi" .
+
+<http://www.wikidata.org/entity/Q19845800>
+        schema:givenName   "René" ;
+        schema:familyName  "Montaldo" .
+
+<http://www.wikidata.org/entity/Q40895865>
+        schema:givenName   "Julien" ;
+        schema:familyName  "Bargeton" .
+
+<http://www.wikidata.org/entity/Q18202625>
+        schema:givenName   "Alain" ;
+        schema:familyName  "Duran" .
+
+<http://www.wikidata.org/entity/Q20027649>
+        schema:givenName   "Charles" ;
+        schema:familyName  "Aubry" .
+
+<http://www.wikidata.org/entity/Q41246319>
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Tissot" ;
+        schema:givenName   "Jean-Claude" ;
+        schema:familyName  "Tissot" .
+
+<http://www.wikidata.org/entity/Q22252744>
+        schema:givenName   "Jean-François" ;
+        schema:familyName  "Rapin" .
+
+<http://www.wikidata.org/entity/Q41246286>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Piednoir" .
+
+<http://www.wikidata.org/entity/Q19845786>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Favre" .
+
+<http://www.wikidata.org/entity/Q19845783>
+        schema:givenName   "Gabriel" ;
+        schema:familyName  "Burgat" .
+
+<http://www.wikidata.org/entity/Q40905122>
+        schema:givenName   "Isabelle" ;
+        schema:familyName  "Raimond-Pavero" .
+
+<http://www.wikidata.org/entity/Q18202580>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Vogel" .
+
+<http://www.wikidata.org/entity/Q41069984>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Corbisez" .
+
+<http://www.wikidata.org/entity/Q18202576>
+        schema:givenName   "Jean-Yves" ;
+        schema:familyName  "Roux" .
+
+<http://www.wikidata.org/entity/Q40896414>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Sol" .
+
+<http://www.wikidata.org/entity/Q19845787>
+        schema:givenName   "Manuel" ;
+        schema:familyName  "Ferre" .
+
+<http://www.wikidata.org/entity/Q41374046>
+        schema:givenName   "Nadia" ;
+        schema:familyName  "Sollogoub" .
+
+<http://www.wikidata.org/entity/Q18202569>
+        schema:givenName   "Daniel" ;
+        schema:familyName  "Gremillet" .
+
+<http://www.wikidata.org/entity/Q18202583>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Forissier" .
+
+<http://www.wikidata.org/entity/Q40885959>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Dennemont" .
+
+<http://www.wikidata.org/entity/Q20962459>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Delcros" .
+
+<http://www.wikidata.org/entity/Q18202594>
+        schema:givenName   "Nicole" ;
+        schema:familyName  "Duranton" .
+
+<http://www.wikidata.org/entity/Q41099340>
+        schema:givenName   "Michelle" ;
+        schema:familyName  "Gréaume" .
+
+<http://www.wikidata.org/entity/Q41099326>
+        schema:givenName   "Fabien" ;
+        schema:familyName  "Gay" .
+
+<http://www.wikidata.org/entity/Q20082373>
+        schema:givenName   "Corinne" ;
+        schema:familyName  "Féret" ;
+        schema:givenName   "Corinne" ;
+        schema:familyName  "Féret" .
+
+<http://www.wikidata.org/entity/Q41487488>
+        schema:givenName   "Nathalie" ;
+        schema:familyName  "Delattre" .
+
+<http://www.wikidata.org/entity/Q41230511>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Paccaud" .
+
+<http://www.wikidata.org/entity/Q41250063>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Jacquin" .
+
+<http://www.wikidata.org/entity/Q38285283>
+        schema:givenName   "Max" ;
+        schema:familyName  "Brisson" .
+
+<http://www.wikidata.org/entity/Q19628703>
+        schema:givenName   "Mathieu" ;
+        schema:familyName  "Darnaud" .
+
+<http://www.wikidata.org/entity/Q41250027>
+        schema:givenName   "Véronique" ;
+        schema:familyName  "Guillotin" .
+
+<http://www.wikidata.org/entity/Q18215030>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Kern" .
+
+<http://www.wikidata.org/entity/Q19629549>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Dumont" .
+
+<http://www.wikidata.org/entity/Q18202593>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Mandelli" .
+
+<http://www.wikidata.org/entity/Q38614238>
+        schema:givenName   "Didier" ;
+        schema:familyName  "Rambaud" .
+
+<http://www.wikidata.org/entity/Q18215234>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Manable" .
+
+<http://www.wikidata.org/entity/Q19956565>
+        schema:givenName   "Christian" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q18578172>
+        schema:givenName   "Patrick" ;
+        schema:familyName  "Abate" .
+
+<http://www.wikidata.org/entity/Q19826679>
+        schema:givenName   "Patrick" ;
+        schema:familyName  "Masclet" .
+
+<http://www.wikidata.org/entity/Q40915163>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Lagourgue" .
+
+<http://www.wikidata.org/entity/Q41067415>
+        schema:givenName   "Martine" ;
+        schema:familyName  "Filleul" .
+
+<http://www.wikidata.org/entity/Q41072238>
+        schema:givenName   "Martine" ;
+        schema:familyName  "Berthet" .
+
+<http://www.wikidata.org/entity/Q41068005>
+        schema:givenName   "Anne-Marie" ;
+        schema:familyName  "Bertrand" .
+
+<http://www.wikidata.org/entity/Q18214565>
+        schema:givenName   "Élisabeth" ;
+        schema:familyName  "Doineau" ;
+        schema:givenName   "Élisabeth" ;
+        schema:familyName  "Doineau" .
+
+<http://www.wikidata.org/entity/Q18214310>
+        schema:givenName   "Cédric" ;
+        schema:familyName  "Perrin" .
+
+<http://www.wikidata.org/entity/Q18202624>
+        schema:givenName   "Gisèle" ;
+        schema:familyName  "Jourda" .
+
+<http://www.wikidata.org/entity/Q33186015>
+        schema:givenName   "Jérôme" ;
+        schema:familyName  "Bascher" .
+
+<http://www.wikidata.org/entity/Q19845788>
+        schema:givenName   "Etienne" ;
+        schema:familyName  "Gay" .
+
+<http://www.wikidata.org/entity/Q40914766>
+        schema:givenName   "Guillaume" ;
+        schema:familyName  "Gontard" .
+
+<http://www.wikidata.org/entity/Q40884801>
+        schema:givenName   "Viviane" ;
+        schema:familyName  "Malet" .
+
+<http://www.wikidata.org/entity/Q41013798>
+        schema:givenName   "Victoire" ;
+        schema:familyName  "Jasmin" .
+
+<http://www.wikidata.org/entity/Q40914187>
+        schema:givenName   "Jean-Raymond" ;
+        schema:familyName  "Hugonet" .
+
+<http://www.wikidata.org/entity/Q41398289>
+        schema:givenName   "Pascale" ;
+        schema:familyName  "Bories" .
+
+<http://www.wikidata.org/entity/Q41073013>
+        schema:givenName   "Jocelyne" ;
+        schema:familyName  "Guidez" .
+
+<http://www.wikidata.org/entity/Q20027617>
+        schema:givenName   "Al" ;
+        schema:familyName  "Cheikh" .
+
+<http://www.wikidata.org/entity/Q18202568>
+        schema:givenName   "Agnès" ;
+        schema:familyName  "Canayer" .
+
+<http://www.wikidata.org/entity/Q19845771>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Belabed" .
+
+<http://www.wikidata.org/entity/Q19845797>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Megdoud" .
+
+<http://www.wikidata.org/entity/Q19845799>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Mokrane" .
+
+<http://www.wikidata.org/entity/Q20027752>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Abdellatif" .
+
+<http://www.wikidata.org/entity/Q19358783>
+        schema:givenName   "Léopold" ;
+        schema:familyName  "Morel" ;
+        schema:givenName   "Léopold" ;
+        schema:familyName  "Morel" .
+
+<http://www.wikidata.org/entity/Q19845565>
+        schema:givenName   "Stéphanie" ;
+        schema:familyName  "Riocreux" .
+
+<http://www.wikidata.org/entity/Q40919469>
+        schema:givenName   "Frédérique" ;
+        schema:familyName  "Puissat" .
+
+<http://www.wikidata.org/entity/Q41187755>
+        schema:givenName   "Marie-Christine" ;
+        schema:familyName  "Chauvin" .
+
+<http://www.wikidata.org/entity/Q19628627>
+        schema:givenName   "Évelyne" ;
+        schema:familyName  "Yonnet" .
+
+<http://www.wikidata.org/entity/Q27990079>
+        schema:givenName   "Évelyne" ;
+        schema:familyName  "Rivollier" .
+
+<http://www.wikidata.org/entity/Q41018380>
+        schema:givenName   "Évelyne" ;
+        schema:familyName  "Renaud" .
+
+<http://www.wikidata.org/entity/Q18202588>
+        schema:givenName   "Vivette" ;
+        schema:familyName  "Lopez" .
+
+<http://www.wikidata.org/entity/Q19845772>
+        schema:givenName   "Sliman" ;
+        schema:familyName  "Belhabich" .
+
+<http://www.wikidata.org/entity/Q3169106>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Cantegrit" .
+
+<http://www.wikidata.org/entity/Q3169200>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Demerliat" .
+
+<http://www.wikidata.org/entity/Q3168236>
+        schema:givenName   "Jean-Noël" ;
+        schema:familyName  "Cardoux" .
+
+<http://www.wikidata.org/entity/Q3186125>
+        schema:givenName   "Josy" ;
+        schema:familyName  "Moinet" .
+
+<http://www.wikidata.org/entity/Q3171341>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Clerc" .
+
+<http://www.wikidata.org/entity/Q3184581>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Beaujannot" .
+
+<http://www.wikidata.org/entity/Q3185162>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Kergueris" .
+
+<http://www.wikidata.org/entity/Q3185435>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Ostermann" .
+
+<http://www.wikidata.org/entity/Q3185547>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Raybaud" .
+
+<http://www.wikidata.org/entity/Q3185801>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Yvon" .
+
+<http://www.wikidata.org/entity/Q3166376>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Panunzi" .
+
+<http://www.wikidata.org/entity/Q3166380>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Perron" .
+
+<http://www.wikidata.org/entity/Q3166383>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Pignard" .
+
+<http://www.wikidata.org/entity/Q3166393>
+        schema:givenName   "Jean-Jacques" ;
+        schema:familyName  "Robert" .
+
+<http://www.wikidata.org/entity/Q3167146>
+        schema:givenName   "Jean-Luc" ;
+        schema:familyName  "Fichet" .
+
+<http://www.wikidata.org/entity/Q3167778>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Poirier" .
+
+<http://www.wikidata.org/entity/Q3167797>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Rausch" ;
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Rausch" .
+
+<http://www.wikidata.org/entity/Q3167857>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Vanlerenberghe" .
+
+<http://www.wikidata.org/entity/Q3170502>
+        schema:givenName   "Jean-Marie" ;
+        schema:familyName  "Bailly" .
+
+<http://www.wikidata.org/entity/Q3168316>
+        schema:givenName   "Jean-Patrick" ;
+        schema:familyName  "Courtois" .
+
+<http://www.wikidata.org/entity/Q3185933>
+        schema:givenName   "Josette" ;
+        schema:familyName  "Durrieu" .
+
+<http://www.wikidata.org/entity/Q3168968>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Bansard" .
+
+<http://www.wikidata.org/entity/Q3168987>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Bayle" .
+
+<http://www.wikidata.org/entity/Q3169018>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Blanc" .
+
+<http://www.wikidata.org/entity/Q3169025>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Blanchet" .
+
+<http://www.wikidata.org/entity/Q3169094>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Caffet" .
+
+<http://www.wikidata.org/entity/Q3169101>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Camoin" .
+
+<http://www.wikidata.org/entity/Q3169128>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Chauveau" .
+
+<http://www.wikidata.org/entity/Q3169352>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Godefroy" .
+
+<http://www.wikidata.org/entity/Q3169366>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Grand" .
+
+<http://www.wikidata.org/entity/Q3169456>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Lafond" .
+
+<http://www.wikidata.org/entity/Q3169500>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Leleux" .
+
+<http://www.wikidata.org/entity/Q3169556>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Masseret" .
+
+<http://www.wikidata.org/entity/Q3169573>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Michel" .
+
+<http://www.wikidata.org/entity/Q3169756>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Schosteck" .
+
+<http://www.wikidata.org/entity/Q3169778>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Sueur" .
+
+<http://www.wikidata.org/entity/Q3169919>
+        schema:givenName   "Jean-René" ;
+        schema:familyName  "Lecerf" .
+
+<http://www.wikidata.org/entity/Q3170096>
+        schema:givenName   "Jean-Yves" ;
+        schema:familyName  "Autexier" .
+
+<http://www.wikidata.org/entity/Q3170172>
+        schema:givenName   "Jean-Yves" ;
+        schema:familyName  "Leconte" .
+
+<http://www.wikidata.org/entity/Q3170180>
+        schema:givenName   "Jean-Yves" ;
+        schema:familyName  "Mano" .
+
+<http://www.wikidata.org/entity/Q3170254>
+        schema:givenName   "Jean-Étienne" ;
+        schema:familyName  "Antoinette" .
+
+<http://www.wikidata.org/entity/Q3170599>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Bardol" .
+
+<http://www.wikidata.org/entity/Q3170607>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Barras" .
+
+<http://www.wikidata.org/entity/Q3170718>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Bernard" .
+
+<http://www.wikidata.org/entity/Q3170965>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3170967>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3171063>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Béranger" .
+
+<http://www.wikidata.org/entity/Q3171209>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Chamant" .
+
+<http://www.wikidata.org/entity/Q3171317>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Chérioux" .
+
+<http://www.wikidata.org/entity/Q3171341>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Clerc" .
+
+<http://www.wikidata.org/entity/Q3171348>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Clouet" .
+
+<http://www.wikidata.org/entity/Q3171373>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Colin" .
+
+<http://www.wikidata.org/entity/Q3171583>
+        schema:givenName   "Jean" ;
+        schema:familyName  "David" .
+
+<http://www.wikidata.org/entity/Q3171628>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Delaneau" .
+
+<http://www.wikidata.org/entity/Q3171715>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Desmarets" .
+
+<http://www.wikidata.org/entity/Q3171860>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Dumont" .
+
+<http://www.wikidata.org/entity/Q3171987>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Faure" .
+
+<http://www.wikidata.org/entity/Q3172027>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Fleury" .
+
+<http://www.wikidata.org/entity/Q3172209>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Ganeval" .
+
+<http://www.wikidata.org/entity/Q3172217>
+        schema:givenName   "Jean" ;
+        schema:familyName  "García" .
+
+<http://www.wikidata.org/entity/Q3172268>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Geoffroy" .
+
+<http://www.wikidata.org/entity/Q3172289>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Germain" .
+
+<http://www.wikidata.org/entity/Q3172380>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Gravier" .
+
+<http://www.wikidata.org/entity/Q3172567>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Huchon" .
+
+<http://www.wikidata.org/entity/Q3172928>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Lacaze" .
+
+<http://www.wikidata.org/entity/Q3173146>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Legaret" .
+
+<http://www.wikidata.org/entity/Q3173489>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Mercier" .
+
+<http://www.wikidata.org/entity/Q3173531>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Milhau" .
+
+<http://www.wikidata.org/entity/Q3173678>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Natali" .
+
+<http://www.wikidata.org/entity/Q3173681>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Nayrou" .
+
+<http://www.wikidata.org/entity/Q3173754>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Nègre" .
+
+<http://www.wikidata.org/entity/Q3174104>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Pourchet" .
+
+<http://www.wikidata.org/entity/Q3174126>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Proriol" .
+
+<http://www.wikidata.org/entity/Q3174139>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Puech" .
+
+<http://www.wikidata.org/entity/Q3174163>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Pépin" .
+
+<http://www.wikidata.org/entity/Q3174388>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Roger" .
+
+<http://www.wikidata.org/entity/Q3174645>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Simonin" .
+
+<http://www.wikidata.org/entity/Q3174971>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Varlet" .
+
+<http://www.wikidata.org/entity/Q3175244>
+        schema:givenName   "Jean" ;
+        schema:familyName  "de Bagneux" .
+
+<http://www.wikidata.org/entity/Q3168817>
+        schema:givenName   "Jean-Philippe" ;
+        schema:familyName  "Lachenaud" .
+
+<http://www.wikidata.org/entity/Q3168336>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Amoudry" .
+
+<http://www.wikidata.org/entity/Q3168448>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Delevoye" .
+
+<http://www.wikidata.org/entity/Q3168520>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Hammann" .
+
+<http://www.wikidata.org/entity/Q3168531>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Hugot" .
+
+<http://www.wikidata.org/entity/Q3168709>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "Virapoullé" .
+
+<http://www.wikidata.org/entity/Q3168726>
+        schema:givenName   "Jean-Paul" ;
+        schema:familyName  "de Rocca Serra" .
+
+<http://www.wikidata.org/entity/Q3168248>
+        schema:givenName   "Jean-Noël" ;
+        schema:familyName  "Guérini" .
+
+<http://www.wikidata.org/entity/Q3166690>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Carrère" .
+
+<http://www.wikidata.org/entity/Q3166768>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Fournier" .
+
+<http://www.wikidata.org/entity/Q3166865>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Lorrain" .
+
+<http://www.wikidata.org/entity/Q3167000>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Tourenne" .
+
+<http://www.wikidata.org/entity/Q3167020>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Vigier" .
+
+<http://www.wikidata.org/entity/Q3173270>
+        schema:givenName   "Jean-Louis" ;
+        schema:familyName  "Masson" .
+
+<http://www.wikidata.org/entity/Q3167339>
+        schema:givenName   "Jean-Marc" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3167458>
+        schema:givenName   "Jean-Marc" ;
+        schema:familyName  "Pastor" ;
+        schema:givenName   "Jean-Marc" ;
+        schema:familyName  "Pastor" ;
+        schema:givenName   "Jean-Marc" ;
+        schema:familyName  "Pastor" .
+
+<http://www.wikidata.org/entity/Q3167502>
+        schema:givenName   "Jean-Marc" ;
+        schema:familyName  "Todeschini" .
+
+<http://www.wikidata.org/entity/Q3167301>
+        schema:givenName   "Jean-Léonce" ;
+        schema:familyName  "Dupont" .
+
+<http://www.wikidata.org/entity/Q3170082>
+        schema:givenName   "Jean-Vincent" ;
+        schema:familyName  "Placé" .
+
+<http://www.wikidata.org/entity/Q3170245>
+        schema:givenName   "Jean-Éric" ;
+        schema:familyName  "Bousch" .
+
+<http://www.wikidata.org/entity/Q3176304>
+        schema:givenName   "Jeanny" ;
+        schema:familyName  "Lorgeoux" .
+
+<http://www.wikidata.org/entity/Q3173401>
+        schema:givenName   "Said" ;
+        schema:familyName  "Jaffar" .
+
+<http://www.wikidata.org/entity/Q3263174>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Thioléron" .
+
+<http://www.wikidata.org/entity/Q3289012>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Guislain" .
+
+<http://www.wikidata.org/entity/Q3293837>
+        schema:givenName   "Marius" ;
+        schema:familyName  "Moutet" .
+
+<http://www.wikidata.org/entity/Q3291766>
+        schema:givenName   "Marie" ;
+        schema:familyName  "Gournay" .
+
+<http://www.wikidata.org/entity/Q3188572>
+        schema:givenName   "Jules" ;
+        schema:familyName  "Faigt" .
+
+<http://www.wikidata.org/entity/Q3188578>
+        schema:givenName   "Jules" ;
+        schema:familyName  "Fil" .
+
+<http://www.wikidata.org/entity/Q3188848>
+        schema:givenName   "Jules" ;
+        schema:familyName  "Pinsard" .
+
+<http://www.wikidata.org/entity/Q3188897>
+        schema:givenName   "Jules" ;
+        schema:familyName  "Roujon" .
+
+<http://www.wikidata.org/entity/Q3187362>
+        schema:givenName   "Joël" ;
+        schema:familyName  "Billard" .
+
+<http://www.wikidata.org/entity/Q3187409>
+        schema:givenName   "Joël" ;
+        schema:familyName  "Guerriau" .
+
+<http://www.wikidata.org/entity/Q3187426>
+        schema:givenName   "Joël" ;
+        schema:familyName  "Labbé" .
+
+<http://www.wikidata.org/entity/Q3261045>
+        schema:givenName   "Louis" ;
+        schema:familyName  "André" .
+
+<http://www.wikidata.org/entity/Q3261342>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3261363>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Brives" .
+
+<http://www.wikidata.org/entity/Q3262090>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Gros" .
+
+<http://www.wikidata.org/entity/Q3262114>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Guillou" .
+
+<http://www.wikidata.org/entity/Q3262454>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Lazuech" .
+
+<http://www.wikidata.org/entity/Q3262479>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Le Montagner" .
+
+<http://www.wikidata.org/entity/Q3262538>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Leygue" .
+
+<http://www.wikidata.org/entity/Q3262549>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Longequeue" .
+
+<http://www.wikidata.org/entity/Q3262650>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q3262684>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Mercier" .
+
+<http://www.wikidata.org/entity/Q3262827>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Orvoën" .
+
+<http://www.wikidata.org/entity/Q3263059>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Roy" .
+
+<http://www.wikidata.org/entity/Q3263155>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Talamoni" .
+
+<http://www.wikidata.org/entity/Q3263401>
+        schema:givenName   "Louis" ;
+        schema:familyName  "de Broissia" .
+
+<http://www.wikidata.org/entity/Q3263494>
+        schema:givenName   "Louis" ;
+        schema:familyName  "de La Forest" .
+
+<http://www.wikidata.org/entity/Q3291832>
+        schema:givenName   "Marie-Françoise" ;
+        schema:familyName  "Pérol-Dumont" .
+
+<http://www.wikidata.org/entity/Q3288602>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Cléach" .
+
+<http://www.wikidata.org/entity/Q3288624>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Audy" .
+
+<http://www.wikidata.org/entity/Q3288669>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Bertrand" .
+
+<http://www.wikidata.org/entity/Q3288704>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Bony" .
+
+<http://www.wikidata.org/entity/Q3288712>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Boulangé" .
+
+<http://www.wikidata.org/entity/Q3288739>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Brégégère" .
+
+<http://www.wikidata.org/entity/Q3288785>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Champeix" .
+
+<http://www.wikidata.org/entity/Q3288791>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Charmant" .
+
+<http://www.wikidata.org/entity/Q3288851>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Debarge" .
+
+<http://www.wikidata.org/entity/Q3288951>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Fortier" .
+
+<http://www.wikidata.org/entity/Q3288972>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Gargar" .
+
+<http://www.wikidata.org/entity/Q3289029>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Henry" .
+
+<http://www.wikidata.org/entity/Q3289098>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Lambert" .
+
+<http://www.wikidata.org/entity/Q3289118>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Lebreton" .
+
+<http://www.wikidata.org/entity/Q3289134>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Lemaire" .
+
+<http://www.wikidata.org/entity/Q3289176>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Lucotte" .
+
+<http://www.wikidata.org/entity/Q3289206>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q3289351>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Rosette" .
+
+<http://www.wikidata.org/entity/Q3289411>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Souquet" .
+
+<http://www.wikidata.org/entity/Q3289473>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Vidal" .
+
+<http://www.wikidata.org/entity/Q3289479>
+        schema:givenName   "Marcel" ;
+        schema:familyName  "Wacheux" .
+
+<http://www.wikidata.org/entity/Q3187491>
+        schema:givenName   "Joëlle" ;
+        schema:familyName  "Dusseau" .
+
+<http://www.wikidata.org/entity/Q3291443>
+        schema:givenName   "Marie-Agnès" ;
+        schema:familyName  "Labarre" .
+
+<http://www.wikidata.org/entity/Q3291699>
+        schema:givenName   "Marie-Claude" ;
+        schema:familyName  "Beaudeau" .
+
+<http://www.wikidata.org/entity/Q3241971>
+        schema:givenName   "Lionel" ;
+        schema:familyName  "de Tinguy du Pouët" .
+
+<http://www.wikidata.org/entity/Q3193276>
+        schema:givenName   "Karine" ;
+        schema:familyName  "Claireaux" .
+
+<http://www.wikidata.org/entity/Q3264768>
+        schema:givenName   "Luc" ;
+        schema:familyName  "Carvounas" .
+
+<http://www.wikidata.org/entity/Q3246602>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Marini" .
+
+<http://www.wikidata.org/entity/Q3265371>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Bernier" .
+
+<http://www.wikidata.org/entity/Q3265467>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Delmas" .
+
+<http://www.wikidata.org/entity/Q3265521>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Gautier" .
+
+<http://www.wikidata.org/entity/Q3265526>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Grand" .
+
+<http://www.wikidata.org/entity/Q3265569>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Junillon" .
+
+<http://www.wikidata.org/entity/Q3265585>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Lanier" .
+
+<http://www.wikidata.org/entity/Q3265654>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Neuwirth" ;
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Neuwirth" ;
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Neuwirth" .
+
+<http://www.wikidata.org/entity/Q3265669>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "Perdereau" .
+
+<http://www.wikidata.org/entity/Q3265753>
+        schema:givenName   "Lucien" ;
+        schema:familyName  "de Montigny" .
+
+<http://www.wikidata.org/entity/Q3292114>
+        schema:givenName   "Marie-Madeleine" ;
+        schema:familyName  "Dieulangard" .
+
+<http://www.wikidata.org/entity/Q3219088>
+        schema:givenName   "Laurent" ;
+        schema:familyName  "Béteille" .
+
+<http://www.wikidata.org/entity/Q3287819>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Bœuf" .
+
+<http://www.wikidata.org/entity/Q3287865>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Bécam" .
+
+<http://www.wikidata.org/entity/Q3287883>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Castex" .
+
+<http://www.wikidata.org/entity/Q3287925>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Daunis" .
+
+<http://www.wikidata.org/entity/Q3288128>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Jacquet" .
+
+<http://www.wikidata.org/entity/Q3288176>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Lauriol" .
+
+<http://www.wikidata.org/entity/Q3288247>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Massion" .
+
+<http://www.wikidata.org/entity/Q3288307>
+        schema:givenName   "Marc" ;
+        schema:familyName  "Pauzet" .
+
+<http://www.wikidata.org/entity/Q3271094>
+        schema:givenName   "Léon" ;
+        schema:familyName  "Jozeau-Marigné" .
+
+<http://www.wikidata.org/entity/Q3271214>
+        schema:givenName   "Léon" ;
+        schema:familyName  "de Narbonne" ;
+        schema:givenName   "Léon" ;
+        schema:familyName  "Motais" .
+
+<http://www.wikidata.org/entity/Q3260473>
+        schema:givenName   "Louis-Ferdinand" ;
+        schema:familyName  "Serra" ;
+        schema:givenName   "Louis-Ferdinand" ;
+        schema:familyName  "de Rocca" .
+
+<http://www.wikidata.org/entity/Q3190819>
+        schema:givenName   "Jérôme" ;
+        schema:familyName  "Bignon" .
+
+<http://www.wikidata.org/entity/Q3292256>
+        schema:givenName   "Marie-Thérèse" ;
+        schema:familyName  "Bruguière" .
+
+<http://www.wikidata.org/entity/Q3292260>
+        schema:givenName   "Marie-Thérèse" ;
+        schema:familyName  "Goutmann" .
+
+<http://www.wikidata.org/entity/Q3218932>
+        schema:givenName   "Laurence" ;
+        schema:familyName  "Rossignol" .
+
+<http://www.wikidata.org/entity/Q3218873>
+        schema:givenName   "Laurence" ;
+        schema:familyName  "Cohen" .
+
+<http://www.wikidata.org/entity/Q3218932>
+        schema:givenName   "Laurence" ;
+        schema:familyName  "Rossignol" .
+
+<http://www.wikidata.org/entity/Q3288578>
+        schema:givenName   "Marceau" ;
+        schema:familyName  "Hamecher" .
+
+<http://www.wikidata.org/entity/Q3265133>
+        schema:givenName   "Lucette" ;
+        schema:familyName  "Michaux-Chevry" .
+
+<http://www.wikidata.org/entity/Q3291866>
+        schema:givenName   "Marie-Hélène" ;
+        schema:familyName  "Cardot" .
+
+<http://www.wikidata.org/entity/Q3291909>
+        schema:givenName   "Marie-Hélène" ;
+        schema:familyName  "des Esgaulx" .
+
+<http://www.wikidata.org/entity/Q3271821>
+        schema:givenName   "Léopold" ;
+        schema:familyName  "Héder" .
+
+<http://www.wikidata.org/entity/Q3215951>
+        schema:givenName   "Ladislas" ;
+        schema:familyName  "Poniatowski" .
+
+<http://www.wikidata.org/entity/Q3215953>
+        schema:givenName   "Ladislas" ;
+        schema:familyName  "du Luart" .
+
+<http://www.wikidata.org/entity/Q3265775>
+        schema:givenName   "Lucienne" ;
+        schema:familyName  "Malovry" .
+
+<http://www.wikidata.org/entity/Q3269449>
+        schema:givenName   "Lylian" ;
+        schema:familyName  "Payet" .
+
+<http://www.wikidata.org/entity/Q3270627>
+        schema:givenName   "Léon-Jean" ;
+        schema:familyName  "Grégory" .
+
+<http://www.wikidata.org/entity/Q3291533>
+        schema:givenName   "Marie-Annick" ;
+        schema:familyName  "Duchêne" .
+
+<http://www.wikidata.org/entity/Q3291780>
+        schema:givenName   "Marie-France" ;
+        schema:familyName  "Beaufils" .
+
+<http://www.wikidata.org/entity/Q3292221>
+        schema:givenName   "Marie-Pierre" ;
+        schema:familyName  "de La Gontrie" .
+
+<http://www.wikidata.org/entity/Q3276700>
+        schema:givenName   "Magdeleine" ;
+        schema:familyName  "Anglade" .
+
+<http://www.wikidata.org/entity/Q3320818>
+        schema:givenName   "Monique" ;
+        schema:familyName  "ben Guiga" .
+
+<http://www.wikidata.org/entity/Q3310382>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Moreigne" .
+
+<http://www.wikidata.org/entity/Q3371753>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Malassagne" .
+
+<http://www.wikidata.org/entity/Q3371799>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Massa" .
+
+<http://www.wikidata.org/entity/Q3371800>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Masson" .
+
+<http://www.wikidata.org/entity/Q3351994>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Capelle" .
+
+<http://www.wikidata.org/entity/Q3370860>
+        schema:givenName   "François" ;
+        schema:familyName  "Chevallier" .
+
+<http://www.wikidata.org/entity/Q3369152>
+        schema:givenName   "Patricia" ;
+        schema:familyName  "Schillinger" .
+
+<http://www.wikidata.org/entity/Q3300337>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Arreckx" .
+
+<http://www.wikidata.org/entity/Q3300384>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Bayrou" .
+
+<http://www.wikidata.org/entity/Q3300529>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Carrier" .
+
+<http://www.wikidata.org/entity/Q3300553>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Charretier" .
+
+<http://www.wikidata.org/entity/Q3300555>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Charpentier" .
+
+<http://www.wikidata.org/entity/Q3300605>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Coutrot" .
+
+<http://www.wikidata.org/entity/Q3300775>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Faure" .
+
+<http://www.wikidata.org/entity/Q3300946>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Janetti" .
+
+<http://www.wikidata.org/entity/Q3301080>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Lombard" .
+
+<http://www.wikidata.org/entity/Q3301260>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Pic" .
+
+<http://www.wikidata.org/entity/Q3301295>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Prévoteau" .
+
+<http://www.wikidata.org/entity/Q3301474>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Ulrich" .
+
+<http://www.wikidata.org/entity/Q3301504>
+        schema:givenName   "Maurice" ;
+        schema:familyName  "Vincent" .
+
+<http://www.wikidata.org/entity/Q3320818>
+        schema:givenName   "Monique" ;
+        schema:familyName  "Cerisier" .
+
+<http://www.wikidata.org/entity/Q3320883>
+        schema:givenName   "Monique" ;
+        schema:familyName  "Midy" .
+
+<http://www.wikidata.org/entity/Q3320908>
+        schema:givenName   "Monique" ;
+        schema:familyName  "Papon" .
+
+<http://www.wikidata.org/entity/Q3296316>
+        schema:givenName   "Maryse" ;
+        schema:familyName  "Lavigne" ;
+        schema:givenName   "Maryse" ;
+        schema:familyName  "Bergé" .
+
+<http://www.wikidata.org/entity/Q3296348>
+        schema:givenName   "Maryse" ;
+        schema:familyName  "Roger-Coupin" .
+
+<http://www.wikidata.org/entity/Q3337931>
+        schema:givenName   "Nelly" ;
+        schema:familyName  "Rodi" .
+
+<http://www.wikidata.org/entity/Q3336315>
+        schema:givenName   "Natacha" ;
+        schema:familyName  "Bouchart" .
+
+<http://www.wikidata.org/entity/Q3349187>
+        schema:givenName   "Odette" ;
+        schema:familyName  "Duriez" .
+
+<http://www.wikidata.org/entity/Q3349189>
+        schema:givenName   "Odette" ;
+        schema:familyName  "Herviaux" .
+
+<http://www.wikidata.org/entity/Q3349193>
+        schema:givenName   "Odette" ;
+        schema:familyName  "Pagani" .
+
+<http://www.wikidata.org/entity/Q3349217>
+        schema:givenName   "Odette" ;
+        schema:familyName  "Terrade" .
+
+<http://www.wikidata.org/entity/Q3351994>
+        schema:givenName   "Louis" ;
+        schema:familyName  "Capelle" .
+
+<http://www.wikidata.org/entity/Q3370229>
+        schema:givenName   "Alfred" ;
+        schema:familyName  "Isautier" .
+
+<http://www.wikidata.org/entity/Q3370440>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Alduy" .
+
+<http://www.wikidata.org/entity/Q3370558>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Baratgin" .
+
+<http://www.wikidata.org/entity/Q3370659>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Blanc" .
+
+<http://www.wikidata.org/entity/Q3370775>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Bénard" .
+
+<http://www.wikidata.org/entity/Q3370812>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Caron" .
+
+<http://www.wikidata.org/entity/Q3370860>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Chevallier" .
+
+<http://www.wikidata.org/entity/Q3371104>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Driant" .
+
+<http://www.wikidata.org/entity/Q3371111>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Dubrule" .
+
+<http://www.wikidata.org/entity/Q3371361>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Graziani" .
+
+<http://www.wikidata.org/entity/Q3371390>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Guillard" .
+
+<http://www.wikidata.org/entity/Q3371396>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Guillaumot" .
+
+<http://www.wikidata.org/entity/Q3371516>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Jargot" .
+
+<http://www.wikidata.org/entity/Q3371566>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Kauss" .
+
+<http://www.wikidata.org/entity/Q3371738>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Lévêque" .
+
+<http://www.wikidata.org/entity/Q3340014>
+        schema:givenName   "Nicolas" ;
+        schema:familyName  "About" .
+
+<http://www.wikidata.org/entity/Q3340026>
+        schema:givenName   "Nicolas" ;
+        schema:familyName  "Alfonsi" .
+
+<http://www.wikidata.org/entity/Q3316003>
+        schema:givenName   "Mireille" ;
+        schema:familyName  "Oudit" .
+
+<http://www.wikidata.org/entity/Q3316015>
+        schema:givenName   "Mireille" ;
+        schema:familyName  "Schurch" .
+
+<http://www.wikidata.org/entity/Q3368960>
+        schema:givenName   "Patrice" ;
+        schema:familyName  "Joly" .
+
+<http://www.wikidata.org/entity/Q3309003>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Berson" .
+
+<http://www.wikidata.org/entity/Q3309021>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Billout" .
+
+<http://www.wikidata.org/entity/Q3309092>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Boutant" .
+
+<http://www.wikidata.org/entity/Q3309098>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Bouvard" .
+
+<http://www.wikidata.org/entity/Q3309141>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Bécot" .
+
+<http://www.wikidata.org/entity/Q3309244>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Charasse" .
+
+<http://www.wikidata.org/entity/Q3309350>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Crucis" .
+
+<http://www.wikidata.org/entity/Q3309504>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Doublet" .
+
+<http://www.wikidata.org/entity/Q3309506>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Dreyfus-Schmidt" .
+
+<http://www.wikidata.org/entity/Q3309522>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Duffour" .
+
+<http://www.wikidata.org/entity/Q3309639>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Fontaine" ;
+        schema:givenName   "Michel" ;
+        schema:familyName  "Fontaine" .
+
+<http://www.wikidata.org/entity/Q3310018>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Kauffmann" .
+
+<http://www.wikidata.org/entity/Q3310030>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Kistler" .
+
+<http://www.wikidata.org/entity/Q3310053>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Labéguerie" .
+
+<http://www.wikidata.org/entity/Q3310109>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Laugier" .
+
+<http://www.wikidata.org/entity/Q3310273>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Manet" .
+
+<http://www.wikidata.org/entity/Q3310322>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Maurice-Bokanowski" .
+
+<http://www.wikidata.org/entity/Q3310356>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Miroudot" .
+
+<http://www.wikidata.org/entity/Q3310540>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Pelchat" .
+
+<http://www.wikidata.org/entity/Q3310623>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Poniatowski" .
+
+<http://www.wikidata.org/entity/Q3310658>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Raison" .
+
+<http://www.wikidata.org/entity/Q3310792>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Rufin" .
+
+<http://www.wikidata.org/entity/Q3310830>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Savin" ;
+        schema:givenName   "Michel" ;
+        schema:familyName  "Savin" .
+
+<http://www.wikidata.org/entity/Q3310857>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Sergent" .
+
+<http://www.wikidata.org/entity/Q3310890>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Souplet" .
+
+<http://www.wikidata.org/entity/Q3310960>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Teston" .
+
+<http://www.wikidata.org/entity/Q3311058>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Vergoz" .
+
+<http://www.wikidata.org/entity/Q3311122>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Yver" .
+
+<http://www.wikidata.org/entity/Q3341010>
+        schema:givenName   "Nicole" ;
+        schema:familyName  "Borvo" .
+
+<http://www.wikidata.org/entity/Q3341143>
+        schema:givenName   "Nicole" ;
+        schema:familyName  "de Hauteclocque" .
+
+<http://www.wikidata.org/entity/Q3311436>
+        schema:givenName   "Michelle" ;
+        schema:familyName  "Meunier" .
+
+<http://www.wikidata.org/entity/Q3336598>
+        schema:givenName   "Nathalie" ;
+        schema:familyName  "Goulet" .
+
+<http://www.wikidata.org/entity/Q3351344>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Roux" .
+
+<http://www.wikidata.org/entity/Q3302200>
+        schema:givenName   "Max" ;
+        schema:familyName  "Lejeune" .
+
+<http://www.wikidata.org/entity/Q3302238>
+        schema:givenName   "Max" ;
+        schema:familyName  "Monichon" .
+
+<http://www.wikidata.org/entity/Q3369559>
+        schema:givenName   "Patrick" ;
+        schema:familyName  "Kanner" .
+
+<http://www.wikidata.org/entity/Q3369594>
+        schema:givenName   "Patrick" ;
+        schema:familyName  "Lassourd" .
+
+<http://www.wikidata.org/entity/Q3311556>
+        schema:givenName   "Michèle" ;
+        schema:familyName  "André" .
+
+<http://www.wikidata.org/entity/Q3311700>
+        schema:givenName   "Michèle" ;
+        schema:familyName  "San Vicente-Baudrin" .
+
+<http://www.wikidata.org/entity/Q3302589>
+        schema:givenName   "Maxime" ;
+        schema:familyName  "Javelly" .
+
+<http://www.wikidata.org/entity/Q3295239>
+        schema:givenName   "Martial" ;
+        schema:familyName  "Brousse" .
+
+<http://www.wikidata.org/entity/Q3295242>
+        schema:givenName   "Martial" ;
+        schema:familyName  "Bourquin" .
+
+<http://www.wikidata.org/entity/Q3295275>
+        schema:givenName   "Martial" ;
+        schema:familyName  "Taugourdeau" .
+
+<http://www.wikidata.org/entity/Q3345768>
+        schema:givenName   "Noël" ;
+        schema:familyName  "Berrier" .
+
+<http://www.wikidata.org/entity/Q3318625>
+        schema:givenName   "Mohamed" ;
+        schema:familyName  "Mohamed" .
+
+<http://www.wikidata.org/entity/Q3296361>
+        schema:givenName   "Maryvonne" ;
+        schema:familyName  "Blondin" .
+
+<http://www.wikidata.org/entity/Q3351994>
+        schema:givenName   "Omer" ;
+        schema:familyName  "Capelle" .
+
+<http://www.wikidata.org/entity/Q3370312>
+        schema:givenName   "Paul-Jacques" ;
+        schema:familyName  "Kalb" .
+
+<http://www.wikidata.org/entity/Q3336265>
+        schema:givenName   "Nassimah" ;
+        schema:familyName  "Dindar" .
+
+<http://www.wikidata.org/entity/Q3384956>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Fastinger" .
+
+<http://www.wikidata.org/entity/Q3371977>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Pelleray" .
+
+<http://www.wikidata.org/entity/Q3372001>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Piales" .
+
+<http://www.wikidata.org/entity/Q3372243>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Symphor" .
+
+<http://www.wikidata.org/entity/Q3372628>
+        schema:givenName   "Paulette" ;
+        schema:familyName  "Brisepierre" .
+
+<http://www.wikidata.org/entity/Q3372634>
+        schema:givenName   "Paulette" ;
+        schema:familyName  "Fost" .
+
+<http://www.wikidata.org/entity/Q3416111>
+        schema:givenName   "Rachel" ;
+        schema:familyName  "Mazuir" .
+
+<http://www.wikidata.org/entity/Q3383721>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "André" .
+
+<http://www.wikidata.org/entity/Q3383859>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Barbier" .
+
+<http://www.wikidata.org/entity/Q3383892>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Bastié" .
+
+<http://www.wikidata.org/entity/Q3383943>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Bernard-Reymond" .
+
+<http://www.wikidata.org/entity/Q3383995>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Biarnès" .
+
+<http://www.wikidata.org/entity/Q3384085>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Bordier" .
+
+<http://www.wikidata.org/entity/Q3384131>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Bourda" .
+
+<http://www.wikidata.org/entity/Q3384179>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Brantus" .
+
+<http://www.wikidata.org/entity/Q3384203>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Brousse" .
+
+<http://www.wikidata.org/entity/Q3384212>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Brun" .
+
+<http://www.wikidata.org/entity/Q3384384>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Charon" .
+
+<http://www.wikidata.org/entity/Q3384852>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Dumas" .
+
+<http://www.wikidata.org/entity/Q3384966>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Fauchon" .
+
+<http://www.wikidata.org/entity/Q3385132>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Gamboa" .
+
+<http://www.wikidata.org/entity/Q3385138>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Garet" .
+
+<http://www.wikidata.org/entity/Q3385168>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Gaudin" .
+
+<http://www.wikidata.org/entity/Q3385237>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Giraud" .
+
+<http://www.wikidata.org/entity/Q3385359>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Guichard" .
+
+<http://www.wikidata.org/entity/Q3385491>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Hérisson" .
+
+<http://www.wikidata.org/entity/Q3385575>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Jarlier" .
+
+<http://www.wikidata.org/entity/Q3385637>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Jourdan" .
+
+<http://www.wikidata.org/entity/Q3385699>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Labonde" .
+
+<http://www.wikidata.org/entity/Q3385733>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Lagourgue" .
+
+<http://www.wikidata.org/entity/Q3386021>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Louvot" .
+
+<http://www.wikidata.org/entity/Q3386114>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Marcilhacy" .
+
+<http://www.wikidata.org/entity/Q3386189>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Marzin" .
+
+<http://www.wikidata.org/entity/Q3386195>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Mathey" .
+
+<http://www.wikidata.org/entity/Q3386250>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Merli" .
+
+<http://www.wikidata.org/entity/Q3386407>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Métayer" .
+
+<http://www.wikidata.org/entity/Q3386533>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Patria" .
+
+<http://www.wikidata.org/entity/Q3386569>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Perrin" .
+
+<http://www.wikidata.org/entity/Q3386574>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Petit" .
+
+<http://www.wikidata.org/entity/Q3386691>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Prost" .
+
+<http://www.wikidata.org/entity/Q3386885>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Roy" .
+
+<http://www.wikidata.org/entity/Q3386921>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Sallenave" .
+
+<http://www.wikidata.org/entity/Q3386922>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Salvi" .
+
+<http://www.wikidata.org/entity/Q3386948>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Schielé" .
+
+<http://www.wikidata.org/entity/Q3386990>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Sicard" .
+
+<http://www.wikidata.org/entity/Q3387064>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Tajan" .
+
+<http://www.wikidata.org/entity/Q3387229>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Vallon" .
+
+<http://www.wikidata.org/entity/Q3420684>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Boin" .
+
+<http://www.wikidata.org/entity/Q3420688>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Bonnefous" .
+
+<http://www.wikidata.org/entity/Q3420699>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Bouvier" ;
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Bouvier" .
+
+<http://www.wikidata.org/entity/Q3420718>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Brun" .
+
+<http://www.wikidata.org/entity/Q3420773>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Courrière" .
+
+<http://www.wikidata.org/entity/Q3420774>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Couderc" .
+
+<http://www.wikidata.org/entity/Q3420819>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Dumont" .
+
+<http://www.wikidata.org/entity/Q3420840>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Espagnac" .
+
+<http://www.wikidata.org/entity/Q3420908>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Guyot" .
+
+<http://www.wikidata.org/entity/Q3421095>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Poirier" .
+
+<http://www.wikidata.org/entity/Q3421178>
+        schema:givenName   "Raymond" ;
+        schema:familyName  "Vall" .
+
+<http://www.wikidata.org/entity/Q3425814>
+        schema:givenName   "René" ;
+        schema:familyName  "Beaumont" .
+
+<http://www.wikidata.org/entity/Q3425876>
+        schema:givenName   "René" ;
+        schema:familyName  "Blondelle" .
+
+<http://www.wikidata.org/entity/Q3426006>
+        schema:givenName   "René" ;
+        schema:familyName  "Chazelle" .
+
+<http://www.wikidata.org/entity/Q3426247>
+        schema:givenName   "René" ;
+        schema:familyName  "Garrec" .
+
+<http://www.wikidata.org/entity/Q3426602>
+        schema:givenName   "René" ;
+        schema:familyName  "Marquès" .
+
+<http://www.wikidata.org/entity/Q3426606>
+        schema:givenName   "René" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q3426843>
+        schema:givenName   "René" ;
+        schema:familyName  "Rollin" .
+
+<http://www.wikidata.org/entity/Q3426851>
+        schema:givenName   "René" ;
+        schema:familyName  "Rouquet" .
+
+<http://www.wikidata.org/entity/Q3426858>
+        schema:givenName   "René" ;
+        schema:familyName  "Régnault" .
+
+<http://www.wikidata.org/entity/Q3371847>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Minot" .
+
+<http://www.wikidata.org/entity/Q3371851>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Mistral" .
+
+<http://www.wikidata.org/entity/Q3371863>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Moreau" .
+
+<http://www.wikidata.org/entity/Q3371969>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Pauly" .
+
+<http://www.wikidata.org/entity/Q3372014>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Pillet" .
+
+<http://www.wikidata.org/entity/Q3372027>
+        schema:givenName   "Paul" ;
+        schema:familyName  "de la Morandière" ;
+        schema:givenName   "Paul" ;
+        schema:familyName  "Porteu" .
+
+<http://www.wikidata.org/entity/Q3372071>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Raoult" .
+
+<http://www.wikidata.org/entity/Q3372096>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Ribeyre" .
+
+<http://www.wikidata.org/entity/Q3372109>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Robert" .
+
+<http://www.wikidata.org/entity/Q3372244>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Séramy" .
+
+<http://www.wikidata.org/entity/Q3372395>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Wach" .
+
+<http://www.wikidata.org/entity/Q3372449>
+        schema:givenName   "Paul" ;
+        schema:familyName  "d'Ornano" .
+
+<http://www.wikidata.org/entity/Q3419244>
+        schema:givenName   "Raoul" ;
+        schema:familyName  "Perpère" .
+
+<http://www.wikidata.org/entity/Q3379238>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Arnaud" .
+
+<http://www.wikidata.org/entity/Q3379308>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Bas" .
+
+<http://www.wikidata.org/entity/Q3379387>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Bonnecarrère" .
+
+<http://www.wikidata.org/entity/Q3379746>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Dominati" .
+
+<http://www.wikidata.org/entity/Q3379805>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Esnol" .
+
+<http://www.wikidata.org/entity/Q3379851>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "François" .
+
+<http://www.wikidata.org/entity/Q3379945>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Goujon" .
+
+<http://www.wikidata.org/entity/Q3380089>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Kaltenbach" .
+
+<http://www.wikidata.org/entity/Q3380117>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Labeyrie" .
+
+<http://www.wikidata.org/entity/Q3380226>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Leroy" ;
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Leroy" .
+
+<http://www.wikidata.org/entity/Q3380274>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Machefert" .
+
+<http://www.wikidata.org/entity/Q3380285>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Madrelle" .
+
+<http://www.wikidata.org/entity/Q3380441>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Nachbar" .
+
+<http://www.wikidata.org/entity/Q3380506>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Paul" .
+
+<http://www.wikidata.org/entity/Q3380642>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Richert" .
+
+<http://www.wikidata.org/entity/Q3383554>
+        schema:givenName   "Pierre-Yves" ;
+        schema:familyName  "Collombat" .
+
+<http://www.wikidata.org/entity/Q3421271>
+        schema:givenName   "Raymonde" ;
+        schema:familyName  "Le Texier" .
+
+<http://www.wikidata.org/entity/Q3425715>
+        schema:givenName   "René-Paul" ;
+        schema:familyName  "Savary" ;
+        schema:givenName   "René-Paul" ;
+        schema:familyName  "Savary" .
+
+<http://www.wikidata.org/entity/Q3434665>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Bruyneel" .
+
+<http://www.wikidata.org/entity/Q3436098>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Pontillon" .
+
+<http://www.wikidata.org/entity/Q3560748>
+        schema:givenName   "Virginie" ;
+        schema:familyName  "Klès" .
+
+<http://www.wikidata.org/entity/Q3479214>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Boucheny" .
+
+<http://www.wikidata.org/entity/Q3469512>
+        schema:givenName   "Salah" ;
+        schema:familyName  "Benacer" .
+
+<http://www.wikidata.org/entity/Q3557522>
+        schema:givenName   "Victor" ;
+        schema:familyName  "Provo" .
+
+<http://www.wikidata.org/entity/Q3570661>
+        schema:givenName   "Xavier" ;
+        schema:familyName  "Dugoin" .
+
+<http://www.wikidata.org/entity/Q3570771>
+        schema:givenName   "Xavier" ;
+        schema:familyName  "Pintat" .
+
+<http://www.wikidata.org/entity/Q3439957>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Bernard" .
+
+<http://www.wikidata.org/entity/Q3439968>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Boscary-Monsservin" .
+
+<http://www.wikidata.org/entity/Q3440013>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Courteau" .
+
+<http://www.wikidata.org/entity/Q3440090>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Grimaldi" .
+
+<http://www.wikidata.org/entity/Q3440102>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Huguet" .
+
+<http://www.wikidata.org/entity/Q3440221>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Povinelli" .
+
+<http://www.wikidata.org/entity/Q3440247>
+        schema:givenName   "Roland" ;
+        schema:familyName  "Ruet" .
+
+<http://www.wikidata.org/entity/Q3440309>
+        schema:givenName   "Roland" ;
+        schema:familyName  "du Luart" .
+
+<http://www.wikidata.org/entity/Q3431135>
+        schema:givenName   "Richard" ;
+        schema:familyName  "Pouille" .
+
+<http://www.wikidata.org/entity/Q3431340>
+        schema:givenName   "Richard" ;
+        schema:familyName  "Yung" .
+
+<http://www.wikidata.org/entity/Q3573437>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Ackermann" ;
+        schema:givenName   "Yves" ;
+        schema:familyName  "Ackermann" .
+
+<http://www.wikidata.org/entity/Q3573573>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Coquelle" .
+
+<http://www.wikidata.org/entity/Q3427129>
+        schema:givenName   "Renée" ;
+        schema:familyName  "Dervaux" .
+
+<http://www.wikidata.org/entity/Q3427166>
+        schema:givenName   "Renée" ;
+        schema:familyName  "Nicoux" .
+
+<http://www.wikidata.org/entity/Q3571732>
+        schema:givenName   "Yannick" ;
+        schema:familyName  "Bodin" ;
+        schema:givenName   "Yannick" ;
+        schema:familyName  "Bodin" .
+
+<http://www.wikidata.org/entity/Q3571735>
+        schema:givenName   "Yannick" ;
+        schema:familyName  "Botrel" .
+
+<http://www.wikidata.org/entity/Q3571803>
+        schema:givenName   "Yannick" ;
+        schema:familyName  "Texier" .
+
+<http://www.wikidata.org/entity/Q3571817>
+        schema:givenName   "Yannick" ;
+        schema:familyName  "Vaugrenard" .
+
+<http://www.wikidata.org/entity/Q3426883>
+        schema:givenName   "René" ;
+        schema:familyName  "Schwartz" .
+
+<http://www.wikidata.org/entity/Q3426936>
+        schema:givenName   "René" ;
+        schema:familyName  "Tinant" .
+
+<http://www.wikidata.org/entity/Q3426940>
+        schema:givenName   "René" ;
+        schema:familyName  "Tomasini" .
+
+<http://www.wikidata.org/entity/Q3426942>
+        schema:givenName   "René" ;
+        schema:familyName  "Toribio" .
+
+<http://www.wikidata.org/entity/Q3426945>
+        schema:givenName   "René" ;
+        schema:familyName  "Touzet" .
+
+<http://www.wikidata.org/entity/Q3426952>
+        schema:givenName   "René" ;
+        schema:familyName  "Travert" .
+
+<http://www.wikidata.org/entity/Q3426976>
+        schema:givenName   "René" ;
+        schema:familyName  "Vestri" .
+
+<http://www.wikidata.org/entity/Q3470800>
+        schema:givenName   "Samia" ;
+        schema:familyName  "Ghali" ;
+        schema:givenName   "Samiya" ;
+        schema:familyName  "Ghali" .
+
+<http://www.wikidata.org/entity/Q3501568>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Artano" .
+
+<http://www.wikidata.org/entity/Q3501609>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Bonduel" .
+
+<http://www.wikidata.org/entity/Q3501943>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Mazars" .
+
+<http://www.wikidata.org/entity/Q3438699>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Besse" .
+
+<http://www.wikidata.org/entity/Q3438700>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Besson" .
+
+<http://www.wikidata.org/entity/Q3438719>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Boileau" .
+
+<http://www.wikidata.org/entity/Q3438812>
+        schema:givenName   "Roger" ;
+        schema:familyName  "chinaud" .
+
+<http://www.wikidata.org/entity/Q3438910>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Duchet" .
+
+<http://www.wikidata.org/entity/Q3438971>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Fossé" .
+
+<http://www.wikidata.org/entity/Q3439088>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Husson" .
+
+<http://www.wikidata.org/entity/Q3439149>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Lachèvre" .
+
+<http://www.wikidata.org/entity/Q3439157>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Lagrange" .
+
+<http://www.wikidata.org/entity/Q3439213>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Lise" .
+
+<http://www.wikidata.org/entity/Q3439235>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Madec" .
+
+<http://www.wikidata.org/entity/Q3439278>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Menu" ;
+        schema:givenName   "Roger" ;
+        schema:familyName  "Menu" .
+
+<http://www.wikidata.org/entity/Q3439297>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Moreau" .
+
+<http://www.wikidata.org/entity/Q3439377>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Poudonson" .
+
+<http://www.wikidata.org/entity/Q3439416>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Rigaudière" .
+
+<http://www.wikidata.org/entity/Q3439417>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Rinchet" .
+
+<http://www.wikidata.org/entity/Q3439424>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Romani" .
+
+<http://www.wikidata.org/entity/Q3439493>
+        schema:givenName   "Roger" ;
+        schema:familyName  "Thiébault" .
+
+<http://www.wikidata.org/entity/Q3434635>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Bouvard" .
+
+<http://www.wikidata.org/entity/Q3434718>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Calméjane" .
+
+<http://www.wikidata.org/entity/Q3434744>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Castaing" .
+
+<http://www.wikidata.org/entity/Q3434793>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Chevalier" ;
+        schema:givenName   "Robert" ;
+        schema:familyName  "Chevalier" .
+
+<http://www.wikidata.org/entity/Q3435270>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Gravier" .
+
+<http://www.wikidata.org/entity/Q3435290>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Guillaume" ;
+        schema:givenName   "Robert" ;
+        schema:familyName  "Guillaume" .
+
+<http://www.wikidata.org/entity/Q3435624>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Lacoste" .
+
+<http://www.wikidata.org/entity/Q3435768>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Liot" .
+
+<http://www.wikidata.org/entity/Q3436030>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Pagès" .
+
+<http://www.wikidata.org/entity/Q3436038>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Parenty" .
+
+<http://www.wikidata.org/entity/Q3436072>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Piat" .
+
+<http://www.wikidata.org/entity/Q3436259>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Schmitt" .
+
+<http://www.wikidata.org/entity/Q3436490>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Vignon" .
+
+<http://www.wikidata.org/entity/Q3436497>
+        schema:givenName   "Robert" ;
+        schema:familyName  "Vizet" .
+
+<http://www.wikidata.org/entity/Q3559512>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Capo" ;
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Canellas" .
+
+<http://www.wikidata.org/entity/Q3559572>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Delahaye" .
+
+<http://www.wikidata.org/entity/Q3559578>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Delpuech" .
+
+<http://www.wikidata.org/entity/Q3559608>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Éblé" .
+
+<http://www.wikidata.org/entity/Q3441589>
+        schema:givenName   "Ronan" ;
+        schema:familyName  "Dantec" .
+
+<http://www.wikidata.org/entity/Q3441594>
+        schema:givenName   "Ronan" ;
+        schema:familyName  "Kerdraon" .
+
+<http://www.wikidata.org/entity/Q3456174>
+        schema:givenName   "Rémy" ;
+        schema:familyName  "Pointereau" .
+
+<http://www.wikidata.org/entity/Q3479169>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Andreoni" .
+
+<http://www.wikidata.org/entity/Q3479305>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Franchis" .
+
+<http://www.wikidata.org/entity/Q3479386>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Lagauche" .
+
+<http://www.wikidata.org/entity/Q3479395>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Larcher" .
+
+<http://www.wikidata.org/entity/Q3479423>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Lepeltier" .
+
+<http://www.wikidata.org/entity/Q3479437>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Mathieu" .
+
+<http://www.wikidata.org/entity/Q3571646>
+        schema:givenName   "Yann" ;
+        schema:familyName  "Gaillard" .
+
+<http://www.wikidata.org/entity/Q3490954>
+        schema:givenName   "Sophie" ;
+        schema:familyName  "Joissains" .
+
+<http://www.wikidata.org/entity/Q3491023>
+        schema:givenName   "Sophie" ;
+        schema:familyName  "Primas" .
+
+<http://www.wikidata.org/entity/Q3531800>
+        schema:givenName   "Tony" ;
+        schema:familyName  "Larue" .
+
+<http://www.wikidata.org/entity/Q3507063>
+        schema:givenName   "Sylvain" ;
+        schema:familyName  "Maillols" .
+
+<http://www.wikidata.org/entity/Q3524252>
+        schema:givenName   "Thierry" ;
+        schema:familyName  "Foucaud" .
+
+<http://www.wikidata.org/entity/Q3524492>
+        schema:givenName   "Thierry" ;
+        schema:familyName  "Repentin" .
+
+<http://www.wikidata.org/entity/Q3438307>
+        schema:givenName   "Rodolphe" ;
+        schema:familyName  "Désiré" .
+
+<http://www.wikidata.org/entity/Q3472000>
+        schema:givenName   "Sandrine" ;
+        schema:familyName  "Hurel" .
+
+<http://www.wikidata.org/entity/Q3507309>
+        schema:givenName   "Sylvie" ;
+        schema:familyName  "Desmarescaux" .
+
+<http://www.wikidata.org/entity/Q3507333>
+        schema:givenName   "Sylvie" ;
+        schema:familyName  "Goy-Chavent" .
+
+<http://www.wikidata.org/entity/Q3456022>
+        schema:givenName   "Rémi" ;
+        schema:familyName  "Féraud" .
+
+<http://www.wikidata.org/entity/Q3456033>
+        schema:givenName   "Rémi" ;
+        schema:familyName  "Herment" .
+
+<http://www.wikidata.org/entity/Q3442482>
+        schema:givenName   "Roselle" ;
+        schema:familyName  "Cros" .
+
+<http://www.wikidata.org/entity/Q3572478>
+        schema:givenName   "Jolande" ;
+        schema:familyName  "Boyer" ;
+        schema:givenName   "Yolande" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3519563>
+        schema:givenName   "Thani" ;
+        schema:familyName  "Soilihi" .
+
+<http://www.wikidata.org/entity/Q3579745>
+        schema:givenName   "Édouard" ;
+        schema:familyName  "Bonnefous" .
+
+<http://www.wikidata.org/entity/Q3579867>
+        schema:givenName   "Édouard" ;
+        schema:familyName  "Grangier" .
+
+<http://www.wikidata.org/entity/Q3579932>
+        schema:givenName   "Édouard" ;
+        schema:familyName  "Le Jeune" .
+
+<http://www.wikidata.org/entity/Q3580036>
+        schema:givenName   "Édouard" ;
+        schema:familyName  "Soldani" .
+
+<http://www.wikidata.org/entity/Q18202561>
+        schema:givenName   "Pascal" ;
+        schema:familyName  "Allizard" .
+
+<http://www.wikidata.org/entity/Q16646189>
+        schema:givenName   "Joseph" ;
+        schema:familyName  "Castelli" .
+
+<http://www.wikidata.org/entity/Q17625821>
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Sassone" ;
+        schema:givenName   "Dominique" ;
+        schema:familyName  "Estrosi" .
+
+<http://www.wikidata.org/entity/Q16663037>
+        schema:givenName   "Marie" ;
+        schema:familyName  "Gaouyer" .
+
+<http://www.wikidata.org/entity/Q18202560>
+        schema:givenName   "François" ;
+        schema:familyName  "Aubey" .
+
+<http://www.wikidata.org/entity/Q15729154>
+        schema:givenName   "Patricia" ;
+        schema:familyName  "Bordas" .
+
+<http://www.wikidata.org/entity/Q15973778>
+        schema:givenName   "Françoise" ;
+        schema:familyName  "Boog" .
+
+<http://www.wikidata.org/entity/Q18202528>
+        schema:givenName   "Jean-Baptiste" ;
+        schema:familyName  "Lemoyne" ;
+        schema:givenName   "Jean-Baptiste" ;
+        schema:familyName  "LeMoyne" .
+
+<http://www.wikidata.org/entity/Q18202549>
+        schema:givenName   "Gilbert" ;
+        schema:familyName  "Bouchet" .
+
+<http://www.wikidata.org/entity/Q3573596>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Dauge" .
+
+<http://www.wikidata.org/entity/Q3573631>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Durand" .
+
+<http://www.wikidata.org/entity/Q3573637>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Détraigne" .
+
+<http://www.wikidata.org/entity/Q3573650>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Fréville" .
+
+<http://www.wikidata.org/entity/Q3573698>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Hamon" .
+
+<http://www.wikidata.org/entity/Q3573733>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Krattinger" .
+
+<http://www.wikidata.org/entity/Q3573769>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Le Cozannet" .
+
+<http://www.wikidata.org/entity/Q3573907>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Pozzo di Borgo" .
+
+<http://www.wikidata.org/entity/Q3573932>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Rispat" .
+
+<http://www.wikidata.org/entity/Q3573942>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Rome" .
+
+<http://www.wikidata.org/entity/Q3574003>
+        schema:givenName   "Yves" ;
+        schema:familyName  "Villard" .
+
+<http://www.wikidata.org/entity/Q18202539>
+        schema:givenName   "Christine" ;
+        schema:familyName  "Prunaud" .
+
+<http://www.wikidata.org/entity/Q16106339>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q18202527>
+        schema:givenName   "Pierre" ;
+        schema:familyName  "Médevielle" .
+
+<http://www.wikidata.org/entity/Q15989111>
+        schema:givenName   "Stéphane" ;
+        schema:familyName  "Ravier" .
+
+<http://www.wikidata.org/entity/Q3587725>
+        schema:givenName   "Élie" ;
+        schema:familyName  "Brun" ;
+        schema:givenName   "Élie" ;
+        schema:familyName  "Brun" .
+
+<http://www.wikidata.org/entity/Q18202534>
+        schema:givenName   "Chantal" ;
+        schema:familyName  "Deseyne" .
+
+<http://www.wikidata.org/entity/Q16011476>
+        schema:givenName   "Paul" ;
+        schema:familyName  "Loridant" .
+
+<http://www.wikidata.org/entity/Q18202512>
+        schema:givenName   "Vincent" ;
+        schema:familyName  "Dubois" .
+
+<http://www.wikidata.org/entity/Q16644046>
+        schema:givenName   "Isabelle" ;
+        schema:familyName  "Lajoux" .
+
+<http://www.wikidata.org/entity/Q16855103>
+        schema:givenName   "Jean-Pierre" ;
+        schema:familyName  "Bosino" .
+
+<http://www.wikidata.org/entity/Q8343669>
+        schema:givenName   "Jean" ;
+        schema:familyName  "Besson" .
+
+<http://www.wikidata.org/entity/Q16467660>
+        schema:givenName   "Éliane" ;
+        schema:familyName  "Giraud" .
+
+<http://www.wikidata.org/entity/Q18202555>
+        schema:givenName   "Mireille" ;
+        schema:familyName  "Jouve" .
+
+<http://www.wikidata.org/entity/Q17485834>
+        schema:givenName   "Serge" ;
+        schema:familyName  "Babary" .
+
+<http://www.wikidata.org/entity/Q3588312>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Aubert" .
+
+<http://www.wikidata.org/entity/Q3588417>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Claparède" .
+
+<http://www.wikidata.org/entity/Q3588460>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Didier" .
+
+<http://www.wikidata.org/entity/Q3588469>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Dubois" .
+
+<http://www.wikidata.org/entity/Q3588482>
+        schema:givenName   "Émile" ;
+        schema:familyName  "Durieux" .
+
+<http://www.wikidata.org/entity/Q11775796>
+        schema:givenName   "Hubert" ;
+        schema:familyName  "Martin" .
+
+<http://www.wikidata.org/entity/Q18202557>
+        schema:givenName   "Michel" ;
+        schema:familyName  "Amiel" .
+
+<http://www.wikidata.org/entity/Q18202540>
+        schema:givenName   "Bernard" ;
+        schema:familyName  "Lalande" .
+
+<http://www.wikidata.org/entity/Q18202559>
+        schema:givenName   "Philippe" ;
+        schema:familyName  "Mouiller" .
+
+<http://www.wikidata.org/entity/Q18202541>
+        schema:givenName   "Corinne" ;
+        schema:familyName  "Imbert" .
+
+<http://www.wikidata.org/entity/Q18202529>
+        schema:givenName   "Olivier" ;
+        schema:familyName  "Cadic" .
+
+<http://www.wikidata.org/entity/Q18202525>
+        schema:givenName   "Claude" ;
+        schema:familyName  "Raynal" .
+
+<http://www.wikidata.org/entity/Q5238859>
+        schema:givenName   "David" ;
+        schema:familyName  "Rachline" .
+
+<http://www.wikidata.org/entity/Q16945390>
+        schema:givenName   "Sylvie" ;
+        schema:familyName  "Robert" .
+
+<http://www.wikidata.org/entity/Q3590999>
+        schema:givenName   "Éric" ;
+        schema:familyName  "Bocquet" .
+
+<http://www.wikidata.org/entity/Q3591010>
+        schema:givenName   "Éric" ;
+        schema:familyName  "Boyer" .
+
+<http://www.wikidata.org/entity/Q3591088>
+        schema:givenName   "Éric" ;
+        schema:familyName  "Doligé" .
+
+<http://www.wikidata.org/entity/Q18202548>
+        schema:givenName   "Éric" ;
+        schema:familyName  "Jeansannetas" .
+
+<http://www.wikidata.org/entity/Q18155923>
+        schema:givenName   "Anne-Catherine" ;
+        schema:familyName  "Loisier" .
+
+<http://www.wikidata.org/entity/Q18202533>
+        schema:givenName   "Jérôme" ;
+        schema:familyName  "Durain" .
+
+<http://www.wikidata.org/entity/Q18195740>
+        schema:givenName   "Geneviève" ;
+        schema:familyName  "Jean" .
+
+<http://www.wikidata.org/entity/Q16027060>
+        schema:givenName   "Franck" ;
+        schema:familyName  "Montaugé" .
+
+<http://www.wikidata.org/entity/Q18202535>
+        schema:givenName   "Annick" ;
+        schema:familyName  "Billon" .
+
+<http://www.wikidata.org/entity/Q3592771>
+        schema:givenName   "Évelyne" ;
+        schema:familyName  "Didier" .
+
+<http://www.wikidata.org/entity/Q18202547>
+        schema:givenName   "Marie-Pierre" ;
+        schema:familyName  "Monier" .
+
+<http://www.wikidata.org/entity/Q18202546>
+        schema:givenName   "Cyril" ;
+        schema:familyName  "Pellevat" .
