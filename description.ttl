@@ -23,7 +23,7 @@ custom:DanaSenateurs a void:Dataset ;
             schema:name "Antoine Jamelot"
         ] ;
     dcterms:source [foaf:homepage <https://data.senat.fr/les-senateurs/>] ;
-    dcterms:modified "2021-11-20"^^xsd:date ;
+    dcterms:modified "2021-11-22"^^xsd:date ;
     dcterms:subject <https://dbpedia.org/page/Senate_(France)> ;
     void:feature <http://www.w3.org/ns/formats/Turtle> ;
     void:dataDump custom:ttl\/circonscriptions.ttl ,
